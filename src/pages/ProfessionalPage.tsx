@@ -5,18 +5,52 @@ import { motion } from "motion/react";
 import { MessageCircle, Search, Filter } from "lucide-react";
 import { useState } from "react";
 
-export default function MembersPage() {
+export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSpecialty, setSelectedSpecialty] = useState("all");
 
   const members = [
-    { name: "Dra. Ana Silva", specialty: "Terapeuta Sexual", city: "São Paulo, SP", phone: "5511999999999", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop", bio: "Especialista em terapia sexual com foco em disfunções sexuais femininas" },
-    { name: "Dr. Carlos Mendes", specialty: "Sexólogo Clínico", city: "Rio de Janeiro, RJ", phone: "5511988888888", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop", bio: "Atendimento clínico especializado em saúde sexual masculina" },
-    { name: "Dra. Maria Santos", specialty: "Educadora Sexual", city: "Belo Horizonte, MG", phone: "5511977777777", image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop", bio: "Formação de educadores e desenvolvimento de programas escolares" },
-    { name: "Dr. João Oliveira", specialty: "Psicólogo Especialista", city: "Brasília, DF", phone: "5511966666666", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop", bio: "Psicologia clínica com abordagem em questões de sexualidade" }
+    {
+      name: "Dra. Ana Silva",
+      specialty: "Terapeuta Sexual",
+      city: "São Paulo, SP",
+      phone: "5511999999999",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+      bio: "Especialista em terapia sexual com foco em disfunções sexuais femininas"
+    },
+    {
+      name: "Dr. Carlos Mendes",
+      specialty: "Sexólogo Clínico",
+      city: "Rio de Janeiro, RJ",
+      phone: "5511988888888",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      bio: "Atendimento clínico especializado em saúde sexual masculina"
+    },
+    {
+      name: "Dra. Maria Santos",
+      specialty: "Educadora Sexual",
+      city: "Belo Horizonte, MG",
+      phone: "5511977777777",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+      bio: "Formação de educadores e desenvolvimento de programas escolares"
+    },
+    {
+      name: "Dr. João Oliveira",
+      specialty: "Psicólogo Especialista",
+      city: "Brasília, DF",
+      phone: "5511966666666",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+      bio: "Psicologia clínica com abordagem em questões de sexualidade"
+    }
   ];
 
-  const specialties = ["all", "Terapeuta Sexual", "Sexólogo Clínico", "Educadora Sexual", "Psicólogo Especialista"];
+  const specialties = [
+    "all",
+    "Terapeuta Sexual",
+    "Sexólogo Clínico",
+    "Educadora Sexual",
+    "Psicólogo Especialista",
+  ];
 
   const filteredMembers = members.filter((member) => {
     const matchesSearch =
@@ -54,15 +88,16 @@ export default function MembersPage() {
             transition={{ duration: 1 }}
             className="text-center"
           >
-            <h1 className="text-[#fafafa] mb-6">Membros GRUPO CRESEX</h1>
+            <h1 className="text-[#fafafa] mb-6">Nossos Profissionais</h1>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto">
-              Conheça os benefícios de ser membro e a nossa comunidade de profissionais.
+              Profissionais qualificados e comprometidos com a educação sexual e saúde
+              em todo o Brasil
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Search and Filter (Members list above benefits) */}
+      {/* Search and Filter */}
       <section className="py-8 bg-[#fafafa] border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-4">
@@ -101,7 +136,7 @@ export default function MembersPage() {
         </div>
       </section>
 
-      {/* Members Grid (above benefits) */}
+      {/* Professionals Grid */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#c71212] rounded-full blur-3xl"></div>
@@ -112,7 +147,7 @@ export default function MembersPage() {
           {filteredMembers.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-[#666666] text-xl">
-                Nenhum membro encontrado com os critérios selecionados.
+                Nenhum profissional encontrado com os critérios selecionados.
               </p>
             </div>
           ) : (
@@ -120,7 +155,7 @@ export default function MembersPage() {
               <ScrollRevealTitle>
                 <div className="text-center mb-12">
                   <p className="text-[#666666]">
-                    {filteredMembers.length} membro{filteredMembers.length !== 1 ? "s" : ""} na comunidade
+                    {filteredMembers.length} profissional{filteredMembers.length !== 1 ? "is" : ""} encontrado{filteredMembers.length !== 1 ? "s" : ""}
                   </p>
                 </div>
               </ScrollRevealTitle>
@@ -174,59 +209,6 @@ export default function MembersPage() {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-16 md:py-24 bg-[#fafafa] border-t border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollRevealTitle>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-semibold mb-4">Benefícios de ser Membro GRUPO CRESEX</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Ser membro GRUPO CRESEX oferece desenvolvimento profissional, conexão com pares e
-                vantagens exclusivas para apoiar sua carreira.
-              </p>
-            </div>
-          </ScrollRevealTitle>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white rounded-xl shadow p-6 border border-gray-100">
-              <h3 className="text-xl font-medium mb-3">Crescimento Profissional</h3>
-              <ul className="text-gray-600 space-y-2 list-disc list-inside">
-                <li>Cursos e formação continuada</li>
-                <li>Supervisão especializada</li>
-                <li>Atualizações constantes</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow p-6 border border-gray-100">
-              <h3 className="text-xl font-medium mb-3">Conexões Estratégicas</h3>
-              <ul className="text-gray-600 space-y-2 list-disc list-inside">
-                <li>Networking qualificado</li>
-                <li>Eventos exclusivos</li>
-                <li>Mentorias personalizadas</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow p-6 border border-gray-100">
-              <h3 className="text-xl font-medium mb-3">Visibilidade e Autoridade</h3>
-              <ul className="text-gray-600 space-y-2 list-disc list-inside">
-                <li>Divulgação profissional</li>
-                <li>Lives e workshops</li>
-                <li>Certificados reconhecidos</li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow p-6 border border-gray-100">
-              <h3 className="text-xl font-medium mb-3">Vantagens Exclusivas</h3>
-              <ul className="text-gray-600 space-y-2 list-disc list-inside">
-                <li>Cartão de descontos</li>
-                <li>Plataformas parceiras</li>
-                <li>Sorteios e benefícios</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Become a Member CTA */}
       <section className="py-16 md:py-24 bg-gradient-to-br from-[#333333] to-black relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -235,9 +217,10 @@ export default function MembersPage() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <ScrollRevealTitle>
-            <h2 className="text-[#fafafa] mb-6">Quer se tornar membro?</h2>
+            <h2 className="text-[#fafafa] mb-6">Seja um Membro GRUPO CRESEX</h2>
             <p className="text-gray-400 mb-8 text-xl">
-              Junte-se à nossa rede de profissionais e aproveite todos os benefícios.
+              Você é profissional da sexualidade e quer fazer parte do maior grupo do
+              Brasil? Entre em contato e conheça os benefícios de ser membro GRUPO CRESEX.
             </p>
             <motion.button
               className="bg-[#d4af37] text-black px-10 py-4 rounded-lg border-2 border-[#d4af37]"

@@ -9,6 +9,7 @@ import FounderPage from "./pages/FounderPage";
 import EnasexPage from "./pages/EnasexPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import MembersPage from "./pages/MembersPage";
+import ProfessionalPage from "./pages/ProfessionalPage";
 import ContactPage from "./pages/ContactPage";
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/enasex" element={<EnasexPage />} />
             <Route path="/projetos" element={<ProjectsPage />} />
             <Route path="/membros" element={<MembersPage />} />
+            <Route path="/profissionais" element={<ProfessionalPage />} />
             <Route path="/contato" element={<ContactPage />} />
           </Routes>
         </main>
