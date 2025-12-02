@@ -30,8 +30,8 @@ export function Header() {
             transition={{ duration: 0.8 }}
           >
             <Link to="/" className="flex items-center space-x-3">
-              <img src={logo} alt="CRESEX Logo" className="w-12 h-12" />
-              <span className="text-2xl text-black">CRESEX</span>
+              <img src={logo} alt="Logo do GRUPO CRESEX " className="w-12 h-12" />
+              <span className="text-2xl text-black">GRUPO CRESEX</span>
             </Link>
           </motion.div>
 

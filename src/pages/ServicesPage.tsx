@@ -15,7 +15,7 @@ export default function ServicesPage() {
     },
     {
       icon: BookOpen,
-      title: "Editora CRESEX",
+      title: "Editora GRUPO CRESEX",
       description: "Publicações especializadas em sexualidade, educação sexual e saúde. Conteúdo científico e acessível.",
       action: "Ver Publicações",
       color: "from-[#d4af37] to-[#c71212]"
@@ -29,7 +29,7 @@ export default function ServicesPage() {
     },
     {
       icon: Mic,
-      title: "Podcast CRESEX",
+      title: "Podcast GRUPO CRESEX",
       description: "Conversas francas sobre sexualidade, relacionamentos e saúde sexual com especialistas renomados.",
       action: "Ouvir Podcast",
       color: "from-[#333333] to-[#c71212]"
@@ -139,7 +139,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <ScrollRevealTitle>
             <div className="text-center mb-16">
-              <h2 className="text-[#fafafa] mb-4">Por que escolher o CRESEX?</h2>
+              <h2 className="text-[#fafafa] mb-4">Por que escolher o GRUPO CRESEX?</h2>
               <div className="w-24 h-1 bg-[#c71212] mx-auto"></div>
             </div>
           </ScrollRevealTitle>

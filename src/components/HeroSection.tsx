@@ -39,7 +39,7 @@ export function HeroSection() {
               className="text-[#fafafa] mb-8 text-6xl md:text-8xl"
               style={{ fontFamily: 'Georgia, serif' }}
             >
-              Bem-vindo ao<br />Ecossistema CRESEX
+              Bem-vindo ao<br />Ecossistema GRUPO CRESEX
             </h1>
             <p 
               className="text-[#fafafa]/90 text-3xl md:text-4xl mb-12 max-w-3xl"

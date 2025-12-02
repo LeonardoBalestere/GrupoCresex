@@ -67,7 +67,7 @@ export function BenefitsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <ScrollRevealTitle>
           <div className="text-center mb-12">
-            <h2 className="text-black mb-4">Por que ser Membro CRESEX?</h2>
+            <h2 className="text-black mb-4">Por que ser Membro do GRUPO CRESEX?</h2>
             <div className="w-24 h-1 bg-[#c71212] mx-auto"></div>
           </div>
         </ScrollRevealTitle>

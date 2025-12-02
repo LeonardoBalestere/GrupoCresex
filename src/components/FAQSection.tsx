@@ -9,7 +9,7 @@ import { ScrollReveal } from "./ScrollReveal";
 export function FAQSection() {
   const faqs = [
     {
-      question: "Como me tornar um membro do CRESEX?",
+      question: "Como me tornar um membro do GRUPO CRESEX?",
       answer: "Para se tornar um membro, você precisa ser um profissional atuante na área da sexualidade. Entre em contato conosco através do WhatsApp ou email e nossa equipe avaliará sua candidatura. O processo inclui análise de formação e experiência profissional."
     },
     {

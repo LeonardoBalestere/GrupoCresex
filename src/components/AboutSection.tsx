@@ -19,7 +19,7 @@ export function AboutSection() {
           {/* Text Content */}
           <ScrollReveal direction="left">
             <div>
-              <h2 className="text-black mb-6">Sobre o CRESEX</h2>
+              <h2 className="text-black mb-6">Sobre o GRUPO CRESEX</h2>
               <div className="w-24 h-1 bg-[#c71212] mb-6"></div>
               <p className="text-[#333333] text-lg leading-relaxed mb-6">
                 Somos um <strong>ecossistema colaborativo</strong> que conecta profissionais da sexualidade, promovendo a troca de saberes, apoio mútuo e ações integradas voltadas à educação em sexualidade, à promoção dos direitos sexuais, à valorização da diversidade e ao combate às violências.
@@ -50,7 +50,7 @@ export function AboutSection() {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <ImageWithFallback
                   src="https://images.unsplash.com/photo-1758518729685-f88df7890776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB0ZWFtJTIwY29sbGFib3JhdGlvbiUyMG1vZGVybnxlbnwxfHx8fDE3NjM2NDYxODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Equipe CRESEX"
+                  alt="Equipe GRUPO CRESEX"
                   className="w-full h-full object-cover"
                 />
               </div>

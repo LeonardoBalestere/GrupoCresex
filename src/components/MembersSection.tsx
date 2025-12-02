@@ -49,7 +49,7 @@ export function MembersSection() {
   ];
 
   const handleWhatsAppClick = (phone: string, name: string) => {
-    const message = encodeURIComponent(`Olá ${name}, vim através do site CRESEX e gostaria de saber mais sobre seus serviços.`);
+    const message = encodeURIComponent(`Olá ${name}, vim através do site GRUPO CRESEX e gostaria de saber mais sobre seus serviços.`);
     window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
   };
 

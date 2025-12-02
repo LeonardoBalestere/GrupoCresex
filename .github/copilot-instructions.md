@@ -1,4 +1,4 @@
-# Copilot / AI assistant instructions for Landing Page CRESEX
+# Copilot / AI assistant instructions for Landing Page GRUPO CRESEX
 
 This file gives focused, actionable guidance to an AI coding assistant working on this repository.
 

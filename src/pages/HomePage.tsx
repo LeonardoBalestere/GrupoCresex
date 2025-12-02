@@ -190,7 +190,7 @@ export default function HomePage() {
               <div className="relative">
                 <ImageWithFallback
                   src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwxfHx8fDE3MzMwNzQyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Equipe CRESEX"
+                  alt="Equipe do GRUPO CRESEX"
                   className="rounded-xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-[#c71212] to-[#d4af37] rounded-xl -z-10"></div>
