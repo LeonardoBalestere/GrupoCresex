@@ -40,7 +40,7 @@ export default function FounderPage() {
     },
     {
       text: "O GRUPO CRESEX nasceu do sonho de criar uma rede solidária de profissionais comprometidos com a mudança social.",
-      context: "Lançamento do GRUPO CRESEX, 2020"
+      context: "Lançamento do GRUPO CRESEX, 2017"
     }
   ];
 
