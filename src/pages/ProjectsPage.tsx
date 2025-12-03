@@ -9,7 +9,7 @@ export default function ProjectsPage() {
   const projects = [
     {
       icon: Home,
-      title: "Casa de Lilith",
+      title: "Espaço Acolha",
       subtitle: "Acolhimento a vítimas de violência sexual",
       description: "Espaço seguro e acolhedor para vítimas de violência sexual, oferecendo atendimento psicológico, jurídico e social gratuito. Nossa equipe multidisciplinar trabalha para restaurar a dignidade e autonomia das vítimas.",
       impact: "Mais de 500 pessoas acolhidas desde 2021",

@@ -21,7 +21,7 @@ export default function ProfessionalPage() {
     {
       name: "Rayana Oliveira",
       specialty: "Fisioterapeuta Pélvica e Terapeuta Sexual",
-      city: "Rio de Janeiro, RJ",
+      city: "Uberlândia, MG",
       image: rayanaImg,
       bio: "Diretora do Cresex, focada no tratamento da dor e sexualidade positiva para todos os públicos."
     },
