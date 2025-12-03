@@ -4,8 +4,15 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { MessageCircle, Search, Filter } from "lucide-react";
 import { useState } from "react";
-import rayanaImg from "../assets/rayana-oliveira.png";
-import monica1Img from "../assets/monica1.jpg";
+
+// Load image assets from src/assets using Vite glob (bundled & fingerprinted)
+const _assetModules = import.meta.glob(
+  "/src/assets/*.{png,jpg,jpeg,webp}",
+  { as: "url", eager: true }
+) as Record<string, string>;
+const imageMap = Object.fromEntries(
+  Object.entries(_assetModules).map(([path, url]) => [path.split("/").pop()!, url])
+) as Record<string, string>;
 export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSpecialty, setSelectedSpecialty] = useState("all");
@@ -15,81 +22,87 @@ export default function ProfessionalPage() {
       name: "Monica Lima",
       specialty: "Terapeuta Sexual",
       city: "Uberlândia, MG",
-      image: monica1Img,
+        image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
       bio: "Neuropsicosexóloga e Palestrante (CRP: 04/1500714) - Diretora Executiva do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online."
     },
     {
       name: "Rayana Oliveira",
       specialty: "Fisioterapeuta Pélvica e Terapeuta Sexual",
       city: "Uberlândia, MG",
-      image: rayanaImg,
-      bio: "Diretora do Cresex, focada no tratamento da dor e sexualidade positiva para todos os públicos."
+      image: imageMap["rayana-oliveira.png"] || imageMap["rayana-oliveira.jpg"] || "",
+      bio: "Rayana atende na área da Fisioterapia Pélvica, cuidando de disfunções sexuais dolorosas e reabilitação da função sexual. Além disso atua como terapeuta sexual em atendimentos individuais e de casais (LGBQQIAPN+, liberais e comunidade BDSM/fetichistas). É Diretora de comunicação e eventos do grupo Cresex."
     },
     {
-      name: "Dra. Maria Santos",
-      specialty: "Educadora Sexual",
+      name: "Ana Beatriz",
+      specialty: "Médica Pós-Graduada em Sexologia Clínica",
       city: "Uberlândia, MG",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-      bio: "Formação de educadores e desenvolvimento de programas escolares"
+      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
+      bio: "Possui graduação em Medicina pela Pontifícia Universidade Católica do Paraná (PUCPR), residência médica em Medicina de Família e Comunidade (MFC) pelo Município da Estância Balneária de Praia Grande, pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica pela Universidade São Judas Tadeu (IBCMED)."
     },
     {
-      name: "Dr. João Oliveira",
+      name: "Mayara Cardoso",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image:imageMap["mayara-cardoso.jpg"] || imageMap["mayara-cardoso.jpeg"] || imageMap["mayara-cardoso.png"] || "", 
+      bio: "Psicosexóloga e Educadora Sexual, Psicóloga clínica, com atendimento na abordagem TCC, com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade"
+    },
+    {
+      name: "Haíza Ferreira",
       specialty: "Psicólogo Especialista",
-      city: "Brasília, DF",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-      bio: "Psicologia clínica com abordagem em questões de sexualidade"
+      city: "Uberlândia, MG",
+      image: imageMap["haiza-ferreira.jpg"] || imageMap["haiza-ferreira.jpeg"] || imageMap["haiza-ferreira.png"] || "",
+      bio: "Responsável pela divulgação de cursos, palestras, eventos, formações, Pós-Graduação na área de Sexualidade em redes sociais, e atividades no geral promovidas pelo Grupo. Contato com cliente, esclarecimentos de dúvidas sobre uma compra, negociação e fechamento de vendas. Gestora da equipe comercial. Realização de atendimento psicoterapêutico."    },
+    {
+      name: "Cláudia Guerra",
+      specialty: "Palestrante e Consultora",
+      city: "Uberlândia, MG",
+      image: imageMap["claudia-guerra.jpg"] || imageMap["claudia-guerra.jpeg"] || imageMap["claudia-guerra.png"] || "",  
+      bio: "Dra. em História sobre a violência doméstica. Profa. em graduação e pós: Sociologia, Filosofia, Antropologia, Ciência Politica, Relações Etnico-Raciais,Sexualidades Afetividades, Viiolência Doméstica, Extensão, Projeto de pesquisa, TCC."
     },
     {
-      name: "Dra. Patricia Costa",
-      specialty: "Consultora em Sexualidade",
-      city: "Salvador, BA",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-      bio: "Consultoria para empresas e organizações sobre diversidade e inclusão"
+      name: "Carolina Pires",
+      specialty: "Terapeuta",
+      city: "Uberlândia, MG",
+      image: imageMap["carolina-pires.jpg"] || imageMap["carolina-pires.jpeg"] || imageMap["carolina-pires.png"] || "",
+      bio: "Psicóloga clínica, sexóloga e palestrante (CRP 09/010811) há 07 anos, com atuação voltada para autoestima e sexualidade de mulheres, promovendo escuta acolhedora e transformação pessoal. Especialista em Neuropsicologia, Psicologia Sexual, Terapia Cognitivo-Comportamental e Psicologia Forense e Jurídica. Autora do livro Deixei de ser boazinha e virei poderosa, onde inspira mulheres a se reconectarem com sua força interior e colunista num site de relacionamentos"
     },
     {
-      name: "Dr. Ricardo Lima",
-      specialty: "Terapeuta de Casais",
-      city: "Curitiba, PR",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
-      bio: "Especialista em terapia de casais e relacionamentos"
+      name: "Mateus Balduino",
+      specialty: "Psicólogo",
+      city: "Uberlândia, MG",
+      image: imageMap["mateus-balduino.jpg"] || imageMap["mateus-balduino.jpeg"] || imageMap["mateus-balduino.png"] || "",
+      bio: "Psicólogo e realizo atendimentos online. Graduado em Psicologia pela Uniube, tenho pós-graduação em Sexologia, Psicodrama, Teologia, Filosofia e Antropologia. Desenvolvi um olhar humano e profundo para acolher dores, desafios e espontaneidade. Tenho experiência com disfunções sexuais, com a comunidade LGBTQIAPN+ e também com relacionamentos não monogâmicos. Meu propósito é simples: ajudar você a viver de forma plena, autêntica e com mais sentido."
     },
     {
-      name: "Dra. Juliana Martins",
-      specialty: "Sexóloga Clínica",
-      city: "Belo Horizonte, MG",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
-      bio: "Atendimento clínico e orientação sexual para adolescentes"
-    },
-    {
-      name: "Dr. Fernando Souza",
+      name: "Fernando Souza",
       specialty: "Educador Sexual",
       city: "Recife, PE",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       bio: "Palestras e workshops sobre sexualidade saudável"
     },
     {
-      name: "Dra. Camila Rodrigues",
+      name: "Camila Rodrigues",
       specialty: "Terapeuta Sexual",
       city: "Fortaleza, CE",
       image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
       bio: "Terapia sexual individual e de casais"
     },
     {
-      name: "Dr. Marcos Pereira",
+      name: "Marcos Pereira",
       specialty: "Psicólogo Especialista",
       city: "Porto Alegre, RS",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
       bio: "Atendimento psicológico com foco em identidade de gênero"
     },
     {
-      name: "Dra. Beatriz Alves",
+      name: "Beatriz Alves",
       specialty: "Consultora em Sexualidade",
       city: "Florianópolis, SC",
       image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop",
       bio: "Consultoria e treinamentos corporativos sobre diversidade"
     },
     {
-      name: "Dr. Rafael Santos",
+      name: "Rafael Santos",
       specialty: "Sexólogo Clínico",
       city: "Goiânia, GO",
       image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop",
