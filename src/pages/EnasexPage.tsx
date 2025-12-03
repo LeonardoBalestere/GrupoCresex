@@ -53,34 +53,11 @@ export default function EnasexPage() {
   const schedule = [
     {
       day: "Dia 1",
-      date: "15 de Março, 2025",
-      events: [
-        "09h00 - Credenciamento e Coffee",
-        "10h00 - Abertura Oficial com Mônica Lima",
-        "11h00 - Palestra Magna: 'O Futuro da Sexologia no Brasil'",
-        "14h00 - Workshops Simultâneos (Módulo 1)",
-        "17h00 - Mesa Redonda: Diversidade e Inclusão"
-      ]
+      date: "3 de Setembro, 2027",
     },
     {
       day: "Dia 2",
-      date: "16 de Março, 2025",
-      events: [
-        "09h00 - Palestras Paralelas",
-        "11h00 - Apresentação de Trabalhos Científicos",
-        "14h00 - Workshops Simultâneos (Módulo 2)",
-        "17h00 - Networking e Confraternização"
-      ]
-    },
-    {
-      day: "Dia 3",
-      date: "17 de Março, 2025",
-      events: [
-        "09h00 - Casos Clínicos e Estudos de Caso",
-        "11h00 - Palestra: Inovações em Terapia Sexual",
-        "14h00 - Workshop Final e Encerramento",
-        "16h00 - Entrega de Certificados"
-      ]
+      date: "4 de Setembro, 2027"
     }
   ];
 
@@ -230,16 +207,6 @@ export default function EnasexPage() {
                   <div className="bg-gradient-to-r from-[#c71212] to-[#d4af37] p-6 text-center">
                     <h3 className="text-[#fafafa] mb-2">{day.day}</h3>
                     <p className="text-[#fafafa]">{day.date}</p>
-                  </div>
-                  <div className="p-6">
-                    <ul className="space-y-3">
-                      {day.events.map((event, eventIndex) => (
-                        <li key={eventIndex} className="flex items-start gap-2">
-                          <div className="w-2 h-2 bg-[#c71212] rounded-full mt-2 flex-shrink-0"></div>
-                          <span className="text-[#666666]">{event}</span>
-                        </li>
-                      ))}
-                    </ul>
                   </div>
                 </div>
               </ScrollRevealCard>
