@@ -11,10 +11,11 @@ export function Header() {
   const menuItems = [
     { label: "Início", path: "/" },
     { label: "Serviços", path: "/servicos" },
-    { label: "Fundadora", path: "/fundadora" },
     { label: "ENASEX", path: "/enasex" },
     { label: "Projetos", path: "/projetos" },
     { label: "Membros", path: "/membros" },
+    { label: "Profissionais", path: "/profissionais" },
+    { label: "Saiba Mais", path: "/NossaHistória" },
     { label: "Contato", path: "/contato" },
   ];
 

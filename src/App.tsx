@@ -21,12 +21,12 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/servicos" element={<ServicesPage />} />
-            <Route path="/fundadora" element={<FounderPage />} />
-            <Route path="/enasex" element={<EnasexPage />} />
-            <Route path="/projetos" element={<ProjectsPage />} />
             <Route path="/membros" element={<MembersPage />} />
+            <Route path="/servicos" element={<ServicesPage />} />
+            <Route path="/projetos" element={<ProjectsPage />} />
             <Route path="/profissionais" element={<ProfessionalPage />} />
+            <Route path="/enasex" element={<EnasexPage />} />
+            <Route path="/NossaHistória" element={<FounderPage />} />
             <Route path="/contato" element={<ContactPage />} />
           </Routes>
         </main>
