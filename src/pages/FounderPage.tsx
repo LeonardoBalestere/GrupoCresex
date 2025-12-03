@@ -9,7 +9,7 @@ export default function FounderPage() {
   const achievements = [
     {
       icon: Award,
-      title: "15+ Anos de Experiência",
+      title: "20+ Anos de Experiência",
       description: "Dedicação à educação em sexualidade e terapia"
     },
     {
@@ -72,7 +72,7 @@ export default function FounderPage() {
                 Sexóloga, Terapeuta Sexual e Educadora
               </p>
               <p className="text-[#fafafa] text-lg">
-                Referência nacional em educação em sexualidade, com mais de 15 anos transformando 
+                Referência nacional em educação em sexualidade, com mais de 20 anos transformando 
                 vidas através do conhecimento, acolhimento e respeito à diversidade humana.
               </p>
             </motion.div>
