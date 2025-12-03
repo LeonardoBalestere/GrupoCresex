@@ -4,19 +4,19 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { MessageCircle, Search, Filter } from "lucide-react";
 import { useState } from "react";
-import rayanaImg from "../assets/Cópia-de-Rayana-Oliveira.png";
-
+import rayanaImg from "../assets/rayana-oliveira.png";
+import monica1Img from "../assets/monica1.jpg";
 export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSpecialty, setSelectedSpecialty] = useState("all");
 
   const members = [
     {
-      name: "Dra. Ana Silva",
+      name: "Monica Lima",
       specialty: "Terapeuta Sexual",
-      city: "São Paulo, SP",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-      bio: "Especialista em terapia sexual com foco em disfunções sexuais femininas"
+      city: "Uberlândia, MG",
+      image: monica1Img,
+      bio: "Neuropsicosexóloga e Palestrante (CRP: 04/1500714) - Diretora Executiva do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online."
     },
     {
       name: "Rayana Oliveira",

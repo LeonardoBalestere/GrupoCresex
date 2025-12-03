@@ -4,6 +4,7 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { Award, BookOpen, Users, Globe, Heart, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import monica2Img from "../assets/monica2.jpg";
 
 export default function FounderPage() {
   const achievements = [
@@ -84,9 +85,10 @@ export default function FounderPage() {
               className="relative"
             >
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0fGVufDF8fHx8MTczMzA3NDI0Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+                src={monica2Img}
                 alt="Mônica Lima"
-                className="rounded-xl shadow-2xl"
+                className="rounded-xl shadow-2xl w-full max-w-md mx-auto object-cover"
+                style={{ display: 'block' }}
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-[#c71212] to-[#d4af37] rounded-xl -z-10"></div>
             </motion.div>
