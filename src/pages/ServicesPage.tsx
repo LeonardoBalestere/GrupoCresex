@@ -2,7 +2,8 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
-import { Stethoscope, BookOpen, Mic, Calendar, Heart, Home, Briefcase } from "lucide-react";
+import { Stethoscope, BookOpen, Mic, Calendar, Heart, Briefcase, Store, House } from "lucide-react";
+
 
 export default function ServicesPage() {
   const services = [
@@ -49,8 +50,15 @@ export default function ServicesPage() {
       color: "from-[#c71212] to-[#d4af37]"
     },
     {
-      icon: Home,
+      icon: Store,
       title: "Casa de Lilith",
+      description: "Sex shop com curadoria de produtos eróticos e sensuais para todos os gêneros e orientações. Promovendo o prazer e a saúde sexual com discrição e informação.",
+      action: "Ir para a Loja",
+      color: "from-[#333333] to-[#d4af37]"
+    },
+    {
+      icon: House,
+      title: "Espaço Acolha",
       description: "Espaço de acolhimento para vítimas de violência sexual. Atendimento humanizado e multiprofissional.",
       action: "Conhecer Projeto",
       color: "from-[#333333] to-[#d4af37]"
