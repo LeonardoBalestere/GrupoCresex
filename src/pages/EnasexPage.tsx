@@ -85,7 +85,7 @@ export default function EnasexPage() {
             </div>
             <h1 className="text-[#fafafa] mb-6">ENASEX 2025</h1>
             <p className="text-[#d4af37] text-2xl mb-8">
-              Encontro Nacional de Profissionais da Sexualidade
+              Encontro Nacional de Sexualidade
             </p>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto mb-12">
               O maior e mais importante evento de educação em sexualidade do Brasil
