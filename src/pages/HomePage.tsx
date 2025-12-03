@@ -11,7 +11,7 @@ export default function HomePage() {
     {
       icon: BookOpen,
       title: "Educação",
-      description: "Promovemos educação sexual de qualidade, baseada em ciência e respeito."
+      description: "Promovemos educação em sexualidade de qualidade, baseada em ciência e respeito."
     },
     {
       icon: Users,
@@ -90,7 +90,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-black mb-4">Nossa Missão</h3>
                 <p className="text-[#666666]">
-                  Promover a educação sexual de qualidade, conectando profissionais qualificados 
+                  Promover a educação em sexualidade de qualidade, conectando profissionais qualificados 
                   e oferecendo recursos que transformam vidas através do conhecimento e do acolhimento.
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-black mb-4">Nossa Visão</h3>
                 <p className="text-[#666666]">
-                  Ser referência nacional em educação sexual, criando uma rede de profissionais 
+                  Ser referência nacional em educação em sexualidade, criando uma rede de profissionais 
                   comprometidos com a saúde sexual e o bem-estar integral das pessoas.
                 </p>
               </div>
@@ -172,7 +172,7 @@ export default function HomePage() {
                 <h2 className="text-black mb-6">Nossa História</h2>
                 <p className="text-[#666666] mb-4">
                   O GRUPO CRESEX nasceu da visão de profissionais comprometidos em transformar 
-                  a realidade da educação sexual no Brasil. Fundado em 2017, o grupo rapidamente 
+                  a realidade da educação em sexualidade no Brasil. Fundado em 2017, o grupo rapidamente 
                   se expandiu, conectando especialistas de todo o país.
                 </p>
                 <p className="text-[#666666] mb-4">
@@ -180,7 +180,7 @@ export default function HomePage() {
                   até ações sociais diretas, sempre pautados pela ética, ciência e respeito à diversidade.
                 </p>
                 <p className="text-[#666666]">
-                  Hoje, somos uma referência em educação sexual, eventos científicos e acolhimento 
+                  Hoje, somos uma referência em educação em sexualidade, eventos científicos e acolhimento 
                   de pessoas que buscam saúde sexual e bem-estar integral.
                 </p>
               </div>
@@ -225,13 +225,13 @@ export default function HomePage() {
                 <h3 className="text-[#d4af37] mb-4">Fundadora do GRUPO CRESEX</h3>
                 <div className="border-l-4 border-[#c71212] pl-6 mb-6">
                   <p className="text-[#fafafa] italic">
-                    "A educação sexual é um direito humano fundamental. Nosso compromisso 
+                    "A educação em sexualidade é um direito humano fundamental. Nosso compromisso 
                     é garantir que todas as pessoas tenham acesso a informação de qualidade 
                     e profissionais capacitados para orientá-las em sua jornada."
                   </p>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Mônica Lima é referência nacional em educação sexual e terapia sexual. 
+                  Mônica Lima é referência nacional em educação em sexualidade e terapia sexual. 
                   Com mais de 15 anos de experiência, ela fundou o GRUPO CRESEX com a missão 
                   de unir profissionais e promover transformação social.
                 </p>
@@ -270,7 +270,7 @@ export default function HomePage() {
               Encontro Nacional de Profissionais da Sexualidade
             </p>
             <p className="text-[#fafafa] max-w-3xl mx-auto mb-8">
-              O maior evento de educação sexual do Brasil. Palestras, workshops e networking 
+              O maior evento de educação em sexualidade do Brasil. Palestras, workshops e networking 
               com os principais especialistas do país.
             </p>
             <Link to="/enasex">

@@ -43,13 +43,6 @@ export default function ContactPage() {
       color: "from-[#c71212] to-[#d4af37]"
     },
     {
-      icon: Phone,
-      title: "Telefone",
-      content: "(11) 99999-9999",
-      link: "tel:+5511999999999",
-      color: "from-[#d4af37] to-[#c71212]"
-    },
-    {
       icon: MessageCircle,
       title: "WhatsApp",
       content: "(34) 9149-4154",
@@ -59,7 +52,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Endereço",
-      content: "São Paulo, SP - Brasil",
+      content: "Av. Belo Horizonte 451, sala 02, bairro Martins, Uberlândia - MG",
       link: null,
       color: "from-[#333333] to-[#d4af37]"
     }

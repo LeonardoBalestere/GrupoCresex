@@ -29,7 +29,7 @@ export default function MembersPage() {
 
   const handleWhatsAppClick = (phone: string, name: string) => {
     const message = encodeURIComponent(
-      `Olá ${name}, vim através do site GRUPO CRESEX e gostaria de saber mais sobre seus serviços.`
+      `Ola GRUPO CRESEX, gostaria de consultar sobre os servicos oferecidos pelo profissional ${name}.`
     );
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
   };
@@ -56,7 +56,7 @@ export default function MembersPage() {
           >
             <h1 className="text-[#fafafa] mb-6">Membros GRUPO CRESEX</h1>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto">
-              Conheça os benefícios de ser membro e a nossa comunidade de profissionais.
+              Junte-se ao GRUPO CRESEX e faça parte de um ecossistema colaborativo dedicado à educação em sexualidade.
             </p>
           </motion.div>
         </div>

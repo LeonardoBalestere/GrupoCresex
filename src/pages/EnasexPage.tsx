@@ -111,17 +111,17 @@ export default function EnasexPage() {
               Encontro Nacional de Profissionais da Sexualidade
             </p>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto mb-12">
-              O maior e mais importante evento de educação sexual do Brasil
+              O maior e mais importante evento de educação em sexualidade do Brasil
             </p>
             
             <div className="flex flex-wrap justify-center gap-8 mb-12">
               <div className="flex items-center gap-3 text-[#fafafa]">
                 <Calendar className="text-[#d4af37]" size={24} />
-                <span>15 a 17 de Março, 2025</span>
+                <span>3 e 4 de Setembro, 2027</span>
               </div>
               <div className="flex items-center gap-3 text-[#fafafa]">
                 <MapPin className="text-[#d4af37]" size={24} />
-                <span>São Paulo Convention Center</span>
+                <span>Rio de Janeiro</span>
               </div>
               <div className="flex items-center gap-3 text-[#fafafa]">
                 <Users className="text-[#d4af37]" size={24} />
@@ -158,7 +158,7 @@ export default function EnasexPage() {
             <ScrollReveal>
               <p className="text-[#666666] text-lg">
                 O ENASEX é o principal evento nacional dedicado aos profissionais da sexualidade. 
-                Realizado anualmente desde 2020, o encontro reúne sexólogos, terapeutas sexuais, 
+                Realizado bienualmente desde 2017, o encontro reúne sexólogos, terapeutas sexuais, 
                 educadores, psicólogos e demais especialistas para três dias intensos de aprendizado, 
                 troca de experiências e networking.
               </p>
@@ -338,7 +338,7 @@ export default function EnasexPage() {
                   boxShadow: "0 10px 30px rgba(212, 175, 55, 0.5)"
                 }}
               >
-                Inscrever-se Agora
+                Incrições em breve
               </motion.button>
               <motion.button
                 className="bg-transparent text-[#fafafa] px-10 py-4 rounded-lg border-2 border-[#fafafa]"

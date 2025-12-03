@@ -10,7 +10,7 @@ export default function FounderPage() {
     {
       icon: Award,
       title: "15+ Anos de Experiência",
-      description: "Dedicação à educação sexual e terapia"
+      description: "Dedicação à educação em sexualidade e terapia"
     },
     {
       icon: BookOpen,
@@ -31,7 +31,7 @@ export default function FounderPage() {
 
   const quotes = [
     {
-      text: "A educação sexual é libertadora. Ela nos permite viver nossa sexualidade com plenitude, consciência e respeito.",
+      text: "A educação em sexualidade é libertadora. Ela nos permite viver nossa sexualidade com plenitude, consciência e respeito.",
       context: "Palestra no ENASEX 2023"
     },
     {
@@ -72,7 +72,7 @@ export default function FounderPage() {
                 Sexóloga, Terapeuta Sexual e Educadora
               </p>
               <p className="text-[#fafafa] text-lg">
-                Referência nacional em educação sexual, com mais de 15 anos transformando 
+                Referência nacional em educação em sexualidade, com mais de 15 anos transformando 
                 vidas através do conhecimento, acolhimento e respeito à diversidade humana.
               </p>
             </motion.div>
@@ -108,15 +108,14 @@ export default function FounderPage() {
             <ScrollReveal>
               <p>
                 Mônica Lima iniciou sua carreira como psicóloga clínica, mas logo descobriu sua verdadeira paixão: 
-                a sexologia e a educação sexual. Formou-se em Terapia Sexual pela Sociedade Brasileira de Estudos 
-                em Sexualidade Humana (SBRASH) e realizou especializações internacionais em diversos países.
+                a sexologia e a educação em sexualidade, e realizou especializações internacionais em diversos países.
               </p>
             </ScrollReveal>
 
             <ScrollReveal>
               <p>
                 Ao longo de sua trajetória, Mônica percebeu a necessidade de criar uma rede de profissionais 
-                comprometidos com a educação sexual de qualidade. Em 2020, fundou o GRUPO CRESEX, reunindo 
+                comprometidos com a educação em sexualidade de qualidade. Em 2017, fundou o GRUPO CRESEX, reunindo 
                 especialistas de todo o Brasil em torno de uma missão comum: transformar vidas através do conhecimento.
               </p>
             </ScrollReveal>
@@ -132,7 +131,7 @@ export default function FounderPage() {
             <ScrollReveal>
               <p>
                 Além de liderar o GRUPO CRESEX, Mônica atua como palestrante, formadora de profissionais, 
-                autora de artigos científicos e consultora em políticas públicas de educação sexual. 
+                autora de artigos científicos e consultora em políticas públicas de educação em sexualidade. 
                 Seu impacto já alcançou milhares de pessoas em todo o país.
               </p>
             </ScrollReveal>

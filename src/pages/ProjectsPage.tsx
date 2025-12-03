@@ -35,7 +35,7 @@ export default function ProjectsPage() {
       icon: BookOpen,
       title: "Educação Inclusiva",
       subtitle: "Formação de educadores",
-      description: "Capacitação gratuita de educadores da rede pública para abordagem de educação sexual inclusiva e baseada em evidências. Fornecemos materiais didáticos e suporte continuado.",
+      description: "Capacitação gratuita de educadores da rede pública para abordagem de educação em sexualidade inclusiva e baseada em evidências. Fornecemos materiais didáticos e suporte continuado.",
       impact: "300 educadores capacitados em 2024",
       color: "from-[#333333] to-[#d4af37]"
     },
@@ -124,7 +124,7 @@ export default function ProjectsPage() {
           <div className="max-w-4xl mx-auto text-center">
             <ScrollReveal>
               <p className="text-[#666666] text-lg mb-6">
-                Acreditamos que a educação sexual e o acolhimento são direitos fundamentais de todas as pessoas, 
+                Acreditamos que a educação em sexualidade e o acolhimento são direitos fundamentais de todas as pessoas, 
                 independentemente de sua condição socioeconômica. Por isso, desenvolvemos projetos sociais que 
                 levam conhecimento, suporte e dignidade a quem mais precisa.
               </p>

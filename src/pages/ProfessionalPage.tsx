@@ -90,7 +90,7 @@ export default function ProfessionalPage() {
           >
             <h1 className="text-[#fafafa] mb-6">Nossos Profissionais</h1>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto">
-              Profissionais qualificados e comprometidos com a educação sexual e saúde
+              Profissionais qualificados e comprometidos com a educação em sexualidade e saúde
               em todo o Brasil
             </p>
           </motion.div>

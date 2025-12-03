@@ -17,7 +17,7 @@ export default function ServicesPage() {
     {
       icon: BookOpen,
       title: "Editora GRUPO CRESEX",
-      description: "Publicações especializadas em sexualidade, educação sexual e saúde. Conteúdo científico e acessível.",
+      description: "Publicações especializadas em sexualidade, educação em sexualidade e saúde. Conteúdo científico e acessível.",
       action: "Ver Publicações",
       color: "from-[#d4af37] to-[#c71212]"
     },
@@ -38,7 +38,7 @@ export default function ServicesPage() {
     {
       icon: Calendar,
       title: "Eventos e Workshops",
-      description: "Palestras, workshops e eventos que promovem educação sexual e networking entre profissionais.",
+      description: "Palestras, workshops e eventos que promovem educação em sexualidade e networking entre profissionais.",
       action: "Ver Agenda",
       color: "from-[#d4af37] to-[#333333]"
     },
@@ -87,7 +87,7 @@ export default function ServicesPage() {
           >
             <h1 className="text-[#fafafa] mb-6">Nossos Serviços</h1>
             <p className="text-[#fafafa] text-xl max-w-3xl mx-auto">
-              Oferecemos soluções completas em educação sexual, saúde e acolhimento 
+              Oferecemos soluções completas em educação em sexualidade, saúde e acolhimento 
               para profissionais e comunidade
             </p>
           </motion.div>
@@ -214,7 +214,7 @@ export default function ServicesPage() {
                   <div>
                     <h3 className="text-[#fafafa] mb-2">Preços Acessíveis</h3>
                     <p className="text-gray-400">
-                      Acreditamos que educação sexual de qualidade deve ser acessível a todos.
+                      Acreditamos que educação em sexualidade de qualidade deve ser acessível a todos.
                     </p>
                   </div>
                 </div>
