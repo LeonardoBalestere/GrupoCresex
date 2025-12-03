@@ -350,6 +350,36 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Membro */}
+      <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollRevealTitle>
+            <div className="text-center mb-16">
+              <h2 className="text-black mb-4">Torne-se Membro</h2>
+              <div className="w-24 h-1 bg-[#c71212] mx-auto mb-6"></div>
+              <p className="text-[#666666] max-w-2xl mx-auto">
+                Garanta todos os benefícios de ser um membro do GRUPO CRESEX
+              </p>
+            </div>
+          </ScrollRevealTitle>
+
+          <div className="text-center">
+            <Link to="/servicos">
+              <motion.button
+                className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
+                whileHover={{ 
+                  scale: 1.1,
+                  borderColor: "#d4af37",
+                  boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
+                }}
+                >
+                Ver Todos os Serviços
+              </motion.button>
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
