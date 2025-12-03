@@ -4,6 +4,7 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { MessageCircle, Search, Filter } from "lucide-react";
 import { useState } from "react";
+import rayanaImg from "../assets/Cópia-de-Rayana-Oliveira.png";
 
 export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -14,23 +15,20 @@ export default function ProfessionalPage() {
       name: "Dra. Ana Silva",
       specialty: "Terapeuta Sexual",
       city: "São Paulo, SP",
-      phone: "5511999999999",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
       bio: "Especialista em terapia sexual com foco em disfunções sexuais femininas"
     },
     {
-      name: "Dr. Carlos Mendes",
-      specialty: "Sexólogo Clínico",
+      name: "Rayana Oliveira",
+      specialty: "Fisioterapeuta Pélvica e Terapeuta Sexual",
       city: "Rio de Janeiro, RJ",
-      phone: "5511988888888",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      bio: "Atendimento clínico especializado em saúde sexual masculina"
+      image: rayanaImg,
+      bio: "Na Fisioterapia Pélvica, atende disfunções sexuais dolorosas, atuando na reabilitação da função sexual. Na Terapia Sexual e Psicanálise, atua no atendimento individual e de casais em toda sua diversidade (LGBQQIAPN+, liberais e comunidade BDSM/fetichistas). É Diretora de comunicação e eventos do grupo Cresex"
     },
     {
       name: "Dra. Maria Santos",
       specialty: "Educadora Sexual",
-      city: "Belo Horizonte, MG",
-      phone: "5511977777777",
+      city: "Uberlândia, MG",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
       bio: "Formação de educadores e desenvolvimento de programas escolares"
     },
@@ -38,14 +36,70 @@ export default function ProfessionalPage() {
       name: "Dr. João Oliveira",
       specialty: "Psicólogo Especialista",
       city: "Brasília, DF",
-      phone: "5511966666666",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
       bio: "Psicologia clínica com abordagem em questões de sexualidade"
+    },
+    {
+      name: "Dra. Patricia Costa",
+      specialty: "Consultora em Sexualidade",
+      city: "Salvador, BA",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
+      bio: "Consultoria para empresas e organizações sobre diversidade e inclusão"
+    },
+    {
+      name: "Dr. Ricardo Lima",
+      specialty: "Terapeuta de Casais",
+      city: "Curitiba, PR",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
+      bio: "Especialista em terapia de casais e relacionamentos"
+    },
+    {
+      name: "Dra. Juliana Martins",
+      specialty: "Sexóloga Clínica",
+      city: "Belo Horizonte, MG",
+      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop",
+      bio: "Atendimento clínico e orientação sexual para adolescentes"
+    },
+    {
+      name: "Dr. Fernando Souza",
+      specialty: "Educador Sexual",
+      city: "Recife, PE",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+      bio: "Palestras e workshops sobre sexualidade saudável"
+    },
+    {
+      name: "Dra. Camila Rodrigues",
+      specialty: "Terapeuta Sexual",
+      city: "Fortaleza, CE",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
+      bio: "Terapia sexual individual e de casais"
+    },
+    {
+      name: "Dr. Marcos Pereira",
+      specialty: "Psicólogo Especialista",
+      city: "Porto Alegre, RS",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+      bio: "Atendimento psicológico com foco em identidade de gênero"
+    },
+    {
+      name: "Dra. Beatriz Alves",
+      specialty: "Consultora em Sexualidade",
+      city: "Florianópolis, SC",
+      image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop",
+      bio: "Consultoria e treinamentos corporativos sobre diversidade"
+    },
+    {
+      name: "Dr. Rafael Santos",
+      specialty: "Sexólogo Clínico",
+      city: "Goiânia, GO",
+      image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop",
+      bio: "Especialista em saúde sexual e prevenção de ISTs"
     }
   ];
 
   const specialties = [
     "all",
+    "Fisioterapeuta Pélvica",
     "Terapeuta Sexual",
     "Sexólogo Clínico",
     "Educadora Sexual",
@@ -63,7 +117,7 @@ export default function ProfessionalPage() {
 
   const handleWhatsAppClick = (phone: string, name: string) => {
     const message = encodeURIComponent(
-      `Olá ${name}, vim através do site GRUPO CRESEX e gostaria de saber mais sobre seus serviços.`
+      `Olá, vim através do site GRUPO CRESEX e gostaria de saber mais sobre os serviços de ${name}.`
     );
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
   };
@@ -218,7 +272,7 @@ export default function ProfessionalPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <ScrollRevealTitle>
             <h2 className="text-[#fafafa] mb-6">Seja um Membro GRUPO CRESEX</h2>
-            <p className="text-gray-400 mb-8 text-xl">
+            <p className="text-[#fafafa] mb-8 text-xl">
               Você é profissional da sexualidade e quer fazer parte do maior grupo do
               Brasil? Entre em contato e conheça os benefícios de ser membro GRUPO CRESEX.
             </p>
