@@ -23,7 +23,7 @@ export default function ProfessionalPage() {
       specialty: "Fisioterapeuta Pélvica e Terapeuta Sexual",
       city: "Rio de Janeiro, RJ",
       image: rayanaImg,
-      bio: "Na Fisioterapia Pélvica, atende disfunções sexuais dolorosas, atuando na reabilitação da função sexual. Na Terapia Sexual e Psicanálise, atua no atendimento individual e de casais em toda sua diversidade (LGBQQIAPN+, liberais e comunidade BDSM/fetichistas). É Diretora de comunicação e eventos do grupo Cresex"
+      bio: "Diretora do Cresex, focada no tratamento da dor e sexualidade positiva para todos os públicos."
     },
     {
       name: "Dra. Maria Santos",
@@ -283,7 +283,11 @@ export default function ProfessionalPage() {
                 backgroundColor: "#fafafa",
                 boxShadow: "0 10px 30px rgba(212, 175, 55, 0.4)",
               }}
-              onClick={() => (window.location.href = "/contato")}
+              onClick={() => window.open(
+    "https://grupocresex.eadplataforma.app/combo/membrocresex2026",
+    "_blank",
+    "noopener,noreferrer"
+  )}
             >
               Quero Ser Membro
             </motion.button>
