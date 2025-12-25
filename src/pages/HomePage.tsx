@@ -8,6 +8,7 @@ import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import monicaImage from "../assets/monica2.jpg";
 
 export default function HomePage() {
+  const navigate = useNavigate();
   const pillars = [
     {
       icon: BookOpen,
@@ -56,19 +57,18 @@ export default function HomePage() {
             <p className="text-[#fafafa] text-xl max-w-2xl mb-8">
               Conectando profissionais da sexualidade em todo o Brasil
             </p>
-            <Link to="/contato">
-              <motion.button
-                className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
-                whileHover={{ 
-                  scale: 1.1,
-                  borderColor: "#d4af37",
-                  boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
-                }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Entre em Contato
-              </motion.button>
-            </Link>
+            <motion.button
+              className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
+              whileHover={{ 
+                scale: 1.1,
+                borderColor: "#d4af37",
+                boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
+              }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => navigate("/contato")}
+            >
+              Entre em Contato
+            </motion.button>
           </motion.div>
         </div>
       </section>
@@ -236,17 +236,16 @@ export default function HomePage() {
                   Com mais de 15 anos de experiência, ela fundou o GRUPO CRESEX com a missão 
                   de unir profissionais e promover transformação social.
                 </p>
-                <Link to="/fundadora">
-                  <motion.button
-                    className="bg-[#c71212] text-[#fafafa] px-6 py-3 rounded-lg border-2 border-[#c71212]"
-                    whileHover={{ 
-                      scale: 1.05,
-                      borderColor: "#d4af37"
-                    }}
-                  >
-                    Conheça Mais
-                  </motion.button>
-                </Link>
+                <motion.button
+                  className="bg-[#c71212] text-[#fafafa] px-6 py-3 rounded-lg border-2 border-[#c71212]"
+                  whileHover={{ 
+                    scale: 1.05,
+                    borderColor: "#d4af37"
+                  }}
+                  onClick={() => navigate("/NossaHistória")}
+                >
+                  Conheça Mais
+                </motion.button>
               </div>
             </ScrollReveal>
           </div>
@@ -274,19 +273,18 @@ export default function HomePage() {
               O maior evento de educação em sexualidade do Brasil. Palestras, workshops e networking 
               com os principais especialistas do país.
             </p>
-            <Link to="/enasex">
-              <motion.button
-                className="bg-[#fafafa] text-[#c71212] px-8 py-4 rounded-lg border-2 border-[#fafafa]"
-                whileHover={{ 
-                  scale: 1.1,
-                  borderColor: "#d4af37",
-                  backgroundColor: "#d4af37",
-                  color: "#000000"
-                }}
-              >
-                Saiba Mais sobre o ENASEX
-              </motion.button>
-            </Link>
+            <motion.button
+              className="bg-[#fafafa] text-[#c71212] px-8 py-4 rounded-lg border-2 border-[#fafafa]"
+              whileHover={{ 
+                scale: 1.1,
+                borderColor: "#d4af37",
+                backgroundColor: "#d4af37",
+                color: "#000000"
+              }}
+              onClick={() => navigate("/enasex")}
+            >
+              Saiba Mais sobre o ENASEX
+            </motion.button>
           </ScrollRevealTitle>
         </div>
       </section>
@@ -305,18 +303,17 @@ export default function HomePage() {
           </ScrollRevealTitle>
 
           <div className="text-center">
-            <Link to="/servicos">
-              <motion.button
-                className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
-                whileHover={{ 
-                  scale: 1.1,
-                  borderColor: "#d4af37",
-                  boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
-                }}
-              >
-                Ver Todos os Serviços
-              </motion.button>
-            </Link>
+            <motion.button
+              className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
+              whileHover={{ 
+                scale: 1.1,
+                borderColor: "#d4af37",
+                boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
+              }}
+              onClick={() => navigate("/servicos")}
+            >
+              Ver Todos os Serviços
+            </motion.button>
           </div>
         </div>
       </section>
@@ -336,18 +333,17 @@ export default function HomePage() {
           </ScrollRevealTitle>
 
           <div className="text-center">
-            <Link to="/projetos">
-              <motion.button
-                className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
-                whileHover={{ 
-                  scale: 1.1,
-                  borderColor: "#d4af37",
-                  boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
-                }}
-              >
-                Conheça Nossos Projetos
-              </motion.button>
-            </Link>
+            <motion.button
+              className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
+              whileHover={{ 
+                scale: 1.1,
+                borderColor: "#d4af37",
+                boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
+              }}
+              onClick={() => navigate("/projetos")}
+            >
+              Conheça Nossos Projetos
+            </motion.button>
           </div>
         </div>
       </section>
@@ -366,18 +362,17 @@ export default function HomePage() {
           </ScrollRevealTitle>
 
           <div className="text-center">
-            <Link to="/servicos">
-              <motion.button
-                className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
-                whileHover={{ 
-                  scale: 1.1,
-                  borderColor: "#d4af37",
-                  boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
-                }}
-                >
-                Ver Todos os Serviços
-              </motion.button>
-            </Link>
+            <motion.button
+              className="bg-[#c71212] text-[#fafafa] px-8 py-4 rounded-lg border-2 border-[#c71212]"
+              whileHover={{ 
+                scale: 1.1,
+                borderColor: "#d4af37",
+                boxShadow: "0 10px 30px rgba(199, 18, 18, 0.4)"
+              }}
+              onClick={() => navigate("/servicos")}
+              >
+              Ver Todos os Serviços
+            </motion.button>
           </div>
         </div>
       </section>

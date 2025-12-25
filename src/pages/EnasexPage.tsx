@@ -307,16 +307,6 @@ export default function EnasexPage() {
               >
                 Incrições em breve
               </motion.button>
-              <motion.button
-                className="bg-transparent text-[#fafafa] px-10 py-4 rounded-lg border-2 border-[#fafafa]"
-                whileHover={{ 
-                  scale: 1.1,
-                  backgroundColor: "#fafafa",
-                  color: "#c71212"
-                }}
-              >
-                Baixar Programação Completa
-              </motion.button>
             </div>
           </ScrollRevealTitle>
         </div>

@@ -119,7 +119,7 @@ export function Footer() {
               >
                 <Instagram size={20} />
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 href="https://linkedin.com/company/cresex"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -133,7 +133,7 @@ export function Footer() {
                 transition={{ duration: 0.4 }}
               >
                 <Linkedin size={20} />
-              </motion.a>
+              </motion.a> */}
             </div>
           </div>
         </div>
