@@ -83,7 +83,7 @@ export function Footer() {
                 contato@cresex.com.br
               </motion.a>
               <motion.a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/553491494154"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-400 border-2 border-transparent inline-flex transition-colors"
@@ -95,7 +95,7 @@ export function Footer() {
                 transition={{ duration: 0.4 }}
               >
                 <MessageCircle size={20} />
-                (11) 99999-9999
+                (34) 9 9149-4154
               </motion.a>
             </div>
           </div>
@@ -105,7 +105,7 @@ export function Footer() {
             <h3 className="mb-4">Redes Sociais</h3>
             <div className="flex gap-4">
               <motion.a
-                href="https://instagram.com/cresex"
+                href="https://www.instagram.com/grupocresex/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#c71212] rounded-lg flex items-center justify-center border-2 border-transparent transition-colors"

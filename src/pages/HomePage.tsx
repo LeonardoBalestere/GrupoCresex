@@ -3,8 +3,9 @@ import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { Heart, Users, BookOpen, Sparkles, Award, Target } from "lucide-react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import monicaImage from "../assets/monica2.jpg";
 
 export default function HomePage() {
   const pillars = [
@@ -211,7 +212,7 @@ export default function HomePage() {
             <ScrollReveal direction="left">
               <div className="relative">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwxfHx8fDE3MzMwNzQyNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src={monicaImage}
                   alt="Mônica Lima"
                   className="rounded-xl shadow-2xl"
                 />

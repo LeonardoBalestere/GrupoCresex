@@ -45,7 +45,7 @@ export default function ContactPage() {
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      content: "(34) 9149-4154",
+      content: "(34) 9 9149-4154",
       link: "https://wa.me/553491494154",
       color: "from-[#c71212] to-[#333333]"
     },

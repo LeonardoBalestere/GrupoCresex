@@ -254,7 +254,8 @@ export default function ProfessionalPage() {
                           <p className="text-[#666666] text-sm mb-6">{member.bio}</p>
                         </div>
                         <motion.button
-                          onClick={() => handleWhatsAppClick(member.phone, member.name)}
+                          // onClick={() => handleWhatsAppClick(member.phone, member.name)}
+                          onClick={() => handleWhatsAppClick('553491494154', member.name)}
                           className="bg-[#c71212] text-[#fafafa] px-6 py-3 rounded-lg w-full flex items-center justify-center gap-2 border-2 border-transparent transition-all duration-500"
                           whileHover={{
                             scale: 1.05,
