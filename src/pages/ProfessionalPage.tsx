@@ -74,39 +74,11 @@ export default function ProfessionalPage() {
       bio: "Psicólogo e realizo atendimentos online. Graduado em Psicologia pela Uniube, tenho pós-graduação em Sexologia, Psicodrama, Teologia, Filosofia e Antropologia. Desenvolvi um olhar humano e profundo para acolher dores, desafios e espontaneidade. Tenho experiência com disfunções sexuais, com a comunidade LGBTQIAPN+ e também com relacionamentos não monogâmicos. Meu propósito é simples: ajudar você a viver de forma plena, autêntica e com mais sentido."
     },
     {
-      name: "Fernando Souza",
-      specialty: "Educador Sexual",
-      city: "Recife, PE",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-      bio: "Palestras e workshops sobre sexualidade saudável"
-    },
-    {
-      name: "Camila Rodrigues",
-      specialty: "Terapeuta Sexual",
-      city: "Fortaleza, CE",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
-      bio: "Terapia sexual individual e de casais"
-    },
-    {
-      name: "Marcos Pereira",
-      specialty: "Psicólogo Especialista",
-      city: "Porto Alegre, RS",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-      bio: "Atendimento psicológico com foco em identidade de gênero"
-    },
-    {
-      name: "Beatriz Alves",
-      specialty: "Consultora em Sexualidade",
-      city: "Florianópolis, SC",
-      image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=400&fit=crop",
-      bio: "Consultoria e treinamentos corporativos sobre diversidade"
-    },
-    {
-      name: "Rafael Santos",
-      specialty: "Sexólogo Clínico",
-      city: "Goiânia, GO",
-      image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop",
-      bio: "Especialista em saúde sexual e prevenção de ISTs"
+      name: "Alinne Costa",
+      specialty: "Professora Universitaria",
+      city: "Uberlândia, MG",
+      image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
+      bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
     }
   ];
 
