@@ -38,6 +38,13 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
       bio: "Possui graduação em Medicina pela Pontifícia Universidade Católica do Paraná (PUCPR), residência médica em Medicina de Família e Comunidade (MFC) pelo Município da Estância Balneária de Praia Grande, pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica pela Universidade São Judas Tadeu (IBCMED)."
+    }, 
+    {
+      name: "Debora Carvalho",
+      specialty: "Neuropsicologa",
+      city: "Uberlândia, MG",
+      image: imageMap["debora-carvalho.jpg"] || imageMap["debora-carvalho.jpeg"] || imageMap["debora-carvalho.png"],
+      bio: "Psicóloga Clínica na abordagem TCC e administradora da Insight Clínica Uberlândia e Insight Clínica Terapias Infantis."
     },
     {
       name: "Mayara Cardoso",
@@ -79,6 +86,41 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
       bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
+    },    
+    {
+      name: "Ana Paula Alves Martins",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["ana-paula-alves-martins.jpg"] || imageMap["ana-paula-alves-martins.jpeg"] || imageMap["ana-paula-alves-martins.png"],
+      bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
+    },    
+    {
+      name: "Andrea Henear Guillen",
+      specialty: "Professora Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear-guillen.jpeg"] || imageMap["andrea-henear-guillen.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+    },    
+    {
+      name: "Bianca Gontijo",
+      specialty: "Professora Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
+      bio: "Experiência com condução de grupos e atuação pela psicodinâmica do trabalho; Experiência com adolescentes institucionalizados do sistema penitenciário de Cuiabá-MT"
+    },    
+    {
+      name: "Carolina Santos",
+      specialty: "Professora Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["carolina-santos.jpg"] || imageMap["carolina-santos.jpeg"] || imageMap["carolina-santos.png"],
+      bio: "Carolina Santos- terapeuta sexual, escritora, poeta, professora de Arte e doula. Atuo no campo da sexualidade humana a partir de uma perspectiva educativa, terapêutica e libertadora, acompanhando pessoas e casais em processos de autoconhecimento, reconexão com o prazer, comunicação íntima, identidade, autoestima e cura de bloqueios emocionais ligados ao corpo e ao desejo."
+    },    
+    {
+      name: "",
+      specialty: "Professora Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear-guillen.jpeg"] || imageMap["andrea-henear-guillen.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
     }
   ];
 
