@@ -20,7 +20,7 @@ export default function ProfessionalPage() {
   const members = [
     {
       name: "Monica Lima",
-      specialty: "Terapeuta Sexual",
+      specialty: "Neuropsicosexóloga",
       city: "Uberlândia, MG",
         image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
       bio: "Neuropsicosexóloga e Palestrante (CRP: 04/1500714) - Diretora Executiva do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online."
@@ -33,8 +33,8 @@ export default function ProfessionalPage() {
       bio: "Rayana atende na área da Fisioterapia Pélvica, cuidando de disfunções sexuais dolorosas e reabilitação da função sexual. Além disso atua como terapeuta sexual em atendimentos individuais e de casais (LGBQQIAPN+, liberais e comunidade BDSM/fetichistas). É Diretora de comunicação e eventos do grupo Cresex."
     },
     {
-      name: "Ana Beatriz",
-      specialty: "Médica Pós-Graduada em Sexologia Clínica",
+      name: "Ana Beatriz Romansini",
+      specialty: "Médica da família e comunidade",
       city: "Uberlândia, MG",
       image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
       bio: "Possui graduação em Medicina pela Pontifícia Universidade Católica do Paraná (PUCPR), residência médica em Medicina de Família e Comunidade (MFC) pelo Município da Estância Balneária de Praia Grande, pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica pela Universidade São Judas Tadeu (IBCMED)."
@@ -48,14 +48,14 @@ export default function ProfessionalPage() {
     },
     {
       name: "Mayara Cardoso",
-      specialty: "Psicóloga",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["mayara-cardoso.jpg"] || imageMap["mayara-cardoso.jpeg"] || imageMap["mayara-cardoso.png"] || "", 
       bio: "Psicosexóloga e Educadora Sexual, Psicóloga clínica, com atendimento na abordagem TCC, com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade"
     },
     {
       name: "Haíza Ferreira",
-      specialty: "Psicólogo Especialista",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["haiza-ferreira.jpg"] || imageMap["haiza-ferreira.jpeg"] || imageMap["haiza-ferreira.png"] || "",
       bio: "Responsável pela divulgação de cursos, palestras, eventos, formações, Pós-Graduação na área de Sexualidade em redes sociais, e atividades no geral promovidas pelo Grupo. Contato com cliente, esclarecimentos de dúvidas sobre uma compra, negociação e fechamento de vendas. Gestora da equipe comercial. Realização de atendimento psicoterapêutico."    },
@@ -68,60 +68,90 @@ export default function ProfessionalPage() {
     },
     {
       name: "Carolina Pires",
-      specialty: "Terapeuta",
+      specialty: "Psicósexologa e palestrante",
       city: "Uberlândia, MG",
       image: imageMap["carolina-pires.jpg"] || imageMap["carolina-pires.jpeg"] || imageMap["carolina-pires.png"] || "",
       bio: "Psicóloga clínica, sexóloga e palestrante (CRP 09/010811) há 07 anos, com atuação voltada para autoestima e sexualidade de mulheres, promovendo escuta acolhedora e transformação pessoal. Especialista em Neuropsicologia, Psicologia Sexual, Terapia Cognitivo-Comportamental e Psicologia Forense e Jurídica. Autora do livro Deixei de ser boazinha e virei poderosa, onde inspira mulheres a se reconectarem com sua força interior e colunista num site de relacionamentos"
     },
     {
       name: "Mateus Balduino",
-      specialty: "Psicólogo",
-      city: "Uberlândia, MG",
+      specialty: "Psicólogo clinico",
+      city: "Uberaba, MG",
       image: imageMap["mateus-balduino.jpg"] || imageMap["mateus-balduino.jpeg"] || imageMap["mateus-balduino.png"] || "",
       bio: "Psicólogo e realizo atendimentos online. Graduado em Psicologia pela Uniube, tenho pós-graduação em Sexologia, Psicodrama, Teologia, Filosofia e Antropologia. Desenvolvi um olhar humano e profundo para acolher dores, desafios e espontaneidade. Tenho experiência com disfunções sexuais, com a comunidade LGBTQIAPN+ e também com relacionamentos não monogâmicos. Meu propósito é simples: ajudar você a viver de forma plena, autêntica e com mais sentido."
     },
     {
       name: "Alinne Costa",
-      specialty: "Professora Universitaria",
+      specialty: "Professora Universitária",
       city: "Uberlândia, MG",
       image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
       bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
     },    
     {
       name: "Ana Paula Alves Martins",
-      specialty: "Psicóloga",
+      specialty: "Professora Universitária",
       city: "Uberlândia, MG",
       image: imageMap["ana-paula-alves-martins.jpg"] || imageMap["ana-paula-alves-martins.jpeg"] || imageMap["ana-paula-alves-martins.png"],
       bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
     },    
     {
       name: "Andrea Henear Guillen",
-      specialty: "Professora Clínica",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear-guillen.jpeg"] || imageMap["andrea-henear-guillen.png"],
       bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
     },    
     {
       name: "Bianca Gontijo",
-      specialty: "Professora Clínica",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
       bio: "Experiência com condução de grupos e atuação pela psicodinâmica do trabalho; Experiência com adolescentes institucionalizados do sistema penitenciário de Cuiabá-MT"
     },    
     {
       name: "Carolina Santos",
-      specialty: "Professora Clínica",
+      specialty: "Terapeuta Sexual",
       city: "Uberlândia, MG",
       image: imageMap["carolina-santos.jpg"] || imageMap["carolina-santos.jpeg"] || imageMap["carolina-santos.png"],
       bio: "Carolina Santos- terapeuta sexual, escritora, poeta, professora de Arte e doula. Atuo no campo da sexualidade humana a partir de uma perspectiva educativa, terapêutica e libertadora, acompanhando pessoas e casais em processos de autoconhecimento, reconexão com o prazer, comunicação íntima, identidade, autoestima e cura de bloqueios emocionais ligados ao corpo e ao desejo."
     },    
     {
-      name: "",
-      specialty: "Professora Clínica",
+      name: "Andrea Hernear Guillen",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear-guillen.jpeg"] || imageMap["andrea-henear-guillen.png"],
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+    },
+    {
+      name: "Andrea Hernear Guillen",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+    },
+    {
+      name: "Andrea Hernear Guillen",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+    },
+    {
+      name: "Andrea Hernear Guillen",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
+      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+    },
+    {
+      name: "Andrea Hernear Guillen",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
       bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
     }
+
+
   ];
 
   const specialties = [
