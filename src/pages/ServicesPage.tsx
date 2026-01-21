@@ -12,56 +12,64 @@ export default function ServicesPage() {
       title: "Clínica Pop",
       description: "Atendimento clínico acessível em terapia sexual e aconselhamento. Profissionais qualificados prontos para te acolher.",
       action: "Agendar Consulta",
-      color: "from-[#c71212] to-[#d4af37]"
+      color: "from-[#c71212] to-[#d4af37]",
+      href: "/contato"
     },
     {
       icon: BookOpen,
       title: "Editora GRUPO CRESEX",
       description: "Publicações especializadas em sexualidade, educação em sexualidade e saúde. Conteúdo científico e acessível.",
       action: "Ver Publicações",
-      color: "from-[#d4af37] to-[#c71212]"
+      color: "from-[#d4af37] to-[#c71212]",
+      href: "/contato"
     },
     {
       icon: Briefcase,
       title: "Cursos e Capacitações",
       description: "Formação continuada para profissionais da saúde, educação e áreas afins. Certificação reconhecida nacionalmente.",
       action: "Ver Cursos",
-      color: "from-[#c71212] to-[#333333]"
+      color: "from-[#c71212] to-[#333333]",
+      href: "https://grupocresex.eadplataforma.app"
     },
     {
       icon: Mic,
       title: "Podcast GRUPO CRESEX",
       description: "Conversas francas sobre sexualidade, relacionamentos e saúde sexual com especialistas renomados.",
       action: "Ouvir Podcast",
-      color: "from-[#333333] to-[#c71212]"
+      color: "from-[#333333] to-[#c71212]",
+      href: "https://open.spotify.com/show/5jgSGk9IHM8IlVBD4TnwC8?si=e7b9544dcb9a4e74"
     },
     {
       icon: Calendar,
       title: "Eventos e Workshops",
       description: "Palestras, workshops e eventos que promovem educação em sexualidade e networking entre profissionais.",
       action: "Ver Agenda",
-      color: "from-[#d4af37] to-[#333333]"
+      color: "from-[#d4af37] to-[#333333]",
+      href: "https://www.instagram.com/grupocresex/"
     },
     {
       icon: Heart,
       title: "Banco Arco-Íris",
       description: "Rede de apoio e recursos para a comunidade LGBTQIA+. Orientação, acolhimento e direcionamento profissional.",
       action: "Saiba Mais",
-      color: "from-[#c71212] to-[#d4af37]"
+      color: "from-[#c71212] to-[#d4af37]",
+      href: "/contato"
     },
     {
       icon: Store,
       title: "Casa de Lilith",
       description: "Sex shop com curadoria de produtos eróticos e sensuais para todos os gêneros e orientações. Promovendo o prazer e a saúde sexual com discrição e informação.",
       action: "Ir para a Loja",
-      color: "from-[#333333] to-[#d4af37]"
+      color: "from-[#333333] to-[#d4af37]",
+      href: "https://casadelilith.com"
     },
     {
       icon: House,
       title: "Espaço Acolha",
       description: "Espaço de acolhimento para vítimas de violência sexual. Atendimento humanizado e multiprofissional.",
       action: "Conhecer Projeto",
-      color: "from-[#333333] to-[#d4af37]"
+      color: "from-[#333333] to-[#d4af37]",
+      href: "/contato"
     }
   ];
 
@@ -127,6 +135,14 @@ export default function ServicesPage() {
                         borderColor: "#d4af37"
                       }}
                       whileTap={{ scale: 0.95 }}
+                      onClick={() => {
+                        const isExternal = service.href.startsWith('http');
+                        if (isExternal) {
+                          window.open(service.href, '_blank');
+                        } else {
+                          window.location.href = service.href;
+                        }
+                      }}
                     >
                       {service.action}
                     </motion.button>

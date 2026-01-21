@@ -22,7 +22,7 @@ export default function ProfessionalPage() {
       name: "Monica Lima",
       specialty: "Neuropsicosexóloga",
       city: "Uberlândia, MG",
-        image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
+      image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
       bio: "Neuropsicosexóloga e Palestrante (CRP: 04/1500714) - Diretora Executiva do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online."
     },
     {
@@ -91,14 +91,14 @@ export default function ProfessionalPage() {
       name: "Ana Paula Alves Martins",
       specialty: "Professora Universitária",
       city: "Uberlândia, MG",
-      image: imageMap["ana-paula-alves-martins.jpg"] || imageMap["ana-paula-alves-martins.jpeg"] || imageMap["ana-paula-alves-martins.png"],
+      image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
       bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
     },    
     {
-      name: "Andrea Henear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Andrea Henar Guillen",
+      specialty: "Professora Clínica",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear-guillen.jpeg"] || imageMap["andrea-henear-guillen.png"],
+      image: imageMap["andrea-henar.jpg"] || imageMap["andrea-henar.jpeg"] || imageMap["andrea-henar.png"],
       bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
     },    
     {
@@ -116,39 +116,200 @@ export default function ProfessionalPage() {
       bio: "Carolina Santos- terapeuta sexual, escritora, poeta, professora de Arte e doula. Atuo no campo da sexualidade humana a partir de uma perspectiva educativa, terapêutica e libertadora, acompanhando pessoas e casais em processos de autoconhecimento, reconexão com o prazer, comunicação íntima, identidade, autoestima e cura de bloqueios emocionais ligados ao corpo e ao desejo."
     },    
     {
-      name: "Andrea Hernear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Cleyciane Faria",
+      specialty: "Psicóloga",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
-      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
-    },
+      image: imageMap["cleyciane-faria.jpg"] || imageMap["cleyciane-faria.jpeg"] || imageMap["cleyciane-faria.png"],
+      bio: "Psicóloga e Nutricionista pela UFU, tem mestrado em Psicologia da Saúde (UFU) e é doutoranda em Ciências da Saúde também pela UFU. Tem forte interesse por temáticas interdisciplinares em saúde. É Psicóloga clínica que atua em TCC e é professora universitária há mais de 20 anos em instituições privadas de Uberlândia e região."
+    },    
     {
-      name: "Andrea Hernear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Erica Santos",
+      specialty: "Psicóloga",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
-      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
-    },
+      image: imageMap["erica-santos.jpg"] || imageMap["erica-santos.jpeg"] || imageMap["erica-santos.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
     {
-      name: "Andrea Hernear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Fernanda Barros",
+      specialty: "Psicóloga",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
-      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
-    },
+      image: imageMap["fernanda-barros.jpg"] || imageMap["fernanda-barros.jpeg"] || imageMap["fernanda-barros.png"],
+      bio: "Psicóloga, Sexóloga e Terapeuta de Casais, pós-graduada em Terapia Cognitivo-Comportamental (TCC), Educação Sexual e Sexologia, e Terapias Cognitivas e Contextuais para Casais e com formação em Terapia Cognitiva Sexual e Terapia de Casal. Membro da Sociedade Brasileira de Estudos em Sexualidade Humana (SBRASH), do Centro de Referência em Sexualidade (CRESEX) e da Federação Brasileira de Terapias Cognitivas (FBTC)."
+    },    
     {
-      name: "Andrea Hernear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Giovani Quadros",
+      specialty: "Psicólogo",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
-      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
-    },
+      image: imageMap["giovani-quadros.jpg"] || imageMap["giovani-quadros.jpeg"] || imageMap["giovani-quadros.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
     {
-      name: "Andrea Hernear Guillen",
-      specialty: "Psicóloga Clínica",
+      name: "Grazielly Baggenstoss",
+      specialty: "Psicóloga",
       city: "Uberlândia, MG",
-      image: imageMap["andrea-henear-guillen.jpg"] || imageMap["andrea-henear.jpeg"] || imageMap["andrea-henear.png"],
-      bio: "Formação em Terapia Cognitivo Comportamental e Terapia do Esquema."
+      image: imageMap["grazielly-baggenstoss.jpg"] || imageMap["grazielly-baggenstoss.jpeg"] || imageMap["grazielly-baggenstoss.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
+    {
+      name: "Irene Sousa",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["irene-sousa.jpg"] || imageMap["irene-sousa.jpeg"] || imageMap["irene-sousa.png"],
+      bio: "Mulher de 43, psicóloga e terapeuta integrativa. Irene Sousa conduz mulheres 35+ a sentirem o próprio corpo, a recuperarem desejo, autoestima e voz. Une sexualidade humana, psicologia e rituais sensoriais para transformar culpa em potência, solidão em conexão e vida sem sentido em prazer de viver.."
+    },    
+    {
+      name: "Isabel Paegle",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["isabel-paegle.jpg"] || imageMap["isabel-paegle.jpeg"] || imageMap["isabel-paegle.png"],
+      bio: "Especialização em Distúrbios Alimentares e Obesidade, Formação Multiprofissional em Sexologia Clínica e Educacional pela FASEX com 28 anos de experiência em atendimento na Psicologia Clínica, Distúrbios Alimentares, Obesidade, Bariátrica e Sexualidade, em equipes multidisciplinares e consultório."
+    },    
+    {
+      name: "Isabela Costa",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["isabela-costa.jpg"] || imageMap["isabela-costa.jpeg"] || imageMap["isabela-costa.png"],
+      bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê."
+    },    
+    {
+      name: "Janaína Cintia",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["janaina-cintia.jpg"] || imageMap["janaina-cintia.jpeg"] || imageMap["janaina-cintia.png"],
+      bio: "Com abordagem Interseccional atuo com promoção a igualdade de gênero e o fortalecimento de práticas transformadoras em defesa dos direitos das mulheres na sociedade brasileira. Realizo atividades de: Avaliação, Entrevista, Perícia, Formulação de quesitos, Elaboração e Análise de Laudo Pericial, Acompanhamento em audiência, Ações preventivas, Análise de processos, Reuniões de apoio."
+    },    
+    {
+      name: "Kenya Aparecida",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["kenya-aparecida.jpg"] || imageMap["kenya-aparecida.jpeg"] || imageMap["kenya-aparecida.png"],
+      bio: "Especialista em terapia familiar e Membro do centro de referência em sexualidade; Especialista em Administração em Saúde."
+    },    
+    {
+      name: "Kerley Cristina Machado",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["kerley-cristina-machado.jpg"] || imageMap["kerley-cristina-machado.jpeg"] || imageMap["kerley-cristina-machado.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
+    {
+      name: "Lourdes Rosa",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["lourdes-rosa.jpg"] || imageMap["lourdes-rosa.jpeg"] || imageMap["lourdes-rosa.png"],
+      bio: "Pós graduada em psicopedagogia pela Universidade Federal de Uberlândia. Especializada em Terapia e Educação sexual pelo Instituto Casal Tessarioli, em São Paulo, (CEFATEF) e especialista em Sexologia pelo mesmo instituto. Membro da Sociedade Brasileira de Estudos em Sexualidade Humana ( SBRASH), do Centro de Referência em Sexualidade (CRESEX) e do grupo de Estudos em Sexualidade, na terapia cognitiva sexual. Psicóloga clínica especializada em sexologia, terapia sexual e de casais. Atua na avaliação, diagnóstico e tratamento das disfunções sexuais masculinas, femininas, independente do gênero e orientação sexual."
+    },    
+    {
+      name: "Marcio Vinicius",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["marcio-vinicius.jpg"] || imageMap["marcio-vinicius.jpeg"] || imageMap["marcio-vinicius.png"],
+      bio: "Psicólogo, Sexólogo, Terapeuta Sexual e Educador em Sexualidade. Especialização em Terapia Sexual e Educação em sexualidade. Experiência em ações de Educação Sexual e Prevenção às IST/HIV/aids. Ofereço Terapia Sexual com foco no público masculino, Terapia de Casal e Psicoterapia a partir da Teoria da Subjetividade. Experiência no atendimento de pessoas com vivência do meio liberal/swing e relacionamentos Não Monogâmicos. Não atende crianças e adolescentes."
+    },    
+    {
+      name: "Marcos Martinelle",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["marcos-martinelle.jpg"] || imageMap["marcos-martinelle.jpeg"] || imageMap["marcos-martinelle.png"],
+      bio: "Psicólogo e Sexólogo CRP14/08530-9  Especialista em Sexualidade Humana (UNIARA) e Psicologia Clínica (UNINTER) Graduado em Gestão de Recursos Humanos e docente no curso de Psicologia. Palestrante, criador de conteúdo no Instagram @marcoscmartinelle Atendimento para adultos, casais e grupos com mulheres"
+    },    
+    {
+      name: "Mirilia Souza",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["mirilia-souza.jpg"] || imageMap["mirilia-souza.jpeg"] || imageMap["mirilia-souza.png"],
+      bio: "Psicóloga clínica, mestra em Ciências da Saúde, pós-graduada em Docência do Ensino Superior e MBA em Gestão de Pessoas Recebeu uma premiação em Bruxelas com a apresentação do trabalho \"Evaluation of Common Mental Disorders in Leprosy through the “Self Reporting Questionnaire\". Trabalhou com jovens ministrando aulas sobre educação sexual, é consultora em saúde e sexualidade e participa das reuniões da Comissão saúde e sexualidade no Conselho Regional de Psicologia."
+    },    
+    {
+      name: "Mayran Araújo",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["mayran-araujo.jpg"] || imageMap["mayran-araujo.jpeg"] || imageMap["mayran-araujo.png"],
+      bio: "Psicólogo com experiência clínica voltada ao cuidado de populações diversas, incluindo pessoas LGBTQIAP+, homens em diferentes fases do ciclo de vida e indivíduos neurodivergentes. Atua com enfoque em *Terapia Cognitivo-Comportamental (TCC), trabalhando crenças centrais de desamor, desvalor e desamparo, além de padrões relacionais repetitivos. Possui trajetória marcada pelo acolhimento de pacientes em situações de trauma, dificuldades de socialização e conflitos familiares, promovendo fortalecimento da autoestima, desenvolvimento de recursos internos e construção de relações mais saudáveis. Atualmente, cursa pós-graduação em **Neuropsicologia e Terapia Cognitivo-Comportamental (TCC)*, ampliando sua formação para integrar avaliação neuropsicológica e intervenções baseadas em evidências. Comprometido com práticas inclusivas e éticas, busca oferecer um espaço seguro de escuta e transformação."
+    },    
+    {
+      name: "Meg Silva",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["meg-silva.jpg"] || imageMap["meg-silva.jpeg"] || imageMap["meg-silva.png"],
+      bio: "Psicóloga e Sexóloga (CRP 06/187947), com atuação na abordagem Fenomenológica Existencial, pós-graduada em Sexologia e Psicologia Organizacional. Atendo crianças, adolescentes, adultos e casais, com foco em saúde mental, sexualidade, questões de gênero e LGBTQIAPN+. Pesquisadora do trabalho sexual desde 2018. Experiência prévia de 18 anos em RH. Escritora e palestrante, promovo autoconhecimento e construção de sentido."
+    },    
+    {
+      name: "Mirian Vieira",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
+    {
+      name: "Pedro Santos",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["pedro-santos.jpg"] || imageMap["pedro-santos.jpeg"] || imageMap["pedro-santos.png"],
+      bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO)."
+    },    
+    {
+      name: "Regina Araújo",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
+      bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes."
+    },    
+    {
+      name: "Renata Lanza",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["renata-lanza.jpg"] || imageMap["renata-lanza.jpeg"] || imageMap["renata-lanza.png"],
+      bio: "Realizo atendimentos em terapia individual ou terapia de casal, atuando principalmente com demandas de relacionamentos, queixas sexuais, e autoestima feminina. Também atuo com questões relacionadas à monogamia/não monogamia e às várias formas de amar. Atendimentos em português ou em inglês."
+    },    
+    {
+      name: "Roberta Resende",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["roberta-resende.jpg"] || imageMap["roberta-resende.jpeg"] || imageMap["roberta-resende.png"],
+      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },    
+    {
+      name: "Sandra Vasconcelos",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["sandra-vasconcelos.jpg"] || imageMap["sandra-vasconcelos.jpeg"] || imageMap["sandra-vasconcelos.png"],
+      bio: "Profissional da área de Psicologia Clínica, com vasta experiência em atendimentos individuais, casais e em grupo.Graduada em Psicologia por Centro Universitário do Triângulo, Uberlândia, MG, Brasil e Mestre em psicologia pela Universidade do Minho, Braga, Portugal. Data da conclusão: 07/2016 Pós graduada em Terapia Familiar e Sexologia pela Faculdae Shalom de Ensino Superior. Data da conclusão: 06/2019"
+    },    
+    {
+      name: "Sandro Prado",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["sandro-prado.jpg"] || imageMap["sandro-prado.jpeg"] || imageMap["sandro-prado.png"],
+      bio: "Minha formação em Ciências Biológicas e pós-graduação em Educação me levaram a passear por múltiplos caminhos com a Educação em Biologia. Mas na realidade moro nos domínios dos estudos de gêneros e sexualidade com as filosofias da diferença. Assim, em determinado momento, tais estudos se colocaram em pé de igualdade com a Educação em Biologia, evocando-me para que agenciassem juntos experienciando, com eles, as possibilidades de cartografar miudezas com o pulsar da vida. Por meio desse encontro me interesso pelos espaços de criação de possíveis com a Educação em Biologia, gêneros e sexualidades. Atuo como professor no Instituto de Biologia (INBIO) da Universidade Federal de Uberlândia (UFU). Meu interesse está na possibilidade de pensar a educação e a formação de professores em Ciências/Biologia em sua condição menor: ativando outros modos de percepção, exercícios menores e inventando linguagens que falam no interstício de línguas maiores que engajem os corpos, os gêneros e as sexualidades."
+    },    
+    {
+      name: "Sonia Domingos",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["sonia-domingos.jpg"] || imageMap["sonia-domingos.jpeg"] || imageMap["sonia-domingos.png"],
+      bio: "Psicóloga - CRP 04/66185 Especialista em Psicologia Cognitivo Comportamental Formação em Terapia do Esquema  Neurociência Aplicada à Psicologia."
+    },    
+    {
+      name: "Sonia Trindade",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["sonia-trindade.jpg"] || imageMap["sonia-trindade.jpeg"] || imageMap["sonia-trindade.png"],
+      bio: "Terapeuta neo tântrica sistêmica , com foco em  , disfunções sexuais ,meditações ativas , massagem tântrica  , respiração integrada a terapia .Especialista em saúde intima e bem estar do casal .Educadora Palestrante Vice presidente do Rotary Club Uberlândia Cidade Jardim Coordenadora do grupo PLPs (Promotoras Legais Populares)Membra do colegiado mulheres do brasilMembra do conselho municipal do direito das mulheres (CMDM)Membro do grupo cresex.Membra da comissão de enfrentamento a grupo em vulnerabilidade da OAB Uberlândia"
+    },    
+    {
+      name: "Tatiele Gonçalves",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["tatiele-goncalves.jpg"] || imageMap["tatiele-goncalves.jpeg"] || imageMap["tatiele-goncalves.png"],
+      bio: "Tenho 43 anos e sou sexóloga e terapeuta tântrica. Possuo pós-graduação em Sexologia. Atuo há 4 anos na área, utilizando a massagem tântrica e sensual como tratamento alternativo para transtornos sexuais.."
+    },    
+    {
+      name: "Vilma Reiter",
+      specialty: "Psicóloga",
+      city: "Uberlândia, MG",
+      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
+      bio: "Tenho 49 anos, casa, 1 filho de 25 anos. Iniciei minha trajetória profissional com 17 anos, etrabalhando 13 anos em estritórios de contabilidade. Depois, dediquei 7 anos à área financeira e mais 6 anos ao setor de saúde. Percebi minha participação em atender e ouvir pessoas, o que me motivou a trabalhar com grupo de mulheres. Observando a necessidade de uma escuta profissional, optei pela graduação de Psicologia, onde atualmente decidi me profissionalizar."
     }
 
 
