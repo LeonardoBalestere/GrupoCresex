@@ -19,52 +19,52 @@ export default function ProfessionalPage() {
 
   const members = [
     {
-      name: "Monica Lima",
-      specialty: "Neuropsicosexóloga",
+      name: "Mônica Lima",
+      specialty: "Psicóloga Clínica e Sexologa",
       city: "Uberlândia, MG",
       image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
-      bio: "Neuropsicosexóloga e Palestrante (CRP: 04/1500714) - Diretora Executiva do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online."
+      bio: "Psicóloga Clínica (CRP: 04/1500714) na abordagem da TCS  (Terapia Cognitivo-sexual), Neuropsicosexóloga e Palestrante - Diretora Fundadora do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Coordenadora da Comissão de Orientação em Psicologia - Saúde e Sexualidade do Conselho Regional de Psicologia Subsede Triângulo. Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online nacional e internacional."
     },
     {
       name: "Rayana Oliveira",
-      specialty: "Fisioterapeuta Pélvica e Terapeuta Sexual",
+      specialty: "Fisioterapeuta Pélvica e Sexologa",
       city: "Uberlândia, MG",
       image: imageMap["rayana-oliveira.png"] || imageMap["rayana-oliveira.jpg"] || "",
-      bio: "Rayana atende na área da Fisioterapia Pélvica, cuidando de disfunções sexuais dolorosas e reabilitação da função sexual. Além disso atua como terapeuta sexual em atendimentos individuais e de casais (LGBQQIAPN+, liberais e comunidade BDSM/fetichistas). É Diretora de comunicação e eventos do grupo Cresex."
+      bio: "Fisioterapeuta Pélvica, com foco em disfunções sexuais dolorosas e reabilitação da função sexual. Além disso atua como terapeuta sexual em atendimentos individuais e de casais (LGBTQIAPN+, liberais e comunidade BDSM/fetichistas). Diretora de comunicação e eventos do Grupo Cresex. Atendimento presencial e online."
     },
     {
       name: "Ana Beatriz Romansini",
-      specialty: "Médica da família e comunidade",
-      city: "Uberlândia, MG",
+      specialty: "Médica da Família e Comunidade",
+      city: "Santos, SP",
       image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
-      bio: "Possui graduação em Medicina pela Pontifícia Universidade Católica do Paraná (PUCPR), residência médica em Medicina de Família e Comunidade (MFC) pelo Município da Estância Balneária de Praia Grande, pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica pela Universidade São Judas Tadeu (IBCMED)."
+      bio: "Médica da Família e Comunidade (CRM: 206.760 RQE: 115.39). Pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica. Professora do curso de medicina, atua com enfoque em saúde mental, saúde sexual e cuidados com população LGBTQIAPN+. Membro Associada do Grupo Cresex. Atendimento presencial e por telemedicina."
     }, 
     {
-      name: "Debora Carvalho",
-      specialty: "Neuropsicologa",
+      name: "Débora Carvalho",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["debora-carvalho.jpg"] || imageMap["debora-carvalho.jpeg"] || imageMap["debora-carvalho.png"],
-      bio: "Psicóloga Clínica na abordagem TCC e administradora da Insight Clínica Uberlândia e Insight Clínica Terapias Infantis."
+      bio: "Psicóloga Clínica (CRP 04/42242) na abordagem TCC (Terapia Cognitivo-Comportamental). Especialista em Sexualidade Humana; Especialista em Educação. Administradora da Insight Clínica Uberlândia e Insight Clínica Terapias Infantis. Atua como professora e Supervisora clínica. Membro Honorário do Grupo Cresex. Atendimento presencial e online."
     },
     {
       name: "Mayara Cardoso",
-      specialty: "Psicóloga Clínica",
-      city: "Uberlândia, MG",
+      specialty: "Psicóloga Clínica e Sexologa",
+      city: "Catalão, GO",
       image:imageMap["mayara-cardoso.jpg"] || imageMap["mayara-cardoso.jpeg"] || imageMap["mayara-cardoso.png"] || "", 
-      bio: "Psicosexóloga e Educadora Sexual, Psicóloga clínica, com atendimento na abordagem TCC, com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade"
+      bio: "Psicóloga Clínica ( CRP: ) na abordagem TCC (Terapia Cognitivo-Comportamental), especialista em sexologia e educação sexual. Atua com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade. Membro Associada do Grupo Cresex. Atendimento 100% online."
     },
     {
       name: "Haíza Ferreira",
-      specialty: "Psicóloga Clínica",
+      specialty: "Psicóloga Clínica  e Sexologa",
       city: "Uberlândia, MG",
       image: imageMap["haiza-ferreira.jpg"] || imageMap["haiza-ferreira.jpeg"] || imageMap["haiza-ferreira.png"] || "",
-      bio: "Responsável pela divulgação de cursos, palestras, eventos, formações, Pós-Graduação na área de Sexualidade em redes sociais, e atividades no geral promovidas pelo Grupo. Contato com cliente, esclarecimentos de dúvidas sobre uma compra, negociação e fechamento de vendas. Gestora da equipe comercial. Realização de atendimento psicoterapêutico."    },
+      bio: "Psicóloga Clínica e sexologa (CRP:04/62270) na abordagem gestalt-terapia. Pós graduada em psicosexologia clínica pelo Grupo Cresex. Atua como escritora e realiza atendimento social para mulheres pretas. Gestora da equipe comercial do Grupo Cresex. Membro Associada do Grupo Cresex. Atendimento presencial e online"    },
     {
       name: "Cláudia Guerra",
-      specialty: "Palestrante e Consultora",
+      specialty: "Historiadora e Palestrante",
       city: "Uberlândia, MG",
       image: imageMap["claudia-guerra.jpg"] || imageMap["claudia-guerra.jpeg"] || imageMap["claudia-guerra.png"] || "",  
-      bio: "Dra. em História sobre a violência doméstica. Profa. em graduação e pós: Sociologia, Filosofia, Antropologia, Ciência Politica, Relações Etnico-Raciais,Sexualidades Afetividades, Viiolência Doméstica, Extensão, Projeto de pesquisa, TCC."
+      bio: "Dra. em História sobre a violência doméstica. Atua como Profa. em graduação e pós: Sociologia, Filosofia, Antropologia, Ciência Politica, Relações Etnico-Raciais,Sexualidades Afetividades, Violência Doméstica e projetos de Extensão e de pesquisa, TCC (Tabalho de conclusão de curso). Atua como ativista no combate da violência contra a mulher e fundadora dos projetos SOS MULHER e NEGUEM (Núcleo de estudo de gênero). Membro honorária do Grupo Cresex. Atendimento como consultoria presencial e online."
     },
     {
       name: "Carolina Pires",
@@ -88,7 +88,7 @@ export default function ProfessionalPage() {
       bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
     },    
     {
-      name: "Ana Paula Alves Martins",
+      name: "Ana Paula Martins",
       specialty: "Professora Universitária",
       city: "Uberlândia, MG",
       image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
@@ -172,14 +172,14 @@ export default function ProfessionalPage() {
       bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê."
     },    
     {
-      name: "Janaína Cintia",
+      name: "Janaína Delbão",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["janaina-cintia.jpg"] || imageMap["janaina-cintia.jpeg"] || imageMap["janaina-cintia.png"],
       bio: "Com abordagem Interseccional atuo com promoção a igualdade de gênero e o fortalecimento de práticas transformadoras em defesa dos direitos das mulheres na sociedade brasileira. Realizo atividades de: Avaliação, Entrevista, Perícia, Formulação de quesitos, Elaboração e Análise de Laudo Pericial, Acompanhamento em audiência, Ações preventivas, Análise de processos, Reuniões de apoio."
     },    
     {
-      name: "Kenya Aparecida",
+      name: "Kenya Borges",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["kenya-aparecida.jpg"] || imageMap["kenya-aparecida.jpeg"] || imageMap["kenya-aparecida.png"],
@@ -200,7 +200,7 @@ export default function ProfessionalPage() {
       bio: "Pós graduada em psicopedagogia pela Universidade Federal de Uberlândia. Especializada em Terapia e Educação sexual pelo Instituto Casal Tessarioli, em São Paulo, (CEFATEF) e especialista em Sexologia pelo mesmo instituto. Membro da Sociedade Brasileira de Estudos em Sexualidade Humana ( SBRASH), do Centro de Referência em Sexualidade (CRESEX) e do grupo de Estudos em Sexualidade, na terapia cognitiva sexual. Psicóloga clínica especializada em sexologia, terapia sexual e de casais. Atua na avaliação, diagnóstico e tratamento das disfunções sexuais masculinas, femininas, independente do gênero e orientação sexual."
     },    
     {
-      name: "Marcio Vinicius",
+      name: "Marcio Vinícius Garcia",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["marcio-vinicius.jpg"] || imageMap["marcio-vinicius.jpeg"] || imageMap["marcio-vinicius.png"],
@@ -214,7 +214,7 @@ export default function ProfessionalPage() {
       bio: "Psicólogo e Sexólogo CRP14/08530-9  Especialista em Sexualidade Humana (UNIARA) e Psicologia Clínica (UNINTER) Graduado em Gestão de Recursos Humanos e docente no curso de Psicologia. Palestrante, criador de conteúdo no Instagram @marcoscmartinelle Atendimento para adultos, casais e grupos com mulheres"
     },    
     {
-      name: "Mirilia Souza",
+      name: "Marília Souza",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["mirilia-souza.jpg"] || imageMap["mirilia-souza.jpeg"] || imageMap["mirilia-souza.png"],
@@ -228,21 +228,21 @@ export default function ProfessionalPage() {
       bio: "Psicólogo com experiência clínica voltada ao cuidado de populações diversas, incluindo pessoas LGBTQIAP+, homens em diferentes fases do ciclo de vida e indivíduos neurodivergentes. Atua com enfoque em *Terapia Cognitivo-Comportamental (TCC), trabalhando crenças centrais de desamor, desvalor e desamparo, além de padrões relacionais repetitivos. Possui trajetória marcada pelo acolhimento de pacientes em situações de trauma, dificuldades de socialização e conflitos familiares, promovendo fortalecimento da autoestima, desenvolvimento de recursos internos e construção de relações mais saudáveis. Atualmente, cursa pós-graduação em **Neuropsicologia e Terapia Cognitivo-Comportamental (TCC)*, ampliando sua formação para integrar avaliação neuropsicológica e intervenções baseadas em evidências. Comprometido com práticas inclusivas e éticas, busca oferecer um espaço seguro de escuta e transformação."
     },    
     {
-      name: "Meg Silva",
+      name: "Meg Silva Santos",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["meg-silva.jpg"] || imageMap["meg-silva.jpeg"] || imageMap["meg-silva.png"],
       bio: "Psicóloga e Sexóloga (CRP 06/187947), com atuação na abordagem Fenomenológica Existencial, pós-graduada em Sexologia e Psicologia Organizacional. Atendo crianças, adolescentes, adultos e casais, com foco em saúde mental, sexualidade, questões de gênero e LGBTQIAPN+. Pesquisadora do trabalho sexual desde 2018. Experiência prévia de 18 anos em RH. Escritora e palestrante, promovo autoconhecimento e construção de sentido."
     },    
     {
-      name: "Mirian Vieira",
+      name: "Miriam Vieira",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },    
     {
-      name: "Pedro Santos",
+      name: "Pedro Santos Gosler",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["pedro-santos.jpg"] || imageMap["pedro-santos.jpeg"] || imageMap["pedro-santos.png"],
@@ -284,14 +284,14 @@ export default function ProfessionalPage() {
       bio: "Minha formação em Ciências Biológicas e pós-graduação em Educação me levaram a passear por múltiplos caminhos com a Educação em Biologia. Mas na realidade moro nos domínios dos estudos de gêneros e sexualidade com as filosofias da diferença. Assim, em determinado momento, tais estudos se colocaram em pé de igualdade com a Educação em Biologia, evocando-me para que agenciassem juntos experienciando, com eles, as possibilidades de cartografar miudezas com o pulsar da vida. Por meio desse encontro me interesso pelos espaços de criação de possíveis com a Educação em Biologia, gêneros e sexualidades. Atuo como professor no Instituto de Biologia (INBIO) da Universidade Federal de Uberlândia (UFU). Meu interesse está na possibilidade de pensar a educação e a formação de professores em Ciências/Biologia em sua condição menor: ativando outros modos de percepção, exercícios menores e inventando linguagens que falam no interstício de línguas maiores que engajem os corpos, os gêneros e as sexualidades."
     },    
     {
-      name: "Sonia Domingos",
+      name: "Sônia Domingos",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["sonia-domingos.jpg"] || imageMap["sonia-domingos.jpeg"] || imageMap["sonia-domingos.png"],
       bio: "Psicóloga - CRP 04/66185 Especialista em Psicologia Cognitivo Comportamental Formação em Terapia do Esquema  Neurociência Aplicada à Psicologia."
     },    
     {
-      name: "Sonia Trindade",
+      name: "SÔnia Trindade",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["sonia-trindade.jpg"] || imageMap["sonia-trindade.jpeg"] || imageMap["sonia-trindade.png"],
@@ -310,9 +310,35 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
       bio: "Tenho 49 anos, casa, 1 filho de 25 anos. Iniciei minha trajetória profissional com 17 anos, etrabalhando 13 anos em estritórios de contabilidade. Depois, dediquei 7 anos à área financeira e mais 6 anos ao setor de saúde. Percebi minha participação em atender e ouvir pessoas, o que me motivou a trabalhar com grupo de mulheres. Observando a necessidade de uma escuta profissional, optei pela graduação de Psicologia, onde atualmente decidi me profissionalizar."
+    },    
+    {
+      name: "Maria Eliza Miranda",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
+      bio: "Linda e bela"
+    },    
+    {
+      name: "Maria Eliza Miranda",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
+      bio: "Linda e bela"
+    },    
+    {
+      name: "Maria Eliza Miranda",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
+      bio: "Linda e bela"
+    },    
+    {
+      name: "Maria Eliza Miranda",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
+      bio: "Linda e bela"
     }
-
-
   ];
 
   const specialties = [
