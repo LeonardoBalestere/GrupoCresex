@@ -301,7 +301,7 @@ export default function ProfessionalPage() {
       name: "Tatiele Gonçalves",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
-      image: imageMap["tatiele-goncalves.jpg"] || imageMap["tatiele-goncalves.jpeg"] || imageMap["tatiele-goncalves.png"],
+      image: imageMap["tatiele-gonçalves.jpg"] || imageMap["tatiele-goncalves.jpeg"] || imageMap["tatiele-goncalves.png"],
       bio: "Tenho 43 anos e sou sexóloga e terapeuta tântrica. Possuo pós-graduação em Sexologia. Atuo há 4 anos na área, utilizando a massagem tântrica e sensual como tratamento alternativo para transtornos sexuais.."
     },    
     {
@@ -313,10 +313,10 @@ export default function ProfessionalPage() {
     },    
     {
       name: "Beatriz Savazzi",
-      specialty: "Estudante de Psicologia",
-      city: "Uberlândia, MG",
-      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
-      bio: "Linda e bela"
+      specialty: "Psicóloga Clínica e Sexologa",
+      city: "Santo André, SP",
+      image: imageMap["beatriz-savazzi.jpg"] || imageMap["beatriz-savazzi.jpeg"] || imageMap["beatriz-savazzi.png"],
+      bio: "Psicóloga clínica (CRP: 06/211301) na abordagem da TCC (Terapia Cognitivo-Comportamental). Atua promovendo uma sexualidade saudável e consciente com foco em mulheres. Membro Associada do Grupo Cresex. Atendimento presencial e online."
     },    
     {
       name: "Maria Eliza Miranda",
