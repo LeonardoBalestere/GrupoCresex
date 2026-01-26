@@ -178,8 +178,7 @@ export default function ProfessionalPage() {
       specialty: "Profissional Do Sexo",
       city: "São Paulo, SP",
       image:imageMap["gab-spec.jpg"] || imageMap["gab-spec.jpeg"] || imageMap["gab-spec.png"] || "", 
-      bio:"Profissional do sexo desde os 19 anos, Gabe Spec atua no mercado adulto há 8 anos, sendo o primeiro profissional do sexo hétero-cis, a se consagrar atendendo somente o público feminino. Começando no interior de SP e hoje rodando o mundo, Gabe utiliza o humor nas redes sociais para trazer tabus a tona e quebrar estigmas tão intrínsecos da sexualidade feminina. Dominador profissional há 6 anos se intitulando como “Sr. Spec”, se especializou na realização de fetiches e práticas de BDSM, mostrando que q sexualidade é um vasto universo repleto de possibilidades.
-"
+      bio:"Profissional do sexo desde os 19 anos, Gabe Spec atua no mercado adulto há 8 anos, sendo o primeiro profissional do sexo hétero-cis, a se consagrar atendendo somente o público feminino. Começando no interior de SP e hoje rodando o mundo, Gabe utiliza o humor nas redes sociais para trazer tabus a tona e quebrar estigmas tão intrínsecos da sexualidade feminina. Dominador profissional há 6 anos se intitulando como “Sr. Spec”, se especializou na realização de fetiches e práticas de BDSM, mostrando que q sexualidade é um vasto universo repleto de possibilidades."
     },   
     {
       name: "Giovani Quadros",
