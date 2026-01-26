@@ -172,7 +172,15 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["fernanda-barros.jpg"] || imageMap["fernanda-barros.jpeg"] || imageMap["fernanda-barros.png"],
       bio: "Psicóloga, Sexóloga e Terapeuta de Casais, pós-graduada em Terapia Cognitivo-Comportamental (TCC), Educação Sexual e Sexologia, e Terapias Cognitivas e Contextuais para Casais e com formação em Terapia Cognitiva Sexual e Terapia de Casal. Membro da Sociedade Brasileira de Estudos em Sexualidade Humana (SBRASH), do Centro de Referência em Sexualidade (CRESEX) e da Federação Brasileira de Terapias Cognitivas (FBTC)."
-    },    
+    },  
+    {
+      name: "Gab Spec",
+      specialty: "Profissional Do Sexo",
+      city: "São Paulo, SP",
+      image:imageMap["gab-spec.jpg"] || imageMap["gab-spec.jpeg"] || imageMap["gab-spec.png"] || "", 
+      bio:"Profissional do sexo desde os 19 anos, Gabe Spec atua no mercado adulto há 8 anos, sendo o primeiro profissional do sexo hétero-cis, a se consagrar atendendo somente o público feminino. Começando no interior de SP e hoje rodando o mundo, Gabe utiliza o humor nas redes sociais para trazer tabus a tona e quebrar estigmas tão intrínsecos da sexualidade feminina. Dominador profissional há 6 anos se intitulando como “Sr. Spec”, se especializou na realização de fetiches e práticas de BDSM, mostrando que q sexualidade é um vasto universo repleto de possibilidades.
+"
+    },   
     {
       name: "Giovani Quadros",
       specialty: "Psicólogo",
@@ -296,7 +304,7 @@ export default function ProfessionalPage() {
       name: "Maria Eliza Miranda",
       specialty: "Estudande de Psicologia",
       city: "Uberlândia, MG",
-      image:imageMap[".jpg"] || imageMap["marcilene-silveira.jpeg"] || imageMap["marcilene-silveira.png"] || "", 
+      image:imageMap["maria-eliza-miranda.jpg"] || imageMap["maria-eliza-miranda.jpeg"] || imageMap["maria-eliza-miranda.png"] || "", 
       bio:""
     },
     {
@@ -305,6 +313,20 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["marilia-souza.jpg"] || imageMap["marilia-souza.jpeg"] || imageMap["marilia-souza.png"],
       bio: "Psicóloga clínica, mestra em Ciências da Saúde, pós-graduada em Docência do Ensino Superior e MBA em Gestão de Pessoas Recebeu uma premiação em Bruxelas com a apresentação do trabalho \"Evaluation of Common Mental Disorders in Leprosy through the “Self Reporting Questionnaire\". Trabalhou com jovens ministrando aulas sobre educação sexual, é consultora em saúde e sexualidade e participa das reuniões da Comissão saúde e sexualidade no Conselho Regional de Psicologia."
+    },
+    {
+      name: "Marina Remiggi",
+      specialty: "Psicóloga Clínica e Sexologa",
+      city: "Uberaba, MG",
+      image:imageMap["marina-remiggi.jpg"] || imageMap["marina-remiggi.jpeg"] || imageMap["marina-remiggi.png"] || "", 
+      bio:"Mãe Atípica, Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com atuação em Sexologia desde 2008. Atua com psicoterapia focada em sexualidade com ênfase em traumas, dores, desconfortos e disfunções sexuais e relacionais, supervisão clínica e educacional, orientação parental e escolar em sexualidade infantojuvenil, além de consultoria em saúde, educação e diversidades sexuais, com ênfase na inclusão de pessoas com deficiência, autismo, da comunidade LGBTQIA+ e de mulheres 40+. É docente pelo CRESEX, coordenadora do AdoleSER®: Orientação e Apoio à sexualidade nas escolas, sexóloga do projeto Acertando o Ritmo com jovens autistas, fundadora do NuSex (Núcleo Especializado em Sexologia) e da Clínica Novo Horizonte Saúde Integrada, cofundadora da ONG Laço Azul de Autismo e membro do CRESEX e do Instituto Ibero-Americano de Sexologia do Brasil."
+    }, 
+    {
+      name: "Marinalva Santana",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image:imageMap["marinalva-santana.jpg"] || imageMap["marinalva-santana.jpeg"] || imageMap["marinalva-santana.png"] || "", 
+      bio:"Marinalva Santana Brito de Melo - Psicóloga – CRP 04/43084- Graduada pelo Centro Universitário do Triângulo (UNITRI, 2014); Pós-graduada em Terapia Familiar e Sexologia pela Faculdade Shalom de Ensino Superior (FASES, 2017); Pós Graduada em Psicodrama pela Faculdade do trabalho (FATRA, 2018); Pós-graduada em Terapia Sistêmica Família e Casal pela Faculdade luterana de Teologia (FLT-2021).Faço parte do corpo docente do CRESEX (Centro de Referência em Sexualidade, SEDE em Uberlândia) do Curso de Pós Graduação em Psicosexologia, com a disciplina Técnicas de Terapia Sistêmica Familiar e Sexual. Atuo na clínica com foco em psicoterapia de casal, familiar e individual. Contato: marinalvapsico@gmail.com  / @marinalvamelopsico."
     },
     {
       name: "Mateus Balduino",
@@ -319,6 +341,13 @@ export default function ProfessionalPage() {
       city: "Catalão, GO",
       image:imageMap["mayara-cardoso.jpg"] || imageMap["mayara-cardoso.jpeg"] || imageMap["mayara-cardoso.png"] || "", 
       bio: "Psicóloga Clínica ( CRP: ) na abordagem TCC (Terapia Cognitivo-Comportamental), especialista em sexologia e educação sexual. Atua com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade. Membro Associada do Grupo Cresex. Atendimento 100% online."
+    },    
+    {
+      name: "Maykon Martins Carvalho",
+      specialty: "Psicólogo Clínica",
+      city: "Uberlândia, MG",
+      image:imageMap["maykon-martins-carvalho.jpg"] || imageMap["maykon-martins-carvalho.jpeg"] || imageMap["maykon-martins-carvalho.png"] || "", 
+      bio:"Psicologo cliníco CRP (MG 04/64091)"
     },
     {
       name: "Mayran Araújo",
@@ -340,7 +369,14 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },    
+    },   
+    {
+      name: "Nilda Alves",
+      specialty: "Psicóloga Clínica E Sexologa",
+      city: "Catalão, GO",
+      image:imageMap["nilda-alves.jpg"] || imageMap["nilda-alves.jpeg"] || imageMap["nilda-alves.png"] || "", 
+      bio:""
+    }, 
     {
       name: "Pedro Santos Gosler",
       specialty: "Psicóloga",
