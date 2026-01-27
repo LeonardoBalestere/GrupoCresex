@@ -65,14 +65,14 @@ export default function ProfessionalPage() {
       name: "Andréa Caparelli",
       specialty: "Psicóloga Clínica",
       city: "Criciúma, SC",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
+      image:imageMap["andrea-caparelli.jpg"] || imageMap["andrea-caparelli.jpeg"] || imageMap["andrea-caparelli.png"] || "", 
       bio:""
     },
     {
       name: "Andréa Hahmeyer Pegorago",
       specialty: "Psicóloga Clínica",
       city: "São Paulo, SP",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
+      image:imageMap["andrea-hahmeyer-pegorago.jpg"] || imageMap["andrea-hahmeyer-pegorago.jpeg"] || imageMap["andrea-hahmeyer-pegorago.png"] || "", 
       bio:""
     },
     {
@@ -114,7 +114,7 @@ export default function ProfessionalPage() {
       name: "Bruno De Medeiros",
       specialty: "Estudante de Psicologia",
       city: "Uberlândia, MG",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
+      image:imageMap["bruno-de-medeiros.jpg"] || imageMap["bruno-de-medeiros.jpeg"] || imageMap["bruno-de-medeiros.png"] || "", 
       bio:""
     },
     {
@@ -149,7 +149,7 @@ export default function ProfessionalPage() {
       name: "Débora Brito",
       specialty: "Advogada",
       city: "Uberlândia, MG",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
+      image:imageMap["debora-brito.jpg"] || imageMap["debora-brito.jpeg"] || imageMap["debora-brito.png"] || "", 
       bio:"Advogada (OAB - 1185441)"
     },  
     {
@@ -233,14 +233,14 @@ export default function ProfessionalPage() {
       name: "Juliana Nascimento Graça",
       specialty: "Psicóloga Clínica",
       city: "Serra - ES",
-      image:imageMap["juliana-de-faveri.jpg"] || imageMap["juliana-de-faveri.jpeg"] || imageMap["juliana-de-faveri.png"] || "", 
+      image:imageMap["juliana-nascimento.jpg"] || imageMap["juliana-nascimento.jpeg"] || imageMap["juliana-nascimento.png"] || "", 
       bio:"Administradora, Sexóloga Clínica e Educacional; Consultora em Saúde Educação Sexual; Pós Graduanda em Terapia Sexual na Saúde e na Educação; Terapeuta Cognitiva Sexual; Empreendedora da Juliana Graça Butique Intima e Membro do Centro de Referência em Sexualidade (CRESEX).Trabalha com palestras; eventos femininos e cursos presenciais e online; Cursos online disponíveis através das minhas redes sociais; Atendimentos para adulto, casais, com foco principalmente no autoconhecimento feminino, como potencializador de prazer e descoberta da sua sexualidade. Ter prazer e depois proporcionar prazer a parceira se assim desejar."
     }, 
     {
       name: "Juliana Scarpinati",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image:imageMap["juliana-de-faveri.jpg"] || imageMap["juliana-de-faveri.jpeg"] || imageMap["juliana-de-faveri.png"] || "", 
+      image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
       bio:""
     },
     {
