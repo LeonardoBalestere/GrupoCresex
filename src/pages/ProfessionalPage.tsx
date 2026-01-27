@@ -40,18 +40,18 @@ export default function ProfessionalPage() {
       bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê."
     },
     {
-      name: "Ana Beatriz Romansini",
-      specialty: "Médica da Família e Comunidade",
-      city: "Santos, SP",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
-      bio: "Médica da Família e Comunidade (CRM: 206.760 RQE: 115.39). Pós-graduação em Sexualidade Humana pela Faculdade Primum (CBI of Miami) e pós-graduação em Sexologia Clínica. Professora do curso de medicina, atua com enfoque em saúde mental, saúde sexual e cuidados com população LGBTQIAPN+. Membro Associada do Grupo Cresex. Atendimento presencial e por telemedicina."
+      name: "Alyne Meirelles",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image:imageMap ["alyne-meirelles.jpg"] || imageMap["alyne-meirelles.jpeg"] || imageMap["alyne-meirelles.png"] || "", 
+      bio: ""
     },
     {
       name: "Ana Beatriz Dias",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image:imageMap["ana-beatriz.jpg"] || imageMap["ana-beatriz.jpeg"] || imageMap["ana-beatriz.png"] || "", 
-      bio: ""
+      image:imageMap["ana-beatriz-dias.jpg"] || imageMap["ana-beatriz-dias.jpeg"] || imageMap["ana-beatriz-dias.png"] || "", 
+      bio: "Abordagem Psicanalítica | Atendimento a Adultos e Adolescentes. Online e presencial.Psicóloga com interesse na atuação em clínica particular a partir da abordagem psicanalítica, oferecendo um espaço de escuta ética e qualificada para adultos e adolescentes, orientada pela singularidade do sujeito, pelo manejo responsável da clínica e pelo compromisso com formação contínua e supervisão. Pós-graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade e membro CRESEX."
     },
     {
       name: "Ana Beatriz Romansini",
@@ -377,6 +377,13 @@ export default function ProfessionalPage() {
       bio:""
     }, 
     {
+      name: "Nubia Cravalho",
+      specialty: "Psicóloga Clínica",
+      city: "Catalão, GO",
+      image:imageMap["nubia-cravalho.jpg"] || imageMap["nubia-cravalho.jpeg"] || imageMap["nubia-cravalho.png"] || "", 
+      bio:""
+    }, 
+    {
       name: "Pedro Santos Gosler",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
@@ -390,6 +397,13 @@ export default function ProfessionalPage() {
       image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
       bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes."
     },    
+    { 
+      name: "Renata Monteiro",
+      specialty: "Psicóloga Clínica E Sexologa",
+      city: "Uberlândia, MG",
+      image:imageMap["renata-monteiro.jpg"] || imageMap["renata-monteiro.jpeg"] || imageMap["renata-monteiro.png"] || "", 
+      bio:"Psicóloga perinatal (CRP04/41235). Atuação com mães e famílias vivendo a perinatalidade: pré-natal psicológico, desde o planejamento gestacional, gestação,  acompanhamento no período puerperal (desde o nascimento do bebê até aproximandamente três anos de vida), além de acompanhamento em casos de infertilidade do casal e luto perinatal.  Atendimento acolhedor a famílias LGBTQIA+ Palestrante, atuação com grupos terapêuticos para gestantes e puérperas, supervisora de casos em perinatalidade. Atendimento através da terapia cognitivo comportamental.Especialista em saúde mental perinatal. Pós-graduada em psicologia perinatal e da parentalidade. Aperfeiçoando em psicodiagnóstico. Aprimorando em sexualidade - CRESEX. Atendimento presencial em Uberlândia/MG e on-line para brasileiras em todo o mundo. Atendimento apenas para adultos."
+    }, 
     {
       name: "Renata Lanza",
       specialty: "Psicóloga",
@@ -402,8 +416,22 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["roberta-resende.jpg"] || imageMap["roberta-resende.jpeg"] || imageMap["roberta-resende.png"],
-      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      bio: "Formada pela Universidade Federal de Uberlândia desde 1994. Especialista em Educação Sexual; Pós graduada em Psicosexologia, Capacitada como terapeuta de relacionamento e casais; Capacitação em Avaliação Psicológica para cirurgia Bariátrica. Atuou como Psicóloga no Projeto Federal Sentinela, com sede em Goiania, com adolescentes grávidas vítimas de abuso sexual. Membro do Centro de Referência em Sexualidade (Cresex)."
     },    
+    {
+      name: "Rodolfo Horbach",
+      specialty: "Fisioterapeuta",
+      city: "Ubêrlandia - MG",
+      image:imageMap["rodolfo-horbach.jpg"] || imageMap["rodolfo-horbach.jpeg"] || imageMap["rodolfo-horbach.png"] || "", 
+      bio:"Fisioterapeuta (Crefito4 304558-F).Fisioterapia pela Unitri. Osteopatia estrutural IDOT. Treinamento Funcional. Formação em tratamentos da coluna vertebral . Formação Internacional Método Stecco de liberação miofascial.Formação internacional kinesiotape.Membro do Centro de Referência em Sexualidade (CRESEX).Formações em Assoalho Pélvico/ Disfunção sexuais masculinas .Fisioterapia pélvica após câncer de próstata"
+    },
+    {
+      name: "Rodrigo Torres",
+      specialty: "Pisicólogo Clínico e Sexologo",
+      city: "Belo Horizonte, MG",
+      image:imageMap["rodrigo-torres.jpg"] || imageMap["rodrigo-torres.jpeg"] || imageMap["rodrigo-torres.png"] || "", 
+      bio:"Psicólogo e Sexólogo (CRP:04/26857).Psicólogo e Sexólogo. Máster em Sexologia Clínica e Saúde Sexual pela Universidade de Barcelona, Espanha, Especialista em Terapia Sexual pela SBRASH. Membro do Conselho Deliberativo e do Conselho Fiscal da SBRASH (2025-2026). Coordenador do Instituto Ibero-americano de Sexologia no Brasil. Ex Secretário Geral da SBRASH (2023-2024). Sub-Delegado Estadual da SBRASH em Minas Gerais. Membro da ISSM (International Society for Sexual Medicine). Membro da ABEMSS (Associação Brasileira de Estudos em Medicina e Saúde Sexual). Membro da ABPBE (Associação Brasileira de Psicologia Baseada em Evidências).Formação em TCS. Certificado em Psicologia Positiva. Formação em Terapia Cognitivo Comportamental e Terapia Breve;."
+    }, 
     {
       name: "Sandra Vasconcelos",
       specialty: "Psicóloga",
@@ -417,6 +445,20 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["sandro-prado.jpg"] || imageMap["sandro-prado.jpeg"] || imageMap["sandro-prado.png"],
       bio: "Minha formação em Ciências Biológicas e pós-graduação em Educação me levaram a passear por múltiplos caminhos com a Educação em Biologia. Mas na realidade moro nos domínios dos estudos de gêneros e sexualidade com as filosofias da diferença. Assim, em determinado momento, tais estudos se colocaram em pé de igualdade com a Educação em Biologia, evocando-me para que agenciassem juntos experienciando, com eles, as possibilidades de cartografar miudezas com o pulsar da vida. Por meio desse encontro me interesso pelos espaços de criação de possíveis com a Educação em Biologia, gêneros e sexualidades. Atuo como professor no Instituto de Biologia (INBIO) da Universidade Federal de Uberlândia (UFU). Meu interesse está na possibilidade de pensar a educação e a formação de professores em Ciências/Biologia em sua condição menor: ativando outros modos de percepção, exercícios menores e inventando linguagens que falam no interstício de línguas maiores que engajem os corpos, os gêneros e as sexualidades."
+    },      
+    {
+      name: "Sarah Urquiza",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image: imageMap["sarah-urquiza.jpg"] || imageMap["sarah-urquiza.jpeg"] || imageMap["sarah-urquiza.png"],
+      bio: ""
+    },    
+    {
+      name: "Silvia Silva Lima",
+      specialty: "Sexóloga e Terapeuta Tântrica",
+      city: "Peixoto De Azevedo, MT",
+      image: imageMap["silvia-silva-lima.jpg"] || imageMap["silvia-silva-lima.jpeg"] || imageMap["silvia-silva-lima.png"],
+      bio: ""
     },    
     {
       name: "Sônia Domingos",
@@ -424,9 +466,9 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["sonia-domingos.jpg"] || imageMap["sonia-domingos.jpeg"] || imageMap["sonia-domingos.png"],
       bio: "Psicóloga - CRP 04/66185 Especialista em Psicologia Cognitivo Comportamental Formação em Terapia do Esquema  Neurociência Aplicada à Psicologia."
-    },    
-    {
-      name: "SÔnia Trindade",
+    },
+    {    
+      name: "Sônia Trindade",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["sonia-trindade.jpg"] || imageMap["sonia-trindade.jpeg"] || imageMap["sonia-trindade.png"],
@@ -438,6 +480,13 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["tatiele-goncalves.jpg"] || imageMap["tatiele-goncalves.jpeg"] || imageMap["tatiele-goncalves.png"],
       bio: "Tenho 43 anos e sou sexóloga e terapeuta tântrica. Possuo pós-graduação em Sexologia. Atuo há 4 anos na área, utilizando a massagem tântrica e sensual como tratamento alternativo para transtornos sexuais.."
+    },   
+    {
+      name: "Thalita Cesário",
+      specialty: "Psicóloga Clínica e Sexóloga",
+      city: "João Pessoa, PB",
+      image: imageMap["thalita-cesario.jpg"] || imageMap["thalita-cesario.jpeg"] || imageMap["thalita-cesario.png"],
+      bio: "Psicoterapeuta e Sexologa, especialista em sexualidade, especialista em terapia cognitiva sexual, terapeuta e educadora em sexualidade, palestrante, co autora do livro: Psicosexologia do CRESEX, membro CRESEX, supervisora em disfunções sexuais e educação sexual e pós graduanda em Psicosexologia.Atendimentos por video chamada individual e casais."
     },    
     {
       name: "Vilma Reiter",
@@ -447,25 +496,11 @@ export default function ProfessionalPage() {
       bio: "Tenho 49 anos, casa, 1 filho de 25 anos. Iniciei minha trajetória profissional com 17 anos, etrabalhando 13 anos em estritórios de contabilidade. Depois, dediquei 7 anos à área financeira e mais 6 anos ao setor de saúde. Percebi minha participação em atender e ouvir pessoas, o que me motivou a trabalhar com grupo de mulheres. Observando a necessidade de uma escuta profissional, optei pela graduação de Psicologia, onde atualmente decidi me profissionalizar."
     },    
     {
-      name: "Maria Eliza Miranda",
-      specialty: "Estudante de Psicologia",
+      name: "Yury Nunes Lima",
+      specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
-      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
-      bio: "Linda e bela"
-    },    
-    {
-      name: "Maria Eliza Miranda",
-      specialty: "Estudante de Psicologia",
-      city: "Uberlândia, MG",
-      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
-      bio: "Linda e bela"
-    },    
-    {
-      name: "Maria Eliza Miranda",
-      specialty: "Estudante de Psicologia",
-      city: "Uberlândia, MG",
-      image: imageMap["vilma-reiter.jpg"] || imageMap["vilma-reiter.jpeg"] || imageMap["vilma-reiter.png"],
-      bio: "Linda e bela"
+      image: imageMap["yury-nunes-lima.jpg"] || imageMap["yury-nunes-lima.jpeg"] || imageMap["yury-nunes-lima.png"],
+      bio: ""
     }
   ];
 
