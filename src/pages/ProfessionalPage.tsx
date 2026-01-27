@@ -150,7 +150,7 @@ export default function ProfessionalPage() {
       specialty: "Advogada",
       city: "Uberlândia, MG",
       image:imageMap["debora-brito.jpg"] || imageMap["debora-brito.jpeg"] || imageMap["debora-brito.png"] || "", 
-      bio:"Advogada (OAB - 1185441)"
+      bio:"Advogada (OAB - 1185441) Formada em Direito pela Universidade Federal de Uberlândia (UFU), é graduanda em Filosofia e atua como voluntária no atendimento a mulheres vítimas de violência, com foco em acolhimento, orientação e promoção de direitos fundamentais."
     },  
     {
       name: "Débora Carvalho",
@@ -241,7 +241,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
-      bio:""
+      bio:"Sou psicóloga, com especialização em Gestão de Pessoas e em Orientação Educacional. Atuo na Psicologia Clínica de adultos e adolescentes, fundamentando minha prática na Terapia Cognitivo-Comportamental e na Terapia do Esquema, com intervenções voltadas ao desenvolvimento emocional e à saúde mental."
     },
     {
       name: "Kenya Borges",
