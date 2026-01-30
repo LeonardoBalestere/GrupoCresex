@@ -258,7 +258,7 @@ export default function ProfessionalPage() {
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },        
     {
-      name: "Leonardo Strack",
+      name: "Leo Strack",
       specialty: "Psicólogo Clínica",
       city: "Porto Alegre - RS",
       image:imageMap["leonardo-strack.jpg"] || imageMap["leonardo-strack.jpeg"] || imageMap["leonardo-strack.png"] || "", 
