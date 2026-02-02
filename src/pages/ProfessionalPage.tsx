@@ -538,7 +538,7 @@ export default function ProfessionalPage() {
       bio: ""
     },    
     {
-      name: " Schirley  Tavares Oliveira",
+      name: "Schirley  Tavares Oliveira",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["schirley-tavares-oliveira.jpg"] || imageMap["schirley-tavares-oliveira.jpeg"] || imageMap["schirley-tavares-oliveira.png"] || "", 
