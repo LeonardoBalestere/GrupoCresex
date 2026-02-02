@@ -40,6 +40,13 @@ export default function ProfessionalPage() {
       bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê."
     },
     {
+      name: "Alinne Costa",
+      specialty: "Professora Universitária",
+      city: "Uberlândia, MG",
+      image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
+      bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
+    },
+    {
       name: "Alyne Meirelles",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
@@ -90,13 +97,6 @@ export default function ProfessionalPage() {
       bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
     },
     {
-      name: "Alinne Costa",
-      specialty: "Professora Universitária",
-      city: "Uberlândia, MG",
-      image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
-      bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica."
-    },
-    {
       name: "Bianca Gontijo",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
@@ -140,7 +140,7 @@ export default function ProfessionalPage() {
     },
     {
       name: "Cida",
-      specialty: "Fisoterapeuta Pélvica",
+      specialty: "Estudante de Psicologia",
       city: "Uberlândia, MG",
       image:imageMap ["cida.jpg"] || imageMap["cida.jpeg"] || imageMap["cida.png"] || "", 
       bio: ""
@@ -237,6 +237,13 @@ export default function ProfessionalPage() {
       bio: "Psicóloga Clínica e sexologa (CRP:04/62270) na abordagem gestalt-terapia. Pós graduada em psicosexologia clínica pelo Grupo Cresex. Atua como escritora e realiza atendimento social para mulheres pretas. Gestora da equipe comercial do Grupo Cresex. Membro Associada do Grupo Cresex. Atendimento presencial e online"   
     },
     {
+      name: "Hedith Santos Souza",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["hedith-santos-souza.jpg"] || imageMap["hedith-santos-souza.jpeg"] || imageMap["hedith-santos-souza.png"],
+      bio: ""
+    },
+    {
       name: "Irene Sousa",
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
@@ -250,6 +257,13 @@ export default function ProfessionalPage() {
       image: imageMap["isabel-paegle.jpg"] || imageMap["isabel-paegle.jpeg"] || imageMap["isabel-paegle.png"],
       bio: "Especialização em Distúrbios Alimentares e Obesidade, Formação Multiprofissional em Sexologia Clínica e Educacional pela FASEX com 28 anos de experiência em atendimento na Psicologia Clínica, Distúrbios Alimentares, Obesidade, Bariátrica e Sexualidade, em equipes multidisciplinares e consultório."
     },    
+    {
+      name: "Isabella De Moura",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["isabella-de-moura.jpg"] || imageMap["isabella-de-moura.jpeg"] || imageMap["isabella-de-moura.png"],
+      bio: ""
+    },
     {
       name: "Janaína Delbão",
       specialty: "Psicóloga",
@@ -298,13 +312,6 @@ export default function ProfessionalPage() {
       city: "Porto Alegre - RS",
       image:imageMap["leonardo-strack.jpg"] || imageMap["leonardo-strack.jpeg"] || imageMap["leonardo-strack.png"] || "", 
       bio:"Bacharel em psicologia pela UFRGS e Especialista em Sexologia Clínica pelo CEFI. Sócio da SPRGS, atuando como membro no Comitê de Sexualidade e coordenador no Comitê de Terapias Contextuais. Membro do grupo de estudos do Instituto Ibero-Americano de Sexologia e membro CRESEX. Especializado no atendimento de saúde mental e saúde sexual masculina."
-    },
-    {
-      name: "Lorena",
-      specialty: "Psicóloga Clínica",
-      city: "Uberlândia, MG",
-      image:imageMap ["lorena.jpg"] || imageMap["lorena.jpeg"] || imageMap["lorena.png"] || "", 
-      bio: ""
     },
     {
       name: "Lourdes Rosa",
