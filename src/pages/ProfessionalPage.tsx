@@ -2,7 +2,7 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
-import { MessageCircle, Search, Filter } from "lucide-react";
+import { MessageCircle, Search, Filter, Instagram } from "lucide-react";
 import { useState } from "react";
 
 // Load image assets from src/assets using Vite glob (bundled & fingerprinted)
@@ -23,7 +23,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Uberlândia, MG",
       image: imageMap["monica1.jpg"] || imageMap["monica1.jpeg"] || imageMap["monica1.png"] || "",
-      bio: "Psicóloga Clínica (CRP: 04/1500714) na abordagem da TCS  (Terapia Cognitivo-sexual), Neuropsicosexóloga e Palestrante - Diretora Fundadora do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Coordenadora da Comissão de Orientação em Psicologia - Saúde e Sexualidade do Conselho Regional de Psicologia Subsede Triângulo. Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online nacional e internacional."
+      bio: "Psicóloga Clínica (CRP: 04/1500714) na abordagem da TCS  (Terapia Cognitivo-sexual), Neuropsicosexóloga e Palestrante - Diretora Fundadora do Grupo Cresex. Psicoterapeuta Sexual (casal e individual), Coordenadora da Comissão de Orientação em Psicologia - Saúde e Sexualidade do Conselho Regional de Psicologia Subsede Triângulo. Mentora para Profissionais da área da Saúde e Sexualidade, Palestrante e Escritora. Atendimento 100% online nacional e internacional.",
+      instagram:"monica"
     },
     {
       name: "Rayana Oliveira",
@@ -37,7 +38,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["isabela-costa.jpg"] || imageMap["isabela-costa.jpeg"] || imageMap["isabela-costa.png"],
-      bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê."
+      bio: "Psicóloga (CRP 04/61862), Mestranda em Psicanálise Clínica, Pós Graduada em Psicologia Social, Pós graduada em Psicosexologia; Formação em Educação Sexual e em Sexualidade com Ênfase na Clínica; Palestrante com Foco em Sexualidade; Especialista na Sexualidade de Mulheres Vítimas de Violência; Coordenadora Acadêmica e Administrativa do Centro de Referência em Sexualidade (CRESEX); Vice-presidente do CMDM (Conselho Municipal de Direito das Mulheres); Co-proprietária da Clínica Psiquê.",
+      instagram: "isabela.costa.psicologa"
     },
     {
       name: "Alinne Costa",
@@ -346,6 +348,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["marcos-martinelle.jpg"] || imageMap["marcos-martinelle.jpeg"] || imageMap["marcos-martinelle.png"],
+      instagram: "marcoscmartinelle",
       bio: "Psicólogo e Sexólogo CRP14/08530-9  Especialista em Sexualidade Humana (UNIARA) e Psicologia Clínica (UNINTER) Graduado em Gestão de Recursos Humanos e docente no curso de Psicologia. Palestrante, criador de conteúdo no Instagram @marcoscmartinelle Atendimento para adultos, casais e grupos com mulheres"
     },    
     {
@@ -745,20 +748,39 @@ export default function ProfessionalPage() {
                           <p className="text-[#666666] mb-4">{member.city}</p>
                           <p className="text-[#666666] text-sm mb-6">{member.bio}</p>
                         </div>
-                        <motion.button
-                          // onClick={() => handleWhatsAppClick(member.phone, member.name)}
-                          onClick={() => handleWhatsAppClick('553491494154', member.name)}
-                          className="bg-[#c71212] text-[#fafafa] px-6 py-3 rounded-lg w-full flex items-center justify-center gap-2 border-2 border-transparent transition-all duration-500"
-                          whileHover={{
-                            scale: 1.05,
-                            borderColor: "#d4af37",
-                            boxShadow: "0 10px 30px rgba(199, 18, 18, 0.3)",
-                          }}
-                          whileTap={{ scale: 0.95 }}
-                        >
-                          <MessageCircle size={20} />
-                          Consultar no WhatsApp
-                        </motion.button>
+                        <div className="flex gap-3 w-full">
+                          <motion.button
+                            // onClick={() => handleWhatsAppClick(member.phone, member.name)}
+                            onClick={() => handleWhatsAppClick('553491494154', member.name)}
+                            className="bg-[#c71212] text-[#fafafa] px-6 py-3 rounded-lg flex-1 flex items-center justify-center gap-2 border-2 border-transparent transition-all duration-500"
+                            whileHover={{
+                              scale: 1.05,
+                              borderColor: "#d4af37",
+                              boxShadow: "0 10px 30px rgba(199, 18, 18, 0.3)",
+                            }}
+                            whileTap={{ scale: 0.95 }}
+                          >
+                            <MessageCircle size={20} />
+                            WhatsApp
+                          </motion.button>
+                          {member.instagram && (
+                            <motion.button
+                              onClick={() => window.open(`https://instagram.com/${member.instagram}`, "_blank", "noopener,noreferrer")}
+                              style={{ backgroundColor: "#C13584" }}
+                              className="text-white px-6 py-3 rounded-lg flex-1 flex items-center justify-center gap-2 border-2 border-transparent transition-all duration-500"
+                              whileHover={{
+                                scale: 1.05,
+                                backgroundColor: "#833AB4",
+                                borderColor: "#d4af37",
+                                boxShadow: "0 10px 30px rgba(193, 53, 132, 0.4)",
+                              }}
+                              whileTap={{ scale: 0.95 }}
+                            >
+                              <Instagram size={20} />
+                              Instagram
+                            </motion.button>
+                          )}
+                        </div>
                       </div>
                     </motion.div>
                   </ScrollRevealCard>
