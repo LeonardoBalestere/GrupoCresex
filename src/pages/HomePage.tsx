@@ -6,6 +6,7 @@ import { Heart, Users, BookOpen, Sparkles, Award, Target } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import monicaImage from "../assets/monica2.jpg";
+import backgroundImage from "../assets/background.jpeg";
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -39,7 +40,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: `url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNpdHklMjBjb21tdW5pdHl8ZW58MXx8fHwxNzMzMDc0MjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080')` 
+            backgroundImage: `url('${backgroundImage}')` 
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
