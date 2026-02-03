@@ -74,7 +74,13 @@ export default function ProfessionalPage() {
       instagram: "anab.romansini"
     },
     {
-  
+      name: "Ana Paula Martins",
+      specialty: "Professora Universitária",
+      city: "Uberlândia, MG",
+      image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
+      bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
+    },
+    {
       name: "Andréa Caparelli",
       specialty: "Psicóloga Clínica",
       city: "Criciúma, SC",
@@ -98,20 +104,6 @@ export default function ProfessionalPage() {
       instagram: "andreahenar.psi"
     },        
     {
-      name: "Ana Paula Martins",
-      specialty: "Professora Universitária",
-      city: "Uberlândia, MG",
-      image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
-      bio: "Docente universitária na área de Psicologia, contribuindo para o ensino de qualidade, orientação acadêmica e desenvolvimento de pesquisas e projetos clínicos e educacionais."
-    },
-    {
-      name: "Bianca Gontijo",
-      specialty: "Psicóloga Clínica",
-      city: "Uberlândia, MG",
-      image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
-      bio: "Experiência com condução de grupos e atuação pela psicodinâmica do trabalho; Experiência com adolescentes institucionalizados do sistema penitenciário de Cuiabá-MT"
-    },   
-    {
       name: "Beatriz Savazzi",
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Santo André, SP",
@@ -119,6 +111,13 @@ export default function ProfessionalPage() {
       bio: "Psicóloga clínica (CRP: 06/211301) na abordagem da TCC (Terapia Cognitivo-Comportamental). Atua promovendo uma sexualidade saudável e consciente com foco em mulheres. Membro Associada do Grupo Cresex. Atendimento presencial e online."
     },
     {
+      name: "Bianca Gontijo",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia, MG",
+      image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
+      bio: "Experiência com condução de grupos e atuação pela psicodinâmica do trabalho; Experiência com adolescentes institucionalizados do sistema penitenciário de Cuiabá-MT"
+    }, 
+    {   
       name: "Bruno De Medeiros",
       specialty: "Estudante de Psicologia",
       city: "Uberlândia, MG",
@@ -131,14 +130,6 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["carolina-santos.jpg"] || imageMap["carolina-santos.jpeg"] || imageMap["carolina-santos.png"],
       bio: "Carolina Santos- terapeuta sexual, escritora, poeta, professora de Arte e doula. Atuo no campo da sexualidade humana a partir de uma perspectiva educativa, terapêutica e libertadora, acompanhando pessoas e casais em processos de autoconhecimento, reconexão com o prazer, comunicação íntima, identidade, autoestima e cura de bloqueios emocionais ligados ao corpo e ao desejo."
-    },
-    {
-      name: "Cláudia Guerra",
-      specialty: "Historiadora e Palestrante",
-      city: "Uberlândia, MG",
-      image: imageMap["claudia-guerra.jpg"] || imageMap["claudia-guerra.jpeg"] || imageMap["claudia-guerra.png"] || "",  
-      bio: "Dra. em História sobre a violência doméstica. Atua como Profa. em graduação e pós: Sociologia, Filosofia, Antropologia, Ciência Politica, Relações Etnico-Raciais,Sexualidades Afetividades, Violência Doméstica e projetos de Extensão e de pesquisa, TCC (Tabalho de conclusão de curso). Atua como ativista no combate da violência contra a mulher e fundadora dos projetos SOS MULHER e NEGUEM (Núcleo de estudo de gênero). Membro honorária do Grupo Cresex. Atendimento como consultoria presencial e online.",
-      instagram: "claudiaguerraudi"
     },
     {
       name: "Carolina Pires",
@@ -154,6 +145,14 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap ["cida.jpg"] || imageMap["cida.jpeg"] || imageMap["cida.png"] || "", 
       bio: ""
+    },
+    {
+      name: "Cláudia Guerra",
+      specialty: "Historiadora e Palestrante",
+      city: "Uberlândia, MG",
+      image: imageMap["claudia-guerra.jpg"] || imageMap["claudia-guerra.jpeg"] || imageMap["claudia-guerra.png"] || "",  
+      bio: "Dra. em História sobre a violência doméstica. Atua como Profa. em graduação e pós: Sociologia, Filosofia, Antropologia, Ciência Politica, Relações Etnico-Raciais,Sexualidades Afetividades, Violência Doméstica e projetos de Extensão e de pesquisa, TCC (Tabalho de conclusão de curso). Atua como ativista no combate da violência contra a mulher e fundadora dos projetos SOS MULHER e NEGUEM (Núcleo de estudo de gênero). Membro honorária do Grupo Cresex. Atendimento como consultoria presencial e online.",
+      instagram: "claudiaguerraudi"
     },
     {
       name: "Cleyciane Faria",
@@ -199,7 +198,14 @@ export default function ProfessionalPage() {
       image: imageMap["erica-santos.jpg"] || imageMap["erica-santos.jpeg"] || imageMap["erica-santos.png"],
       bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       instagram: "vitrine_uberlandia"
-    },    
+    }, 
+    {
+      name: "Erika",
+      specialty: "Estudante de Psicologia",
+      city: "Uberlândia, MG",
+      image:imageMap ["erika.jpg"] || imageMap["erika.jpeg"] || imageMap["erika.png"] || "", 
+      bio: ""
+    },
     {
       name: "Fernanda Barros",
       specialty: "Psicóloga",
@@ -233,7 +239,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["grazielly-baggenstoss.jpg"] || imageMap["grazielly-baggenstoss.jpeg"] || imageMap["grazielly-baggenstoss.png"],
-      bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      bio: "Doutora em Direito, Política e Sociedade - UFSC e Doutora  e em Psicologia Social Crítica - UFSC. Professora da Universidade Federal de Santa Catarina, atuante nas disciplinas de Direitos Humanos, Direitos e Feminismos e Pesquisa (Graduação em Direito) e Estudos de Gênero e Psicologia (Pós Graduação em Psicologia). Coordena o Núcleo de Pesquisas em Direito e Gênero (CNPq/UFSC) . Atua em estudos sobre Estudos de Gênero, Feminismos, Direitos Sexuais e Reprodutivos, Práticas Antidiscriminatórias e Crítica ao Direito. Tem formação em Psicanálise e é membra da ABRAPSO e da ABPP.",
       instagram: "grazybaggenstoss"
     }, 
     {
@@ -467,17 +473,17 @@ export default function ProfessionalPage() {
       instagram: "sexologanildaalves"
     }, 
     {
-      name: "Nubia Cravalho",
+      name: "Nubia Carvalho",
       specialty: "Psicóloga Clínica",
       city: "Catalão, GO",
-      image:imageMap["nubia-cravalho.jpg"] || imageMap["nubia-cravalho.jpeg"] || imageMap["nubia-cravalho.png"] || "", 
+      image:imageMap["nubia-carvalho.jpg"] || imageMap["nubia-carvalho.jpeg"] || imageMap["nubia-carvalho.png"] || "", 
       bio:""
     }, 
     {
-      name: "Paulo",
+      name: "Paulo Roberto",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image:imageMap ["paulo.jpg"] || imageMap["paulo.jpeg"] || imageMap["paulo.png"] || "", 
+      image:imageMap ["paulo-roberto.jpg"] || imageMap["paulo-roberto.jpeg"] || imageMap["paulo-roberto.png"] || "", 
       bio: ""
     },
     {
@@ -488,10 +494,10 @@ export default function ProfessionalPage() {
       bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO)."
     },    
     {
-      name: "Poliana Luiza",
+      name: "Poliana Luisa",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image:imageMap ["poliana-luiza.jpg"] || imageMap["poliana-luiza.jpeg"] || imageMap["poliana-luiza.png"] || "", 
+      image:imageMap ["poliana-luisa.jpg"] || imageMap["poliana-luisa.jpeg"] || imageMap["poliana-luisa.png"] || "", 
       bio: ""
     },
     {
@@ -568,7 +574,7 @@ export default function ProfessionalPage() {
       bio: ""
     },    
     {
-      name: "Schirley  Tavares Oliveira",
+      name: "Schirley Tavares Oliveira",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["schirley-tavares-oliveira.jpg"] || imageMap["schirley-tavares-oliveira.jpeg"] || imageMap["schirley-tavares-oliveira.png"] || "", 
