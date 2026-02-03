@@ -179,13 +179,6 @@ export default function ProfessionalPage() {
       instagram: "deboracarvalhogs"
     }, 
     {
-      name: "Deíse Lourenço",
-      specialty: "Psicóloga Clínica",
-      city: "Uberlândia, MG",
-      image:imageMap ["deise-lourenco.jpg"] || imageMap["deise-lourenco.jpeg"] || imageMap["deise-lourenco.png"] || "", 
-      bio: ""
-    },
-    {
       name: "Élen Jane Santoro",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
