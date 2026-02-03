@@ -167,13 +167,6 @@ export default function ProfessionalPage() {
       bio: "Psicóloga Clínica (CRP 04/42242) na abordagem TCC (Terapia Cognitivo-Comportamental). Especialista em Sexualidade Humana; Especialista em Educação. Administradora da Insight Clínica Uberlândia e Insight Clínica Terapias Infantis. Atua como professora e Supervisora clínica. Membro Honorário do Grupo Cresex. Atendimento presencial e online."
     }, 
     {
-      name: "Deíse Lourenço",
-      specialty: "Psicóloga Clínica",
-      city: "Uberlândia, MG",
-      image:imageMap ["deise-lourenco.jpg"] || imageMap["deise-lourenco.jpeg"] || imageMap["deise-lourenco.png"] || "", 
-      bio: ""
-    },
-    {
       name: "Élen Jane Santoro",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
