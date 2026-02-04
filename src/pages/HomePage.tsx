@@ -233,8 +233,8 @@ export default function HomePage() {
                   </p>
                 </div>
                 <p className="text-gray-400 mb-4">
-                  Mônica Lima é referência nacional em educação em sexualidade e terapia sexual. 
-                  Com mais de 15 anos de experiência, ela fundou o GRUPO CRESEX com a missão 
+                  Psicóloga Mônica Lima é referência nacional e internacional em educação em sexualidade e terapia sexual. 
+                  Com mais de 20 anos de experiência, ela fundou o GRUPO CRESEX com a missão 
                   de unir profissionais e promover transformação social.
                 </p>
                 <motion.button

@@ -775,7 +775,7 @@ export default function ProfessionalPage() {
                       <div className="h-2 bg-gradient-to-r from-[#c71212] to-[#d4af37]"></div>
                       <div className="p-6 flex flex-col flex-1">
                         <div className="flex flex-col items-center text-center mb-auto">
-                          <div className="w-32 h-32 rounded-lg overflow-hidden mb-4 border-4 border-[#c71212]">
+                          <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-[#c71212]">
                             <img
                               src={member.image}
                               alt={member.name}
