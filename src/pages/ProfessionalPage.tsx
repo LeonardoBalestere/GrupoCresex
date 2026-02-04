@@ -391,7 +391,7 @@ export default function ProfessionalPage() {
       specialty: "Estudande de Psicologia",
       city: "Uberlândia, MG",
       image:imageMap["maria-eliza-miranda.jpg"] || imageMap["maria-eliza-miranda.jpeg"] || imageMap["maria-eliza-miranda.png"] || "", 
-      bio:"Estudante de Psicologia, Oitavo Período. Interesse em Sexologia e Educação. Pretende partir da abordagem psicanalitica para atuar com adultos e adolescentes.Faz do Apoio Administrativo do Grupo Cresex.",
+      bio:"Estudante de Psicologia, Oitavo Período. Interesse em Sexologia e Educação. Pretende partir da abordagem psicanalitica para atuar com adultos e adolescentes.Faz parte do Apoio Administrativo do Grupo Cresex.",
       instagram: "flordeliz__________"
     },
     {
