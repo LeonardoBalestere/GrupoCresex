@@ -119,31 +119,40 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {contactInfo.map((info, index) => (
               <ScrollReveal key={index} delay={index * 0.15}>
-                <motion.div
-                  className="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-100"
-                  whileHover={{
-                    y: -10,
-                    boxShadow: "0 25px 50px rgba(199, 18, 18, 0.15)",
-                  }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <div className={`w-16 h-16 bg-gradient-to-br ${info.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
-                    <info.icon className="text-white" size={28} />
-                  </div>
-                  <h3 className="text-black mb-3">{info.title}</h3>
-                  {info.link ? (
-                    <a
-                      href={info.link}
-                      target={info.link.startsWith('http') ? '_blank' : undefined}
-                      rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      className="text-[#c71212] hover:text-[#d4af37] transition-colors"
-                    >
-                      {info.content}
-                    </a>
-                  ) : (
+                {info.link ? (
+                  <motion.a
+                    href={info.link}
+                    target={info.link.startsWith('http') ? '_blank' : undefined}
+                    rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    className="block bg-white p-6 rounded-xl shadow-lg text-center border border-gray-100 cursor-pointer"
+                    whileHover={{
+                      y: -10,
+                      boxShadow: "0 25px 50px rgba(199, 18, 18, 0.15)",
+                    }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className={`w-16 h-16 bg-gradient-to-br ${info.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
+                      <info.icon className="text-white" size={28} />
+                    </div>
+                    <h3 className="text-black mb-3">{info.title}</h3>
+                    <p className="text-[#c71212]">{info.content}</p>
+                  </motion.a>
+                ) : (
+                  <motion.div
+                    className="bg-white p-6 rounded-xl shadow-lg text-center border border-gray-100"
+                    whileHover={{
+                      y: -10,
+                      boxShadow: "0 25px 50px rgba(199, 18, 18, 0.15)",
+                    }}
+                    transition={{ duration: 0.5 }}
+                  >
+                    <div className={`w-16 h-16 bg-gradient-to-br ${info.color} rounded-full flex items-center justify-center mx-auto mb-4`}>
+                      <info.icon className="text-white" size={28} />
+                    </div>
+                    <h3 className="text-black mb-3">{info.title}</h3>
                     <p className="text-[#666666]">{info.content}</p>
-                  )}
-                </motion.div>
+                  </motion.div>
+                )}
               </ScrollReveal>
             ))}
           </div>

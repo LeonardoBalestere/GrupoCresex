@@ -115,7 +115,7 @@ export default function EnasexPage() {
               }}
               whileTap={{ scale: 0.95 }}
             >
-              Inscrições em bereve
+              Inscrições em breve
             </motion.button>
           </motion.div>
         </div>

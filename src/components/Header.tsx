@@ -13,7 +13,7 @@ export function Header() {
     { label: "Serviços", path: "/servicos" },
     { label: "ENASEX", path: "/enasex" },
     { label: "Projetos", path: "/projetos" },
-    { label: "Membros", path: "/membros" },
+    { label: "Associar", path: "/membros" },
     { label: "Profissionais", path: "/profissionais" },
     { label: "Saiba Mais", path: "/NossaHistória" },
     { label: "Contato", path: "/contato" },

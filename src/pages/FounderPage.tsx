@@ -70,7 +70,7 @@ export default function FounderPage() {
               </div>
               <h1 className="text-[#fafafa] mb-6">Mônica Lima</h1>
               <p className="text-[#d4af37] text-xl mb-4">
-                Sexóloga, Terapeuta Sexual e Educadora
+                Psicóloga, Sexóloga, Terapeuta Sexual, Educadora, Escritora e Palestrante
               </p>
               <p className="text-[#fafafa] text-lg">
                 Referência nacional em educação em sexualidade, com mais de 20 anos transformando 
@@ -109,7 +109,7 @@ export default function FounderPage() {
           <div className="max-w-4xl mx-auto space-y-6 text-[#666666]">
             <ScrollReveal>
               <p>
-                Mônica Lima iniciou sua carreira como psicóloga clínica, mas logo descobriu sua verdadeira paixão: 
+                Mônica Lima iniciou sua carreira como psicóloga organizacional, mas logo descobriu sua verdadeira paixão: 
                 a sexologia e a educação em sexualidade, e realizou especializações internacionais em diversos países.
               </p>
             </ScrollReveal>
@@ -267,7 +267,7 @@ export default function FounderPage() {
           <ScrollRevealTitle>
             <h2 className="text-black mb-6">Conecte-se com Mônica</h2>
             <p className="text-[#666666] mb-8 text-xl">
-              Siga o trabalho da Dra. Mônica Lima nas redes sociais e acompanhe 
+              Siga o trabalho da psicóloga Mônica Lima nas redes sociais e acompanhe 
               suas palestras, publicações e projetos
             </p>
             <motion.button
