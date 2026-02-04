@@ -47,15 +47,15 @@ export default function ProfessionalPage() {
       specialty: "Professora Universitária",
       city: "Uberlândia, MG",
       image: imageMap["alinne-costa.jpg"] || imageMap["alinne-costa.jpeg"] || imageMap["alinne-costa.png"],
-      bio: "Mestre em Educação pela Universidade Federal de Uberlândia Especialista em Docência para a Diversidade pela UFU Professora de História, Projeto de Vida e Filosofia na Educação Básica.",
+      bio: "Professora Universitária com Foco em docência para a diversidade e mestre em educação pela UFU (Universidade Federal de Uberlândia), também atua como professora na educação básica em história, projeto de vida e filosofia. Membro associado do Grupo Cresex.",
       instagram: "profealinnecosta"
     },
     {
       name: "Alyne Meirelles",
-      specialty: "Psicóloga Clínica",
+      specialty: "Pedagoga e Terapeuta Sexual",
       city: "Uberlândia, MG",
       image:imageMap ["alyne-meirelles.jpg"] || imageMap["alyne-meirelles.jpeg"] || imageMap["alyne-meirelles.png"] || "", 
-      bio: ""
+      bio: "Pedagoga, Terapeuta Sexual com Foco em Educação Sexual. Pós graduada em terapia sexual na saúde e educação, mestre em educação pela MASTER ESEPAS (Educação Sexual e Prevenção ao Abuso Sexual). Além disso atua como professora, palestrante e mentora de oficinas. Membro Associada do Grupo Cresex.",
     },
     {
       name: "Ana Beatriz Dias",
@@ -200,11 +200,11 @@ export default function ProfessionalPage() {
       instagram: "vitrine_uberlandia"
     }, 
     {
-      name: "Erika",
+      name: "Erika Rodrigues",
       specialty: "Estudante de Psicologia",
       city: "Uberlândia, MG",
-      image:imageMap ["erika.jpg"] || imageMap["erika.jpeg"] || imageMap["erika.png"] || "", 
-      bio: ""
+      image:imageMap ["erika-rodrigues.jpg"] || imageMap["erika-rodrigues.jpeg"] || imageMap["erika-rodrigues.png"] || "", 
+      bio: "Estudante de psicologia, décimo período. O interesse em sexologia surgiu diante da importância sobre o debate e o conhecimento prévio do assunto. Pretende desenvolver a psicosexologia usando a abordagem TCC e atender especialmente mulheres e crianças, pois considera a conversa sobre sexualidade mais do que essencial para estes grupos em específico. Membro Associada do Grupo Cresex."
     },
     {
       name: "Fernanda Barros",
