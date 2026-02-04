@@ -624,7 +624,7 @@ export default function ProfessionalPage() {
       name: "Vandinha",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
-      image:imageMap ["alyne-meirelles.jpg"] || imageMap["alyne-meirelles.jpeg"] || imageMap["alyne-meirelles.png"] || "", 
+      image:imageMap ["vandinha.jpg"] || imageMap["vandinha.jpeg"] || imageMap["vandinha.png"] || "", 
       bio: ""
     },
     {
