@@ -62,7 +62,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["ana-beatriz-dias.jpg"] || imageMap["ana-beatriz-dias.jpeg"] || imageMap["ana-beatriz-dias.png"] || "", 
-      bio: "Abordagem Psicanalítica | Atendimento a Adultos e Adolescentes. Online e presencial.Psicóloga com interesse na atuação em clínica particular a partir da abordagem psicanalítica, oferecendo um espaço de escuta ética e qualificada para adultos e adolescentes, orientada pela singularidade do sujeito, pelo manejo responsável da clínica e pelo compromisso com formação contínua e supervisão. Pós-graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade e membro CRESEX.",
+      bio: "Psicóloga Clínica na Abordagem Psicanalítica com foco em oferecer um espaço de escuta ética e qualificada para adultos e adolescentes, orientada pela singularidade do sujeito, pelo manejo responsável da clínica e pelo compromisso com formação contínua e supervisão. Pós-graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. Membro Associada do Grupo Cresex. Atendimento presencial e online.",
       instagram: "psi.anadiias"
     },
     {
