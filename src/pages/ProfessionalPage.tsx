@@ -85,7 +85,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Criciúma, SC",
       image:imageMap["andrea-caparelli.jpg"] || imageMap["andrea-caparelli.jpeg"] || imageMap["andrea-caparelli.png"] || "", 
-      bio:""
+      bio:"Psicóloga Clínica na Abordagem da Sistêmica Familiar e analista transacional . Sexologa. Membro A0ssociada do Grupo Cresex. Atendimento Presencial e Online."
     },
     {
       name: "Andréa Hahmeyer Pegorago",
@@ -122,7 +122,7 @@ export default function ProfessionalPage() {
       specialty: "Estudante de Psicologia",
       city: "Uberlândia, MG",
       image:imageMap["bruno-de-medeiros.jpg"] || imageMap["bruno-de-medeiros.jpeg"] || imageMap["bruno-de-medeiros.png"] || "", 
-      bio:"Membro Associado do Grupo Cresex."
+      bio:"Estudante de Psicologia pela UNA Karaíba e pesquisador vinculado à Universidade das Nações. Atua com interesse nas interfaces entre saúde mental, aconselhamento e desenvolvimento humano, buscando integrar pesquisa, prática e reflexão na construção de caminhos terapêuticos mais sensíveis e transformadores. Membro Associado do Grupo Cresex."
     },
     {
       name: "Carolina Santos",
@@ -285,7 +285,7 @@ export default function ProfessionalPage() {
       specialty: "Fisioterapeuta e Psicanalista Clínica",
       city: "Paracatu, MG",
       image: imageMap["isabella-de-moura.jpg"] || imageMap["isabella-de-moura.jpeg"] || imageMap["isabella-de-moura.png"],
-      bio: "Fisioterapia Pélvica, Terapia Sexual e Casal - Psicanálise clínica. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Fisioterapeuta e Psicanalista. Especializada no método pompoarismo para potencializar o desempenho sexual feminino. Pós graduada em fisioterapia aplicada à saúde da mulher e do homem. Formação internacional em fisioterapia pélvica. Pós graduada em terapia sexual na saúde e educação.Palestrante e apresentadora. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
     },
     {
       name: "Janaína Delbão",
@@ -297,10 +297,10 @@ export default function ProfessionalPage() {
     },  
     {
       name: "Juliana De Faveri",
-      specialty: "Psicóloga Clínica",
+      specialty: "Consultora em saúde",
       city: "Uberlândia, MG",
       image:imageMap["juliana-de-faveri.jpg"] || imageMap["juliana-de-faveri.jpeg"] || imageMap["juliana-de-faveri.png"] || "", 
-      bio:"Membro Associada do Grupo Cresex."
+      bio:"Consultora em Saúde e Sexualidade. Graduada em educação física. Atua como especialista em Gênero e Sexualidade. Estuda sobre vivência da sexualidade da mulher e na Educação sexual de crianças e adolescentes. Membro Associada do Grupo Cresex."
     },    
     {
       name: "Juliana Nascimento Graça",
@@ -467,7 +467,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
-      bio: "Membro Associada do Grupo Cresex.",
+      bio: "Psicóloga Clínica terapeuta de casais. Especialista em Educação Sexual.ós graduada em Psicosexologia. Especialista em Psicodrama Clinico e Pedagógico e Dinâmica de Grupo. specialista em Psicodrama Clinico e Pedagógico e Dinâmica de Grupo; Formação em Terapia Sistêmica e Genosistêmica e formanda em TCS- Terapia Cognitivo Sexual da infância e adolescência. Com capacitação em Avaliação Psicológica para Cirurgia de Laqueadura, Vasectomia e Bariátrica. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "miriamvieirapsico_"
     },   
     {
@@ -483,7 +483,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica E Sexologa",
       city: "Catalão, GO",
       image:imageMap["nilda-alves.jpg"] || imageMap["nilda-alves.jpeg"] || imageMap["nilda-alves.png"] || "", 
-      bio:"",
+      bio:"Psicóloga (CRP 09/6795), Sexóloga Clínica e Psicoterapeuta de Casais Especialista em Psicosexologia e Dependência Quimica. Palestrante e estudiosa em temas de Psicologia, Neuropsicológica, Educação Sexual e Terapia de Casais. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "sexologanildaalves"
     }, 
     {
