@@ -125,6 +125,13 @@ export default function ProfessionalPage() {
       bio:"Estudante de Psicologia pela UNA Karaíba e pesquisador vinculado à Universidade das Nações. Atua com interesse nas interfaces entre saúde mental, aconselhamento e desenvolvimento humano, buscando integrar pesquisa, prática e reflexão na construção de caminhos terapêuticos mais sensíveis e transformadores. Membro Associado do Grupo Cresex."
     },
     {
+      name: "Camila Gabriele Martins",
+      specialty: "Psicóloga Clínica",
+      city: "Uberlândia - MG",
+      image:imageMap["camila-gabriele-martins.jpg"] || imageMap["camila-gabriele-martins.jpg.jpeg"] || imageMap["camila-gabriele-martins.jpg.png"] || "", 
+      bio:"",                                           
+    },
+    {
       name: "Carolina Santos",
       specialty: "Terapeuta Sexual",
       city: "Uberlândia, MG",
@@ -138,13 +145,6 @@ export default function ProfessionalPage() {
       image: imageMap["carolina-pires.jpg"] || imageMap["carolina-pires.jpeg"] || imageMap["carolina-pires.png"] || "",
       bio: "Psicóloga Clínica, Sexóloga e Palestrante (CRP 09/010811), com Foco em Sexualidade e Autoestima da Mulher, Promovendo Escuta Acolhedora e Transformação Pessoal. Especialista em Neuropsicologia, Psicologia Sexual, Terapia Cognitivo-Comportamental e Psicologia Forense e Jurídica. Escritora do Livro Deixei de ser Boazinha e Virei Poderosa, onde Inspira Mulheres a se Reconectarem com sua Força Interior e Colunista num Site de Relacionamentos. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "carolinapirespsi"
-    },
-    {
-      name: "Cida",
-      specialty: "Estudante de Psicologia",
-      city: "Uberlândia, MG",
-      image:imageMap ["cida.jpg"] || imageMap["cida.jpeg"] || imageMap["cida.png"] || "", 
-      bio: "Membro Associada do Grupo Cresex."
     },
     {
       name: "Cláudia Guerra",
@@ -186,7 +186,7 @@ export default function ProfessionalPage() {
     },
     {
       name: "Élloa Castro De Souza Coelho",
-      specialty: "Estudante de Psicologia",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["elloa-castro-de-souza-coelho.jpg"] || imageMap["elloa-castro-de-souza-coelho.jpeg"] || imageMap["elloa-castro-de-souza-coelho.png"] || "", 
       bio: "Membro Associada do Grupo Cresex."
