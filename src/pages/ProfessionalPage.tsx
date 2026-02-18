@@ -129,7 +129,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia - MG",
       image:imageMap["camila-gabriele-martins.jpg"] || imageMap["camila-gabriele-martins.jpg.jpeg"] || imageMap["camila-gabriele-martins.jpg.png"] || "", 
-      bio:"",                                           
+      bio:"Camila Gabriele é psicóloga clínica  (CRP-04 / 84604) atendendo na abordagem Psicanalítica. Atua em sexualidade e gênero e atende adolescentes e adultos. Membro Associada do Grupo Cresex. Atendimento On-line.",                                           
     },
     {
       name: "Carolina Santos",
