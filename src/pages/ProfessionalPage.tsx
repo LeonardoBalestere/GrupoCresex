@@ -83,9 +83,9 @@ export default function ProfessionalPage() {
     {
       name: "Andréa Caparelli",
       specialty: "Psicóloga Clínica",
-      city: "Araraquara , SP",
+      city: "Campos Novos, SC",
       image:imageMap["andrea-caparelli.jpg"] || imageMap["andrea-caparelli.jpeg"] || imageMap["andrea-caparelli.png"] || "", 
-      bio:"Psicóloga Clínica na Abordagem da Sistêmica Familiar e analista transacional . Sexologa. Membro A0ssociada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio:"Psicóloga (CRP 12/03025) Atuo na área clinica, com atendimento a adolescentes, adultos e casais Especialista em Avaliação Psicológica. Sexologa. Membro A0ssociada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "psico.andreacapparelli"
     },
     {
@@ -124,20 +124,29 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["bruno-de-medeiros.jpg"] || imageMap["bruno-de-medeiros.jpeg"] || imageMap["bruno-de-medeiros.png"] || "", 
       bio:"Estudante de Psicologia pela UNA Karaíba e pesquisador vinculado à Universidade das Nações. Atua com interesse nas interfaces entre saúde mental, aconselhamento e desenvolvimento humano, buscando integrar pesquisa, prática e reflexão na construção de caminhos terapêuticos mais sensíveis e transformadores. Membro Associado do Grupo Cresex."
+    }, 
+    {   
+      name: "Bruna Higa",
+      specialty: "Psicóloga clínica/ sexóloga",
+      city: "Uberlândia, MG",
+      image:imageMap["bruna-higa.jpg"] || imageMap["bruna-higa.jpeg"] || imageMap["bruna-higa.png"] || "", 
+      bio:"Psicóloga (CRP 06/194656), psicoterapeuta corporal, esquizodramatista, com especialização em Saúde Mental, Formação em Dança Criativa (baseada na psicologia do movimento). Realizo atendimentos online para todo o mundo, voltado ao público: adolescentes, adultos e idosos."
     },
     {
       name: "Camila Gabriele Martins",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia - MG",
       image:imageMap["camila-gabriele-martins.jpg"] || imageMap["camila-gabriele-martins.jpg.jpeg"] || imageMap["camila-gabriele-martins.jpg.png"] || "", 
-      bio:"",                                           
+      bio:"",   
+      instagram: "gabriellecamila"                                        
     },
     {
       name: "Carolina Santos",
       specialty: "Terapeuta Sexual",
       city: "Uberlândia, MG",
       image: imageMap["carolina-santos.jpg"] || imageMap["carolina-santos.jpeg"] || imageMap["carolina-santos.png"],
-      bio: "Carolina Santos - Terapeuta Sexual, Escritora, Poeta, Professora de Arte e Doula. Atuo no Campo da Sexualidade Humana a partir de uma Perspectiva Educativa, Terapêutica e Libertadora, Acompanhando Pessoas e Casais em Processos de Autoconhecimento, Reconexão com o Prazer, Comunicação Íntima, Identidade, Autoestima e Cura de Bloqueios Emocionais Ligados ao Corpo e ao Desejo. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Carolina Santos - Terapeuta Sexual, Escritora, Poeta, Professora de Arte e Doula. Atuo no Campo da Sexualidade Humana a partir de uma Perspectiva Educativa, Terapêutica e Libertadora, Acompanhando Pessoas e Casais em Processos de Autoconhecimento, Reconexão com o Prazer, Comunicação Íntima, Identidade, Autoestima e Cura de Bloqueios Emocionais Ligados ao Corpo e ao Desejo. Membro Associada do Grupo Cresex. Atendimento Online.",
+      instagram: "carol.alessandra.9"
     },
     {
       name: "Carolina Pires",
@@ -220,14 +229,14 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São Paulo, SP",
       image:imageMap ["fernanda-fraga.jpg"] || imageMap["fernanda-fraga.jpeg"] || imageMap["fernanda-fraga.png"] || "", 
-      bio: "Psicóloga Clínica. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "Psicóloga Clínica na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
     },
     {
       name: "Fernanda Marqueto",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["fernanda-marqueto.jpg"] || imageMap["fernanda-marqueto.jpeg"] || imageMap["fernanda-marqueto.png"] || "", 
-      bio: "Psicóloga Clínica na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "Psicóloga Clínica na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Online."
     },
     {
       name: "Gabe Spec",
@@ -248,7 +257,7 @@ export default function ProfessionalPage() {
       specialty: "Pprofessora Universitária e Escritora",
       city: "Santa Catarina, SC",
       image: imageMap["grazielly-baggenstoss.jpg"] || imageMap["grazielly-baggenstoss.jpeg"] || imageMap["grazielly-baggenstoss.png"],
-      bio: "Doutora em Direito, Política e Sociedade - UFSC e Doutora  e em Psicologia Social Crítica - UFSC. Professora da Universidade Federal de Santa Catarina, atuante nas disciplinas de Direitos Humanos, Direitos e Feminismos e Pesquisa (Graduação em Direito) e Estudos de Gênero e Psicologia (Pós Graduação em Psicologia). Coordena o Núcleo de Pesquisas em Direito e Gênero (CNPq/UFSC) . Atua em estudos sobre Estudos de Gênero, Feminismos, Direitos Sexuais e Reprodutivos, Práticas Antidiscriminatórias e Crítica ao Direito. Tem formação em Psicanálise e é membra da ABRAPSO e da ABPP. Membro Associada do Grupo Cresex.",
+      bio: "Professora Universitária (UFSC) e Mentora (Connecta/UFSC), com atuação interdisciplinar entre o Direito e a Psicologia. Saa abordagem é fundamentada na escuta psicanalítica e simbólica. Atua com temas relacionados a processos de subjetivação de mulheres e processos de tomada de decisão.Doutora em Direito e Doutora em Psicologia, desenvolve pesquisas e formações nas áreas de atuação. É membro do CRESEX e realiza atendimentos e orientações de forma online e presencial.",
       instagram: "grazybaggenstoss"
     }, 
     {
@@ -279,8 +288,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Guaruja, SP",
       image: imageMap["isabel-paegle.jpg"] || imageMap["isabel-paegle.jpeg"] || imageMap["isabel-paegle.png"],
-      bio: "Psicosexóloga Clínica (CRP 06/49276) e Sexóloga com Especialização em Distúrbios Alimentares e Obesidade. Possui Formação Multiprofissional em Sexologia Clínica e Educacional pela FASEX, com 28 Anos de Experiência em Atendimento na Psicologia Clínica, Distúrbios Alimentares, Obesidade, Bariátrica e Sexualidade, em Equipes Multidisciplinares e Consultório. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
-      instagram: "sexualidadenabariatrica"
+      bio: "Psicóloga Clínica (CRP 06/49276) na Abordagem da TCC (Terapia cognitiva comportamental) e Sexóloga; Mestrado em Psicologia da Saúde; Com foco em atendimentos nas áreas de Psicologia Clínica, Sexualidade, Distúrbios Alimentares, Obesidade e Bariátrica; Formação Multiprofissional em Sexologia Clínica e Educacional; Especialização em Distúrbios Alimentares e Obesidade - CEPSIC - Centro de Estudos Psico Cirúrgicos da Divisão de Psicologia do ICHC da Faculdade de Medicina da USP; Escritora e Palestrante; Membro Associada do Grupo CRESEX; Atendimento Online.",
+      instagram: "bruh.psi"
     },    
     {
       name: "Isabella De Moura",
@@ -339,7 +348,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínica",
       city: "Porto Alegre - RS",
       image:imageMap["leonardo-strack.jpg"] || imageMap["leonardo-strack.jpeg"] || imageMap["leonardo-strack.png"] || "", 
-      bio:"Psicólogo Clínico (CRP 07/35481) e Especialista em Sexologia Clínica. Sócio da SPRGS, atuando como membro no Comitê de Sexualidade e coordenador no Comitê de Terapias Contextuais. Membro d. Especializado no atendimento de saúde mental e saúde sexual masculina. Membro Associado do Grupo Cresex. Atendimento Presencial e Online.",
+      bio:"Psicólogo Clínico (CRP 07/35481) e Especialista em Sexologia Clínica. Sócio da SPRGS, atuando como membro no Comitê de Sexualidade e coordenador no Comitê de Terapias Contextuais. Membro Especializado no atendimento de saúde mental e saúde sexual masculina. Membro Associado do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "psicologiadacoisa"
     },
     {
@@ -348,7 +357,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["lourdes-rosa.jpg"] || imageMap["lourdes-rosa.jpeg"] || imageMap["lourdes-rosa.png"],
       bio: "Psicóloga clínica especializada em sexologia, terapia sexual e de casais. Pós graduada em psicopedagogia pela Universidade Federal de Uberlândia. Especializada em Terapia e Educação sexual pelo Instituto Casal Tessarioli, em São Paulo, (CEFATEF) e especialista em Sexologia pelo mesmo instituto. Membro do grupo de Estudos em Sexualidade, na terapia cognitiva sexual. Atua na avaliação, diagnóstico e tratamento das disfunções sexuais masculinas, femininas, independente do gênero e orientação sexual.Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
-      instagram: "terapeutalourdesrosa" 
+      instagram: "psicologiasexologialourdesrosa" 
     },
     {
       name: "Luciana Albuquerque",
@@ -469,7 +478,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
-      bio: "Psicóloga Clínica terapeuta de casais. Especialista em Educação Sexual.ós graduada em Psicosexologia. Especialista em Psicodrama Clinico e Pedagógico e Dinâmica de Grupo. specialista em Psicodrama Clinico e Pedagógico e Dinâmica de Grupo; Formação em Terapia Sistêmica e Genosistêmica e formanda em TCS- Terapia Cognitivo Sexual da infância e adolescência. Com capacitação em Avaliação Psicológica para Cirurgia de Laqueadura, Vasectomia e Bariátrica. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga clínica ( CRP: 3521/04 ) na Abordagem do Psicodrama e Terapia sistêmica e Psicoterapeuta de Casais. Atua individualmente, com adolescentes, casais e grupos na área vocacional e na orientação sexual. Pós graduada em Psicosexologia; Especialista em Psicodrama Clinico, Pedagógico e Dinâmica de Grupo; com Formação em Terapia Sistêmica e Genosistemica. Professora na área da sexualidade e autora de diversos títulos publicados. Membro associada do Grupo Cresex. Atendimento online e presencial",
       instagram: "miriamvieirapsico_"
     },   
     {
@@ -608,7 +617,7 @@ export default function ProfessionalPage() {
     },
     {    
       name: "Sônia Trindade",
-      specialty: "Terapeura Neo Tântrica Sistêmica",
+      specialty: "Psicanalista Clínica e Teapeuta da sexualidade",
       city: "Uberlândia, MG",
       image: imageMap["sonia-trindade.jpg"] || imageMap["sonia-trindade.jpeg"] || imageMap["sonia-trindade.png"],
       bio: "Terapeuta neo tântrica sistêmica , com foco em  , disfunções sexuais ,meditações ativas , massagem tântrica  , respiração integrada a terapia .Especialista em saúde intima e bem estar do casal .Educadora Palestrante Vice presidente do Rotary Club Uberlândia Cidade Jardim Coordenadora do grupo PLPs (Promotoras Legais Populares)Membra do colegiado mulheres do brasilMembra do conselho municipal do direito das mulheres (CMDM)Membro do grupo cresex.Membra da comissão de enfrentamento a grupo em vulnerabilidade da OAB Uberlândia",
@@ -623,10 +632,10 @@ export default function ProfessionalPage() {
     },   
     {
       name: "Thalita Cesário",
-      specialty: "Psicóloga Clínica e Sexóloga",
+      specialty: "Terapeuta em sexualidade e sexóloga",
       city: "João Pessoa, PB",
       image: imageMap["thalita-cesario.jpg"] || imageMap["thalita-cesario.jpeg"] || imageMap["thalita-cesario.png"],
-      bio: "Psicoterapeuta e Sexologa, especialista em sexualidade, especialista em terapia cognitiva sexual, terapeuta e educadora em sexualidade, palestrante, co autora do livro: Psicosexologia do CRESEX, membro CRESEX, supervisora em disfunções sexuais e educação sexual e pós graduanda em Psicosexologia.Atendimentos por video chamada individual e casais.",
+      bio: "Sexologa, especialista em sexualidade, especialista em terapia cognitiva sexual, terapeuta e educadora em sexualidade, palestrante, co autora do livro: Psicosexologia do CRESEX, membro CRESEX, supervisora em disfunções sexuais e educação sexual e pós graduanda em Psicosexologia.Atendimentos por video chamada individual e casais.",
       instagram: "athalitacesario"
     },    
     {
