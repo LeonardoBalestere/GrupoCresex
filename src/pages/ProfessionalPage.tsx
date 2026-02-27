@@ -336,10 +336,10 @@ export default function ProfessionalPage() {
     },    
     {
       name: "Kerley Cristina Machado",
-      specialty: "Psicóloga",
+      specialty: "Professora, Psicopedagoga e Estudante de Psicologia",
       city: "Uberlândia, MG",
       image: imageMap["kerley-cristina-machado.jpg"] || imageMap["kerley-cristina-machado.jpeg"] || imageMap["kerley-cristina-machado.png"],
-      bio: "Formada em Pedagogia. Cursando psicólogia com foco futuro em sexologia. Membro Associada do Grupo Cresex.",
+      bio: "Psicopedagoga e professora do Ensino Fundamental I e da Educação Especial. Graduada em Pedagogia, pós-graduada em Psicopedagogia Clínica e Institucional e em Atendimento Educacional Especializado e Educação Inclusiva. Graduanda em Psicologia, com pretensão de atuar na área clínica, com especialização em Sexologia. Membro Associada do Grupo Cresex.",
       instagram: "kerley.cris"
     },        
     {
