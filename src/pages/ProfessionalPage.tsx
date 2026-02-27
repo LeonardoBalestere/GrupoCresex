@@ -375,7 +375,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Brasília, DF",
       image: imageMap["luciana-albuquerque.jpg"] || imageMap["luciana-albuquerque.jpeg"] || imageMap["luciana-albuquerque.png"],
-      bio: "Psicóloga Clínica (CRP 01/7885) na Abordagem da Gestalt-terapeuta e terapeuta sistêmica familiar, especialista em Gestão estratégica em organizações públicas.Neuropsicologia e Psicologia Perinatal e da Parentalidade.Responsável técnica na área de Saúde Mental: Pró-Mulher Clínica de Ginecologia, Obstetrícia e Psicologia.Atua na área clínica com atendimento em Saúde mental, Psicologia Perinatal e da Parentalidade (gestante, pré-natal, pós-parto, tentantes e família), Sexualidade e também realizando Avaliação psicológica para cirurgia bariátrica e em planejamento familiar (esterilização vasectomia e laqueadura). Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga (CRP 01/7885). Gestalt-terapeuta e sistêmica familiar, especialista em Neuropsicologia e Perinatalidade. RT em Saúde Mental na Pró-Mulher. Atua em pré-natal, pós-parto, tentantes e sexualidade. Realiza avaliações para bariátrica e planejamento familiar (vasectomia/laqueadura). Membro Associada do CRESEX. Especialista em Gestão Estratégica. Atendimento presencial e online.",
       instagram: "promulher_bsb"
     },    
     {   
@@ -429,15 +429,14 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Uberaba, MG",
       image:imageMap["marina-remiggi.jpg"] || imageMap["marina-remiggi.jpeg"] || imageMap["marina-remiggi.png"] || "", 
-      bio:"Mãe Atípica, Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com atuação em Sexologia desde 2008. Atua com psicoterapia focada em sexualidade com ênfase em traumas, dores, desconfortos e disfunções sexuais e relacionais, supervisão clínica e educacional, orientação parental e escolar em sexualidade infantojuvenil, além de consultoria em saúde, educação e diversidades sexuais, com ênfase na inclusão de pessoas com deficiência, autismo, da comunidade LGBTQIA+ e de mulheres 40+. É docente pelo CRESEX, coordenadora do AdoleSER®: Orientação e Apoio à sexualidade nas escolas, sexóloga do projeto Acertando o Ritmo com jovens autistas, fundadora do NuSex (Núcleo Especializado em Sexologia) e da Clínica Novo Horizonte Saúde Integrada, cofundadora da ONG Laço Azul de Autismo e membro do CRESEX e do Instituto Ibero-Americano de Sexologia do Brasil."
-      instagram: "amaresexologia"
+      bio:"Mãe atípica, Psicóloga (CRP 04/23471) e Sexóloga desde 2008. Atua com traumas, disfunções e orientação parental/escolar. Especialista em inclusão (PCD, Autismo, LGBTQIA+ e 40+). Fundadora do NuSex e Clínica Novo Horizonte; cofundadora da ONG Laço Azul. Docente do CRESEX, coordena o AdoleSER e o projeto Acertando o Ritmo (jovens autistas). Membro do Inst. Ibero-Americano de Sexologia. Foco em saúde e diversidade. fundadora do NuSex (Núcleo Especializado em Sexologia) e da Clínica Novo Horizonte Saúde Integrada, cofundadora da ONG Laço Azul de Autismo e membro do CRESEXX. Atendimento Presencial e Online.
     }, 
     {
       name: "Marinalva Santana",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["marinalva-santana.jpg"] || imageMap["marinalva-santana.jpeg"] || imageMap["marinalva-santana.png"] || "", 
-      bio:"Marinalva Santana Brito de Melo - Psicóloga – CRP 04/43084- Graduada pelo Centro Universitário do Triângulo (UNITRI, 2014); Pós-graduada em Terapia Familiar e Sexologia pela Faculdade Shalom de Ensino Superior (FASES, 2017); Pós Graduada em Psicodrama pela Faculdade do trabalho (FATRA, 2018); Pós-graduada em Terapia Sistêmica Família e Casal pela Faculdade luterana de Teologia (FLT-2021).Faço parte do corpo docente do CRESEX (Centro de Referência em Sexualidade, SEDE em Uberlândia) do Curso de Pós Graduação em Psicosexologia, com a disciplina Técnicas de Terapia Sistêmica Familiar e Sexual. Atuo na clínica com foco em psicoterapia de casal, familiar e individual."
+      bio:"Marinalva Santana (CRP 04/43084). Psicóloga com pós-graduações em Terapia Familiar e Sexologia (FASES), Psicodrama (FATRA) e Terapia Sistêmica de Família e Casal (FLT). Docente no CRESEX, leciona Técnicas de Terapia Sistêmica Familiar e Sexual na pós em Psicossexologia. Atua na clínica com foco em casais, famílias e atendimentos individuais. Membro Associada do Grupo Cresex.",
       instagram: "marinalvamelopsico"
     },
     {
@@ -541,7 +540,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["poliana-luisa.jpg"] || imageMap["poliana-luisa.jpeg"] || imageMap["poliana-luisa.png"] || "", 
-      bio: "Psicóloga (CRP 04/29899), Especialista em Psicodrama; Especialista em Educação Sexual; Especialista em Psicosexologia; Pós Graduanda em Terapia Familiar Sistêmica e de Casal; Especialista em Relacionamento de Casal; Psicóloga das Noivas e Noivos; Idealizadora do Projeto Amadurecimento Feminino; Membro Honorária do Centro de Referência em Sexualidade (CRESEX). Atendimento em Psicoterapia com ênfase em Casal, Família e Sexualidade; Desenvolve Treinamentos, Palestras, Workshops e Encontros Vivenciais trabalhando temas atuais em nossa sociedade; Docente em Saúde, Educação Sexual e Sistêmica Familiar e Supervisora com ênfase em Casal, Família e Sexualidade."
+      bio: "Psicóloga (CRP 04/29899) especialista em Psicodrama, Educ. Sexual, Psicossexologia e Relações de Casal. Pós-graduanda em Terapia Sistêmica e de Casal. Idealizadora do Proj. Amadurecimento Feminino e membro honorária do CRESEX. Atua em psicoterapia, supervisão e docência com foco em Casal, Família e Sexualidade. Desenvolve workshops e vivências, com destaque para a atuação como Psicóloga de Noivos. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
     },
     {
       name: "Pollyana Borges",
@@ -564,7 +563,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica E Sexologa",
       city: "Uberlândia, MG",
       image:imageMap["renata-monteiro.jpg"] || imageMap["renata-monteiro.jpeg"] || imageMap["renata-monteiro.png"] || "", 
-      bio:"Psicóloga perinatal (CRP04/41235). Atuação com mães e famílias vivendo a perinatalidade: pré-natal psicológico, desde o planejamento gestacional, gestação,  acompanhamento no período puerperal (desde o nascimento do bebê até aproximandamente três anos de vida), além de acompanhamento em casos de infertilidade do casal e luto perinatal.  Atendimento acolhedor a famílias LGBTQIA+ Palestrante, atuação com grupos terapêuticos para gestantes e puérperas, supervisora de casos em perinatalidade. Atendimento através da terapia cognitivo comportamental.Especialista em saúde mental perinatal. Pós-graduada em psicologia perinatal e da parentalidade. Aperfeiçoando em psicodiagnóstico. Aprimorando em sexualidade - CRESEX. Atendimento presencial em Uberlândia/MG e on-line para brasileiras em todo o mundo. Atendimento apenas para adultos.",
+      bio:"Psicóloga Perinatal (CRP04/41235) e especialista em Saúde Mental, Parentalidade e Sexualidade (CRESEX). Atua via TCC no planejamento gestacional, pré-natal psicológico, puerpério, luto e infertilidade. Oferece atendimento acolhedor a famílias LGBTQIA+ e adultos. Palestrante e supervisora, realiza grupos terapêuticos. Presencial em Uberlândia/MG e online para brasileiras em todo o mundo.",
       instagram: "renatamonteiropsico"
     }, 
     {
@@ -596,7 +595,7 @@ export default function ProfessionalPage() {
       specialty: "Pisicólogo Clínico e Sexologo",
       city: "Belo Horizonte, MG",
       image:imageMap["rodrigo-torres.jpg"] || imageMap["rodrigo-torres.jpeg"] || imageMap["rodrigo-torres.png"] || "", 
-      bio:"Psicólogo e Sexólogo (CRP:04/26857).Psicólogo e Sexólogo. Máster em Sexologia Clínica e Saúde Sexual pela Universidade de Barcelona, Espanha, Especialista em Terapia Sexual pela SBRASH. Membro do Conselho Deliberativo e do Conselho Fiscal da SBRASH (2025-2026). Coordenador do Instituto Ibero-americano de Sexologia no Brasil. Ex Secretário Geral da SBRASH (2023-2024). Sub-Delegado Estadual da SBRASH em Minas Gerais. Membro da ISSM (International Society for Sexual Medicine). Membro da ABEMSS (Associação Brasileira de Estudos em Medicina e Saúde Sexual). Membro da ABPBE (Associação Brasileira de Psicologia Baseada em Evidências).Formação em TCS. Certificado em Psicologia Positiva. Formação em Terapia Cognitivo Comportamental e Terapia Breve;."
+      bio:"Psicólogo e Sexólogo (CRP:04/26857). Máster pela Univ. de Barcelona e especialista pela SBRASH, onde integra os Conselhos Deliberativo e Fiscal (2025-26). Coordena o Inst. Ibero-americano de Sexologia no Brasil. Membro da ISSM, ABEMSS e ABPBE. Com formação em TCS, TCC, Terapia Breve e Psicologia Positiva, sua atuação é pautada em evidências, tendo sido Secretário Geral e Sub-Delegado da SBRASH. Membro Associado do Grupo Cresex. Atendimento Presencial e Online."
       instagram: "rodrigotorrespsi"
 
     }, 
@@ -613,7 +612,7 @@ export default function ProfessionalPage() {
       specialty: "Biologo e Educador",
       city: "Uberlândia, MG",
       image: imageMap["sandro-prado.jpg"] || imageMap["sandro-prado.jpeg"] || imageMap["sandro-prado.png"],
-      bio: "Minha formação em Ciências Biológicas e pós-graduação em Educação me levaram a passear por múltiplos caminhos com a Educação em Biologia. Mas na realidade moro nos domínios dos estudos de gêneros e sexualidade com as filosofias da diferença. Assim, em determinado momento, tais estudos se colocaram em pé de igualdade com a Educação em Biologia, evocando-me para que agenciassem juntos experienciando, com eles, as possibilidades de cartografar miudezas com o pulsar da vida. Por meio desse encontro me interesso pelos espaços de criação de possíveis com a Educação em Biologia, gêneros e sexualidades. Atuo como professor no Instituto de Biologia (INBIO) da Universidade Federal de Uberlândia (UFU). Meu interesse está na possibilidade de pensar a educação e a formação de professores em Ciências/Biologia em sua condição menor: ativando outros modos de percepção, exercícios menores e inventando linguagens que falam no interstício de línguas maiores que engajem os corpos, os gêneros e as sexualidades."
+      bio: "Biólogo e educador, atuo no INBIO/UFU explorando as conexões entre Educação em Biologia, gêneros e sexualidades sob a lente das filosofias da diferença. Meu foco é cartografar miudezas e o pulsar da vida, criando espaços de resistência na formação de professores. Busco uma "educação menor": ativando percepções e linguagens que engajem corpos e inventem novos modos de existir nos interstícios. Membro do Grupo Cresex, colaboro com o Núcleo de Estudos em Sexualidade e Gênero (NESG) e o Núcleo de Estudos em Educação e Diferença (NEED)."
     },      
     {
       name: "Schirley Tavares Oliveira",
