@@ -56,6 +56,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap ["alyne-meirelles.jpg"] || imageMap["alyne-meirelles.jpeg"] || imageMap["alyne-meirelles.png"] || "", 
       bio: "Pedagoga, Terapeuta Sexual com Foco em Educação Sexual. Pós-Graduada em Terapia Sexual na Saúde e Educação, Mestre em Educação pela MASTER ESEPAS (Educação Sexual e Prevenção ao Abuso Sexual). Além disso Atua como Professora, Palestrante e Mentora de Oficinas. Membro Associada do Grupo Cresex.",
+      instagram: "sexologa.alynemeirelles"
     },
     {
       name: "Ana Beatriz Dias",
@@ -75,7 +76,7 @@ export default function ProfessionalPage() {
     },
     {
       name: "Ana Paula Martins",
-      specialty: "Professora Universitária",
+      specialty: "Psicologa Clínica",
       city: "Umuarama, PR",
       image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
       bio: "Psicóloga (CRP 08/42303) e Orientadora Parental. TCC com contribuição da neurociência. Psicologia Perinatal e Orientação parental. Atuação com sono na gestação, psicopatologias perinatais, sexualidade, luto perinatal, infertilidade e parentalidade. Orientação parental com foco em sono, comportamento e desenvolvimento. Membro Associada do CRESEX. Atendimento online.",
