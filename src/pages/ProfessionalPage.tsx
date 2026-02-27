@@ -115,7 +115,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
-      bio: "Psicóloga Clínica (CRP: CRP-04/81838) na Abordagem Sócio-Histórica com Foco em Adultos e Idosos. Experiência em Condução de Grupos e Atuação pela Psicodinâmica do Trabalho e com Trabalho Institucional Relacionado a Adolescentes Institucionalizados do Sistema Penitenciário de Cuiabá-MT. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga (CRP 04/81838) formada pela Universidade Federal de Mato Grosso. Aprimoramento em Sexualidade Humana, pós-graduanda em Psicologia Clínica Histórico-Cultural, formação na Psicodinâmica do Trabalho e Clínica do Trabalhador, atende ao público adulto e idoso nas mais diversas áreas que tangem o adoecimento psíquico, oferecendo acolhimento e suporte profissional para o processo de consciência e autonomia do sujeito. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
     }, 
     {   
       name: "Bruno De Medeiros",
@@ -128,7 +128,7 @@ export default function ProfessionalPage() {
       name: "Camila Gabriele Martins",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia - MG",
-      image:imageMap["camila-gabriele-martins.jpg"] || imageMap["camila-gabriele-martins.jpg.jpeg"] || imageMap["camila-gabriele-martins.jpg.png"] || "", 
+      image:imageMap["camila-gabriele-martins.jpg"] || imageMap["camila-gabriele-martins.jpeg"] || imageMap["camila-gabriele-martins.jpg"] || "", 
       bio:"Camila Gabriele é psicóloga clínica  (CRP-04 / 84604) atendendo na abordagem Psicanalítica. Atua em sexualidade e gênero e atende adolescentes e adultos. Membro Associada do Grupo Cresex. Atendimento On-line.",                                           
     },
     {
@@ -647,7 +647,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Vitoria Da Conquista, BA",
       image: imageMap["yury-nunes-lima.jpg"] || imageMap["yury-nunes-lima.jpeg"] || imageMap["yury-nunes-lima.png"],
-      bio: "Membro Associado do Grupo Cresex.",
+      bio: "Yury Lima, psicólogo especialista em Psicoterapia Cognitiva e Sexologia Multidisciplinar. Formação em Terapia Sexual e atuação com atendimento a homens com disfunções sexuais, uso problemático de pornografia e masturbação, entre outras demandas relacionadas a sexualidade humana.Membro Associado do Grupo Cresex. Atendimento presencial e online para todo o Brasil.",
     }
   ];
 
