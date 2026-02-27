@@ -477,7 +477,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image: imageMap["mayran-araujo.jpg"] || imageMap["mayran-araujo.jpeg"] || imageMap["mayran-araujo.png"],
-      bio: "Psicólogo clínico (CRP 04/71869), atuo com Terapia Cognitivo-Comportamental (TCC) e ACT (Terapia de Aceitação e Compromisso), integrando também avaliação neuropsicológica e intervenções baseadas em evidências. Sou pós-graduado em Neuropsicologia, pós-graduando em TCC, com formação complementar em Aprimoramento em Sexualidade, além de ser membro do CRESEX. Realizo atendimentos presenciais e online, voltados principalmente para pessoas neurodivergentes, LGBTQIAP+, não binárias, homens e jovens, sempre com foco em acolhimento, liberdade e práticas inclusivas. Tenho um estilo mais solto e de bom humor, promovendo sessões leves e acolhedoras mesmo diante de situações intensas, e como apaixonado por cultura pop, animes e universos criativos, acredito que cuidar da saúde mental também pode ser um caminho de descoberta, autenticidade e transformação.",
+      bio: "Psicólogo clínico (CRP 04/71869), pós-graduado em Neuropsicologia e pós-graduando em TCC, atuo com TCC e ACT, avaliação neuropsicológica e sexualidade. Membro do CRESEX, atendo jovens, homens, pessoas neurodivergentes e LGBTQIAP+, em formato presencial e online. Com leveza, bom humor e acolhimento, ofereço uma terapia inclusiva e transformadora.",
       instagram: "psimayran"
     },    
     {
