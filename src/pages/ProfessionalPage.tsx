@@ -78,7 +78,7 @@ export default function ProfessionalPage() {
       specialty: "Professora Universitária",
       city: "Umuarama, PR",
       image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
-      bio: "Pós Graduação em psicologia da gravidez, parto e pós parto, Neurociência do sono Infantil, Inteligência parental. Psicóloga Clínica com Foco em Atendimento para Adultos Visando o Desenvolvimento Emocional e Saúde Mental e Orientação Parental para Famílias, com Foco em Desenvolvimento Infantil e Estratégias de Cuidado. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga (CRP 08/42303) e Orientadora Parental. TCC com contribuição da neurociência. Psicologia Perinatal e Orientação parental. Atuação com sono na gestação, psicopatologias perinatais, sexualidade, luto perinatal, infertilidade e parentalidade. Orientação parental com foco em sono, comportamento e desenvolvimento. Membro Associada do CRESEX. Atendimento online.",
       instagram: "psi.anapaula.alvesmartins"
     },
     {
@@ -232,6 +232,7 @@ export default function ProfessionalPage() {
       city: "São Paulo, SP",
       image:imageMap ["fernanda-fraga.jpg"] || imageMap["fernanda-fraga.jpeg"] || imageMap["fernanda-fraga.png"] || "", 
       bio: "Psicóloga Clínica na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      instagram: "@fernandadiasfraga"
     },
     {
       name: "Fernanda Marqueto",
@@ -334,6 +335,8 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
       bio:"Psicóloga Clínica na Abordagem da TCC (Terapia Cognitivo- Comportamental) e na Terapia do Esquema com foco em com intervenções voltadas ao desenvolvimento emocional e à saúde mental. Especialização em Gestão de Pessoas e em Orientação Educacional.Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      instagram: "juliana_escarpinati"
+
     },
     {
       name: "Kenya Borges",
@@ -506,7 +509,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica E Sexologa",
       city: "Catalão, GO",
       image:imageMap["nilda-alves.jpg"] || imageMap["nilda-alves.jpeg"] || imageMap["nilda-alves.png"] || "", 
-      bio:"Psicóloga (CRP 09/6795), Sexóloga Clínica e Psicoterapeuta de Casais Especialista em Psicosexologia e Dependência Quimica. Palestrante e estudiosa em temas de Psicologia, Neuropsicológica, Educação Sexual e Terapia de Casais. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio:"Psicóloga (CRP09/6795), Sexológa Clínica, psicoterapeuta de casais, especialista em psicosexologia, sexualidade Humana e Genero e sexualidade. Palestrante e estudiosa em temas da Psicologia e Sexualidade. simpatizante de varias abortagens. Atualmente e aluna da pos graduação em Analise transacional. Membro da Associada do Grupo Cresex. Atendimento Presencial e Online",
       instagram: "sexologanildaalves"
     }, 
     {
@@ -680,6 +683,7 @@ export default function ProfessionalPage() {
       city: "Vitoria Da Conquista, BA",
       image: imageMap["yury-nunes-lima.jpg"] || imageMap["yury-nunes-lima.jpeg"] || imageMap["yury-nunes-lima.png"],
       bio: "Yury Lima, psicólogo especialista em Psicoterapia Cognitiva e Sexologia Multidisciplinar. Formação em Terapia Sexual e atuação com atendimento a homens com disfunções sexuais, uso problemático de pornografia e masturbação, entre outras demandas relacionadas a sexualidade humana.Membro Associado do Grupo Cresex. Atendimento presencial e online para todo o Brasil.",
+      instagram: "yury_psicologo"
     }
   ];
 
