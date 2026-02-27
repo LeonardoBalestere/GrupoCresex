@@ -109,7 +109,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Santo André, SP",
       image: imageMap["beatriz-savazzi.jpg"] || imageMap["beatriz-savazzi.jpeg"] || imageMap["beatriz-savazzi.png"],
-      bio: "Psicóloga Clínica (CRP: 06/211301) na Abordagem da TCC (Terapia Cognitivo-Comportamental). Atua Promovendo uma Sexualidade Saudável e Consciente com Foco em Mulheres. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "Psicóloga (CRP 04/81838) formada pela Universidade Federal de Mato Grosso, integrante do grupo CRESEX com aprimoramento em Sexualidade Humana, pós-graduanda em Psicologia Clínica Histórico-Cultural, formação na Psicodinâmica do Trabalho e Clínica do Trabalhador, atende ao público adulto e idoso nas mais diversas áreas que tangem o adoecimento psíquico, oferecendo acolhimento e suporte profissional para o processo de consciência e autonomia do sujeito."
     },
     {
       name: "Bianca Gontijo",
