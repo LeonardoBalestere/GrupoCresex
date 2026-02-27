@@ -364,6 +364,7 @@ export default function ProfessionalPage() {
       city: "Brasília, DF",
       image: imageMap["luciana-albuquerque.jpg"] || imageMap["luciana-albuquerque.jpeg"] || imageMap["luciana-albuquerque.png"],
       bio: "Psicóloga Clínica (CRP 01/7885) na Abordagem da Gestalt-terapeuta e terapeuta sistêmica familiar, especialista em Gestão estratégica em organizações públicas.Neuropsicologia e Psicologia Perinatal e da Parentalidade.Responsável técnica na área de Saúde Mental: Pró-Mulher Clínica de Ginecologia, Obstetrícia e Psicologia.Atua na área clínica com atendimento em Saúde mental, Psicologia Perinatal e da Parentalidade (gestante, pré-natal, pós-parto, tentantes e família), Sexualidade e também realizando Avaliação psicológica para cirurgia bariátrica e em planejamento familiar (esterilização vasectomia e laqueadura). Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: "promulher_bsb"
     },    
     {   
       name: "Márcia Fialho",
