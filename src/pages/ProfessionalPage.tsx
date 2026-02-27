@@ -78,7 +78,8 @@ export default function ProfessionalPage() {
       specialty: "Professora Universitária",
       city: "Umuarama, PR",
       image: imageMap["ana-paula-martins.jpg"] || imageMap["ana-paula-martins.jpeg"] || imageMap["ana-paula-martins.png"],
-      bio: "Pós Graduação em psicologia da gravidez, parto e pós parto, Neurociência do sono Infantil, Inteligência parental. Psicóloga Clínica e Sexóloga com Foco em Atendimento para Adultos Visando o Desenvolvimento Emocional e Saúde Mental e Orientação Parental para Famílias, com Foco em Desenvolvimento Infantil e Estratégias de Cuidado. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Pós Graduação em psicologia da gravidez, parto e pós parto, Neurociência do sono Infantil, Inteligência parental. Psicóloga Clínica com Foco em Atendimento para Adultos Visando o Desenvolvimento Emocional e Saúde Mental e Orientação Parental para Famílias, com Foco em Desenvolvimento Infantil e Estratégias de Cuidado. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: "psi.anapaula.alvesmartins"
     },
     {
       name: "Andréa Caparelli",
@@ -117,6 +118,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
       bio: "Psicóloga (CRP 04/81838) formada pela Universidade Federal de Mato Grosso. Aprimoramento em Sexualidade Humana, pós-graduanda em Psicologia Clínica Histórico-Cultural, formação na Psicodinâmica do Trabalho e Clínica do Trabalhador, atende ao público adulto e idoso nas mais diversas áreas que tangem o adoecimento psíquico, oferecendo acolhimento e suporte profissional para o processo de consciência e autonomia do sujeito. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: "briancagontijo.psi"
     }, 
     {   
       name: "Bruno De Medeiros",
@@ -131,6 +133,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["bruna-higa.jpg"] || imageMap["bruna-higa.jpeg"] || imageMap["bruna-higa.png"] || "", 
       bio:"Psicóloga (CRP 06/194656), psicoterapeuta corporal, esquizodramatista, com especialização em Saúde Mental, Formação em Dança Criativa (baseada na psicologia do movimento). Realizo atendimentos online para todo o mundo, voltado ao público: adolescentes, adultos e idosos."
+      instagram: "bruh.psi"
     },
     {
       name: "Camila Gabriele Martins",
@@ -176,7 +179,7 @@ export default function ProfessionalPage() {
       specialty: "Advogada",
       city: "Uberlândia, MG",
       image:imageMap["debora-brito.jpg"] || imageMap["debora-brito.jpeg"] || imageMap["debora-brito.png"] || "", 
-      bio:"Advogada (OAB - 1185441) Formada em Direito pela Universidade Federal de Uberlândia (UFU), é graduanda em Filosofia e atua como voluntária no atendimento a mulheres vítimas de violência, com foco em acolhimento, orientação e promoção de direitos fundamentais. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio:"Advogada (OAB - 182.423) Formada em Direito pela Universidade Federal de Uberlândia (UFU), é graduanda em Filosofia e atua como voluntária no atendimento a mulheres vítimas de violência, com foco em acolhimento, orientação e promoção de direitos fundamentais. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
     },  
     {
       name: "Débora Carvalho",
@@ -243,6 +246,7 @@ export default function ProfessionalPage() {
       city: "São Paulo, SP",
       image:imageMap["gab-spec.jpg"] || imageMap["gab-spec.jpeg"] || imageMap["gab-spec.png"] || "",
       bio: "Gabe Spec Atua no Mercado Adulto há 8 Anos, sendo o Primeiro Garoto de Hétero-Cis, a se Consagrar Atendendo somente o Público Feminino. Começando no Interior de SP e hoje Rodando o Mundo, Gabe Utiliza o Humor nas Redes Sociais para Trazer Tabus a Tona e Quebrar Estigmas tão Intrínsecos da Sexualidade Feminina. Dominador Profissional há 6 Anos se Intitulando como “Sr. Spec”, se Especializou na Realização de Fetiches e Práticas de BDSM, Mostrando que a Sexualidade é um Vasto Universo Repleto de Possibilidades. Membro Associado do Grupo Cresex. Atende Presencial." 
+      instagram: "gabespec_ofc"
     },   
     {
       name: "Giovani Quadros",
@@ -250,7 +254,8 @@ export default function ProfessionalPage() {
       city: "Porto Alegre, RS",
       image: imageMap["giovani-quadros.jpg"] || imageMap["giovani-quadros.jpeg"] || imageMap["giovani-quadros.png"],
       bio: "Psicólogo Clínico (CRP 07/21784) na Abordagem da TCC (Terapia Cognitiva-Comportamental) Focado em Adolescentes e Adultos. Pós-Graduado em Sexualidade Masculina, Neurociência, Neuropsicologia, Psiquiatria e Saúde Mental. Atua também como Palestrante, Professor Universitário (Anhanguera e INNAP) e Capacitado em Avaliação Psicológica para Vasectomia e Laqueadura. Membro Associado do Grupo Cresex. Atendimento Presencial e Online Nacional e Internacional."
-    },    
+      instagram: "giovanni.psicologia"
+    },
     {
       name: "Grazielly Baggenstoss",
       specialty: "Pprofessora Universitária e Escritora",
@@ -273,6 +278,7 @@ export default function ProfessionalPage() {
       city: "São José Do Rio Preto, SP",
       image: imageMap["hedith-santos-souza.jpg"] || imageMap["hedith-santos-souza.jpeg"] || imageMap["hedith-santos-souza.png"],
       bio: "Psicóloga Clínica (CRP 06/168082) na Abordagem Fenomenologia Existencial e Humanista. Pós-Graduada em Fenomenologia Existencial e Humanista pelo Instituto Suassuna. Pós-Graduada em Educação Sexual. Pós-Graduada em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. Pós-Graduada em Neurociência do Comportamento com Andrei Mayer. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: "hedithsantossouzapsi"
     },
     {
       name: "Irene Sousa",
@@ -296,6 +302,7 @@ export default function ProfessionalPage() {
       city: "Paracatu, MG",
       image: imageMap["isabella-de-moura.jpg"] || imageMap["isabella-de-moura.jpeg"] || imageMap["isabella-de-moura.png"],
       bio: "Fisioterapeuta e Psicanalista. Especializada no método pompoarismo para potencializar o desempenho sexual feminino. Pós graduada em fisioterapia aplicada à saúde da mulher e do homem. Formação internacional em fisioterapia pélvica. Pós graduada em terapia sexual na saúde e educação.Palestrante e apresentadora. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: "dra.isabellamoura"
     },
     {
       name: "Janaína Delbão",
@@ -310,7 +317,8 @@ export default function ProfessionalPage() {
       specialty: "Consultora em saúde",
       city: "Uberlândia, MG",
       image:imageMap["juliana-de-faveri.jpg"] || imageMap["juliana-de-faveri.jpeg"] || imageMap["juliana-de-faveri.png"] || "", 
-      bio:"Consultora em Saúde e Sexualidade. Graduada em educação física. Atua como especialista em Gênero e Sexualidade. Estuda sobre vivência da sexualidade da mulher e na Educação sexual de crianças e adolescentes. Membro Associada do Grupo Cresex."
+      bio:"Consultora em Saúde e Sexualidade. Graduada em educação física. Atua como especialista em Gênero e Sexualidade. Estuda sobre vivência da sexualidade da mulher e na Educação sexual de crianças e adolescentes. Membro Associada do Grupo Cresex.",
+      instagram: "juliana.defaveri.1"
     },    
     {
       name: "Juliana Nascimento Graça",
@@ -318,6 +326,7 @@ export default function ProfessionalPage() {
       city: "Serra - ES",
       image:imageMap["juliana-nascimento.jpg"] || imageMap["juliana-nascimento.jpeg"] || imageMap["juliana-nascimento.png"] || "", 
       bio:"Administradora, Sexóloga Clínica e Educacional; Consultora em Saúde Educação Sexual; Pós Graduanda em Terapia Sexual na Saúde e na Educação; Terapeuta Cognitiva Sexual; Empreendedora da Juliana Graça Butique Intima.Trabalha com palestras; eventos femininos e cursos presenciais e online; Cursos online disponíveis através das minhas redes sociais; Atendimentos para adulto, casais, com foco principalmente no autoconhecimento feminino, como potencializador de prazer e descoberta da sua sexualidade. Ter prazer e depois proporcionar prazer a parceira se assim desejar. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      instagram: 'julianagracaoficial'
     }, 
     {
       name: "Juliana Scarpinati",
@@ -403,7 +412,6 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["maria-eliza-miranda.jpg"] || imageMap["maria-eliza-miranda.jpeg"] || imageMap["maria-eliza-miranda.png"] || "", 
       bio:"Estudante de Psicologia, Oitavo Período. Interesse em Sexologia e Educação. Pretende partir da abordagem psicanalitica para atuar com adultos e adolescentes.Faz parte do Apoio Administrativo do Grupo Cresex.",
-      instagram: "flordeliz__________"
     },
     {
       name: "Marília Souza",
@@ -419,13 +427,15 @@ export default function ProfessionalPage() {
       city: "Uberaba, MG",
       image:imageMap["marina-remiggi.jpg"] || imageMap["marina-remiggi.jpeg"] || imageMap["marina-remiggi.png"] || "", 
       bio:"Mãe Atípica, Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com atuação em Sexologia desde 2008. Atua com psicoterapia focada em sexualidade com ênfase em traumas, dores, desconfortos e disfunções sexuais e relacionais, supervisão clínica e educacional, orientação parental e escolar em sexualidade infantojuvenil, além de consultoria em saúde, educação e diversidades sexuais, com ênfase na inclusão de pessoas com deficiência, autismo, da comunidade LGBTQIA+ e de mulheres 40+. É docente pelo CRESEX, coordenadora do AdoleSER®: Orientação e Apoio à sexualidade nas escolas, sexóloga do projeto Acertando o Ritmo com jovens autistas, fundadora do NuSex (Núcleo Especializado em Sexologia) e da Clínica Novo Horizonte Saúde Integrada, cofundadora da ONG Laço Azul de Autismo e membro do CRESEX e do Instituto Ibero-Americano de Sexologia do Brasil."
+      instagram: "amaresexologia"
     }, 
     {
       name: "Marinalva Santana",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["marinalva-santana.jpg"] || imageMap["marinalva-santana.jpeg"] || imageMap["marinalva-santana.png"] || "", 
-      bio:"Marinalva Santana Brito de Melo - Psicóloga – CRP 04/43084- Graduada pelo Centro Universitário do Triângulo (UNITRI, 2014); Pós-graduada em Terapia Familiar e Sexologia pela Faculdade Shalom de Ensino Superior (FASES, 2017); Pós Graduada em Psicodrama pela Faculdade do trabalho (FATRA, 2018); Pós-graduada em Terapia Sistêmica Família e Casal pela Faculdade luterana de Teologia (FLT-2021).Faço parte do corpo docente do CRESEX (Centro de Referência em Sexualidade, SEDE em Uberlândia) do Curso de Pós Graduação em Psicosexologia, com a disciplina Técnicas de Terapia Sistêmica Familiar e Sexual. Atuo na clínica com foco em psicoterapia de casal, familiar e individual. Contato: marinalvapsico@gmail.com  / @marinalvamelopsico."
+      bio:"Marinalva Santana Brito de Melo - Psicóloga – CRP 04/43084- Graduada pelo Centro Universitário do Triângulo (UNITRI, 2014); Pós-graduada em Terapia Familiar e Sexologia pela Faculdade Shalom de Ensino Superior (FASES, 2017); Pós Graduada em Psicodrama pela Faculdade do trabalho (FATRA, 2018); Pós-graduada em Terapia Sistêmica Família e Casal pela Faculdade luterana de Teologia (FLT-2021).Faço parte do corpo docente do CRESEX (Centro de Referência em Sexualidade, SEDE em Uberlândia) do Curso de Pós Graduação em Psicosexologia, com a disciplina Técnicas de Terapia Sistêmica Familiar e Sexual. Atuo na clínica com foco em psicoterapia de casal, familiar e individual."
+      instagram: "marinalvamelopsico"
     },
     {
       name: "Maritza Silva",
@@ -433,6 +443,7 @@ export default function ProfessionalPage() {
       city: "Rio De Janeiro, RJ",
       image:imageMap ["maritza-silva.jpg"] || imageMap["maritza-silva.jpeg"] || imageMap["maritza-silva.png"] || "", 
       bio: "terapeuta de relacionamentos e sexualidade, analista comportamental e educadora. Atua no atendimento individual e de casais, auxiliando na construção de relações mais saudáveis, conscientes e prazerosas. Também atua no desenvolvimento pessoal e profissional por meio do mapeamento comportamental, promovendo autoconhecimento, clareza emocional e mudanças consistentes, com base em práticas fundamentadas cientificamente. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      instagram: "maritzasilva.terapeuta"
     },
     {
       name: "Mateus Balduino",
@@ -456,6 +467,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["maykon-martins-carvalho.jpg"] || imageMap["maykon-martins-carvalho.jpeg"] || imageMap["maykon-martins-carvalho.png"] || "", 
       bio:"Psicologo cliníco CRP (MG 04/64091)"
+      instagram: "maykonmartinspsico"
     },
     {
       name: "Mayran Araújo",
@@ -503,6 +515,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap["nubia-carvalho.jpg"] || imageMap["nubia-carvalho.jpeg"] || imageMap["nubia-carvalho.png"] || "", 
       bio:""
+      instagram: "psi_nubiacarvalho"
     }, 
     {
       name: "Paulo Roberto",
@@ -510,6 +523,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap ["paulo-roberto.jpg"] || imageMap["paulo-roberto.jpeg"] || imageMap["paulo-roberto.png"] || "", 
       bio: "PAULERA é psicólogo (CRP-04/70114) e artista. Atende online e presencialmente ao ar livre no Parque do Sabiá em Uberlândia-MG. Tem proximidade com demandas de quem tem vivências alternativas e que flerta com a cultura underground. Utiliza a TCC e a ACT como abordagens"
+      instagram:"paulera.br"
     },
     {
       name: "Pedro Santos Gosler",
@@ -517,6 +531,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["pedro-santos.jpg"] || imageMap["pedro-santos.jpeg"] || imageMap["pedro-santos.png"],
       bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO)."
+      instagram: "pegosler"
     },    
     {
       name: "Poliana Luisa",
@@ -531,6 +546,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image:imageMap ["pollyana-borges.jpg"] || imageMap["pollyana-borges.jpeg"] || imageMap["pollyana-borges.png"] || "", 
       bio: "Membro Associada do Grupo Cresex."
+      instagram: "pollyanapompoarismo"
     },
     {
       name: "Regina Araújo",
@@ -538,6 +554,7 @@ export default function ProfessionalPage() {
       city: "São Caetano Do Sul, SP",
       image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
       bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes."
+      instagram: "sexologa_reginareis"
     },    
     { 
       name: "Renata Monteiro",
@@ -561,6 +578,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["roberta-resende.jpg"] || imageMap["roberta-resende.jpeg"] || imageMap["roberta-resende.png"],
       bio: "Formada pela Universidade Federal de Uberlândia desde 1994. Especialista em Educação Sexual; Pós graduada em Psicosexologia, Capacitada como terapeuta de relacionamento e casais; Capacitação em Avaliação Psicológica para cirurgia Bariátrica. Atuou como Psicóloga no Projeto Federal Sentinela, com sede em Goiania, com adolescentes grávidas vítimas de abuso sexual. Membro do Centro de Referência em Sexualidade (Cresex)."
+      instagram: "robertarrresende"
     },    
     {
       name: "Rodolfo Horbach",
@@ -568,6 +586,7 @@ export default function ProfessionalPage() {
       city: "Ubêrlandia - MG",
       image:imageMap["rodolfo-horbach.jpg"] || imageMap["rodolfo-horbach.jpeg"] || imageMap["rodolfo-horbach.png"] || "", 
       bio:"Fisioterapeuta (Crefito4 304558-F). Osteopatia estrutural IDOT. Treinamento Funcional. Formação em tratamentos da coluna vertebral . Formação Internacional Método Stecco de liberação miofascial.Formação internacional kinesiotape.Membro do Centro de Referência em Sexualidade (CRESEX).Formações em Assoalho Pélvico/ Disfunção sexuais masculinas .Fisioterapia pélvica após câncer de próstata"
+      instagram: "drodolfofisio.coluna"
     },
     {
       name: "Rodrigo Torres",
@@ -575,6 +594,8 @@ export default function ProfessionalPage() {
       city: "Belo Horizonte, MG",
       image:imageMap["rodrigo-torres.jpg"] || imageMap["rodrigo-torres.jpeg"] || imageMap["rodrigo-torres.png"] || "", 
       bio:"Psicólogo e Sexólogo (CRP:04/26857).Psicólogo e Sexólogo. Máster em Sexologia Clínica e Saúde Sexual pela Universidade de Barcelona, Espanha, Especialista em Terapia Sexual pela SBRASH. Membro do Conselho Deliberativo e do Conselho Fiscal da SBRASH (2025-2026). Coordenador do Instituto Ibero-americano de Sexologia no Brasil. Ex Secretário Geral da SBRASH (2023-2024). Sub-Delegado Estadual da SBRASH em Minas Gerais. Membro da ISSM (International Society for Sexual Medicine). Membro da ABEMSS (Associação Brasileira de Estudos em Medicina e Saúde Sexual). Membro da ABPBE (Associação Brasileira de Psicologia Baseada em Evidências).Formação em TCS. Certificado em Psicologia Positiva. Formação em Terapia Cognitivo Comportamental e Terapia Breve;."
+      instagram: "rodrigotorrespsi"
+
     }, 
     {
       name: "Sandra Vasconcelos",
