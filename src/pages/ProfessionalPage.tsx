@@ -616,7 +616,7 @@ export default function ProfessionalPage() {
       specialty: "Biologo e Educador",
       city: "Uberlândia, MG",
       image: imageMap["sandro-prado.jpg"] || imageMap["sandro-prado.jpeg"] || imageMap["sandro-prado.png"],
-      bio: "Biólogo e educador, atuo no INBIO/UFU explorando as conexões entre Educação em Biologia, gêneros e sexualidades sob a lente das filosofias da diferença. Meu foco é cartografar miudezas e o pulsar da vida, criando espaços de resistência na formação de professores. Busco uma "educação menor": ativando percepções e linguagens que engajem corpos e inventem novos modos de existir nos interstícios. Membro do Grupo Cresex, colaboro com o Núcleo de Estudos em Sexualidade e Gênero (NESG) e o Núcleo de Estudos em Educação e Diferença (NEED).",
+      bio: "Biólogo e educador, atuo no INBIO/UFU explorando as conexões entre Educação em Biologia, gêneros e sexualidades sob a lente das filosofias da diferença. Meu foco é cartografar miudezas e o pulsar da vida, criando espaços de resistência na formação de professores. Busco uma educação menor: ativando percepções e linguagens que engajem corpos e inventem novos modos de existir nos interstícios. Membro do Grupo Cresex, colaboro com o Núcleo de Estudos em Sexualidade e Gênero (NESG) e o Núcleo de Estudos em Educação e Diferença (NEED).",
     },      
     {
       name: "Schirley Tavares Oliveira",
