@@ -432,7 +432,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Uberaba, MG",
       image:imageMap["marina-remiggi.jpg"] || imageMap["marina-remiggi.jpeg"] || imageMap["marina-remiggi.png"] || "", 
-      bio:"Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com abordagem clínica e educacional em Sexologia. Atua no acolhimento de dores, traumas, disfunções sexuais e relacionais, sexualidade e diversidade ao longo da vida (infância à maturidade, casais, famílias, escolas, PCDs, TEA, LGBTQIA+ e 40+). Docente CRESEX e FAZU. Membro CRESEX e IIAS.br. Atendimentos online e presencial..
+      bio:"Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com abordagem clínica e educacional em Sexologia. Atua no acolhimento de dores, traumas, disfunções sexuais e relacionais, sexualidade e diversidade ao longo da vida (infância à maturidade, casais, famílias, escolas, PCDs, TEA, LGBTQIA+ e 40+). Docente CRESEX e FAZU. Membro CRESEX e IIAS.br. Atendimentos online e presencial.",
+      instagram: "nusex.saudesexual"
     }, 
     {
       name: "Marinalva Santana",
