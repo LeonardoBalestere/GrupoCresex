@@ -431,7 +431,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Uberaba, MG",
       image:imageMap["marina-remiggi.jpg"] || imageMap["marina-remiggi.jpeg"] || imageMap["marina-remiggi.png"] || "", 
-      bio:"Mãe atípica, Psicóloga (CRP 04/23471) e Sexóloga desde 2008. Atua com traumas, disfunções e orientação parental/escolar. Especialista em inclusão (PCD, Autismo, LGBTQIA+ e 40+). Fundadora do NuSex e Clínica Novo Horizonte; cofundadora da ONG Laço Azul. Docente do CRESEX, coordena o AdoleSER e o projeto Acertando o Ritmo (jovens autistas). Membro do Inst. Ibero-Americano de Sexologia. Foco em saúde e diversidade. fundadora do NuSex (Núcleo Especializado em Sexologia) e da Clínica Novo Horizonte Saúde Integrada, cofundadora da ONG Laço Azul de Autismo e membro do CRESEXX. Atendimento Presencial e Online.
+      bio:"Psicóloga Clínica (CRP 04/23471) e especialista em Sexualidade Humana, com abordagem clínica e educacional em Sexologia. Atua no acolhimento de dores, traumas, disfunções sexuais e relacionais, sexualidade e diversidade ao longo da vida (infância à maturidade, casais, famílias, escolas, PCDs, TEA, LGBTQIA+ e 40+). Docente CRESEX e FAZU. Membro CRESEX e IIAS.br. Atendimentos online e presencial..
     }, 
     {
       name: "Marinalva Santana",
