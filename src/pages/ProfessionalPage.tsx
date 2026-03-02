@@ -336,7 +336,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
-      bio:"Psicóloga Clínica na Abordagem da TCC (Terapia Cognitivo- Comportamental) e na Terapia do Esquema com foco em com intervenções voltadas ao desenvolvimento emocional e à saúde mental. Especialização em Gestão de Pessoas e em Orientação Educacional.Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio:"Psicóloga clínica, com atuação fundamentada na Abordagem Cognitivo-Comportamental e na Terapia do Esquema, desenvolvendo intervenções voltadas ao fortalecimento emocional e à promoção da saúde mental. Formação em Transtornos de Ansiedade e Transtornos Relacionados pela USP, além de especialização em Gestão de Pessoas e Orientação Profissional. Membro associada do Grupo CRESEX. Atendimento presencial e online."
       instagram: "juliana_escarpinati"
 
     },
@@ -386,6 +386,7 @@ export default function ProfessionalPage() {
       city: "Salvador, BA",
       image:imageMap ["marcia-fialho.jpg"] || imageMap["marcia-fialho.jpeg"] || imageMap["marcia-fialho.png"] || "", 
       bio: "Psicóloga Clínica na Abordagem da TCC (Terapia Cognitiva Comportamental) e Pedagoga. Pós-Graduação em Terapia Cognitiva, Pós-Graduação em Psicologia Organizacional e Formação em Psicologia Financeira. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      instagram: "marciafialhopsifinanceira"
     },
     {
       name: "Marcilene Silveira",
