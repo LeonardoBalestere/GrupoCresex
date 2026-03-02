@@ -111,7 +111,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Santo André, SP",
       image: imageMap["beatriz-savazzi.jpg"] || imageMap["beatriz-savazzi.jpeg"] || imageMap["beatriz-savazzi.png"],
-      bio: "Psicóloga Clínica (CRP: 06/211301) na Abordagem da TCC (Terapia Cognitivo-Comportamental). Atua Promovendo uma Sexualidade Saudável e Consciente com Foco em Mulheres. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. Membro Associada do Grupo Cresex. Atendimento Presencial e Online"
+      bio: "Psicóloga Clínica (CRP: 06/211301) na Abordagem da TCC (Terapia Cognitivo-Comportamental). Atua Promovendo uma Sexualidade Saudável e Consciente com Foco em Mulheres. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. Membro Associada do Grupo Cresex. Atendimento Presencial e Online",
       instagram: "psi.biasavazzi"
     },
     {
@@ -134,7 +134,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga clínica/ sexóloga",
       city: "Uberlândia, MG",
       image:imageMap["bruna-higa.jpg"] || imageMap["bruna-higa.jpeg"] || imageMap["bruna-higa.png"] || "", 
-      bio:"Psicóloga (CRP 06/194656), psicoterapeuta corporal, esquizodramatista, com especialização em Saúde Mental, Formação em Dança Criativa (baseada na psicologia do movimento). Realizo atendimentos online para todo o mundo, voltado ao público: adolescentes, adultos e idosos."
+      bio:"Psicóloga (CRP 06/194656), psicoterapeuta corporal, esquizodramatista, com especialização em Saúde Mental, Formação em Dança Criativa (baseada na psicologia do movimento). Realizo atendimentos online para todo o mundo, voltado ao público: adolescentes, adultos e idosos.",
       instagram: "bruh.psi"
     },
     {
@@ -233,7 +233,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São Paulo, SP",
       image:imageMap ["fernanda-fraga.jpg"] || imageMap["fernanda-fraga.jpeg"] || imageMap["fernanda-fraga.png"] || "", 
-      bio: "Psicóloga Clínica na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "Psicóloga Clínica na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "@fernandadiasfraga"
     },
     {
@@ -241,14 +241,14 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["fernanda-marqueto.jpg"] || imageMap["fernanda-marqueto.jpeg"] || imageMap["fernanda-marqueto.png"] || "", 
-      bio: "Psicóloga Clínica na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Online."
+      bio: "Psicóloga Clínica na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Online.",
     },
     {
       name: "Gabe Spec",
       specialty: "Criador de Conteúdo e Educador Pro-Dom",
       city: "São Paulo, SP",
       image:imageMap["gab-spec.jpg"] || imageMap["gab-spec.jpeg"] || imageMap["gab-spec.png"] || "",
-      bio: "Gabe Spec Atua no Mercado Adulto há 8 Anos, sendo o Primeiro Garoto de Hétero-Cis, a se Consagrar Atendendo somente o Público Feminino. Começando no Interior de SP e hoje Rodando o Mundo, Gabe Utiliza o Humor nas Redes Sociais para Trazer Tabus a Tona e Quebrar Estigmas tão Intrínsecos da Sexualidade Feminina. Dominador Profissional há 6 Anos se Intitulando como “Sr. Spec”, se Especializou na Realização de Fetiches e Práticas de BDSM, Mostrando que a Sexualidade é um Vasto Universo Repleto de Possibilidades. Membro Associado do Grupo Cresex. Atende Presencial." 
+      bio: "Gabe Spec Atua no Mercado Adulto há 8 Anos, sendo o Primeiro Garoto de Hétero-Cis, a se Consagrar Atendendo somente o Público Feminino. Começando no Interior de SP e hoje Rodando o Mundo, Gabe Utiliza o Humor nas Redes Sociais para Trazer Tabus a Tona e Quebrar Estigmas tão Intrínsecos da Sexualidade Feminina. Dominador Profissional há 6 Anos se Intitulando como “Sr. Spec”, se Especializou na Realização de Fetiches e Práticas de BDSM, Mostrando que a Sexualidade é um Vasto Universo Repleto de Possibilidades. Membro Associado do Grupo Cresex. Atende Presencial.",
       instagram: "gabespec_ofc"
     },   
     {
@@ -256,7 +256,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Porto Alegre, RS",
       image: imageMap["giovani-quadros.jpg"] || imageMap["giovani-quadros.jpeg"] || imageMap["giovani-quadros.png"],
-      bio: "Psicólogo Clínico (CRP 07/21784) na Abordagem da TCC (Terapia Cognitiva-Comportamental) Focado em Adolescentes e Adultos. Pós-Graduado em Sexualidade Masculina, Neurociência, Neuropsicologia, Psiquiatria e Saúde Mental. Atua também como Palestrante, Professor Universitário (Anhanguera e INNAP) e Capacitado em Avaliação Psicológica para Vasectomia e Laqueadura. Membro Associado do Grupo Cresex. Atendimento Presencial e Online Nacional e Internacional."
+      bio: "Psicólogo Clínico (CRP 07/21784) na Abordagem da TCC (Terapia Cognitiva-Comportamental) Focado em Adolescentes e Adultos. Pós-Graduado em Sexualidade Masculina, Neurociência, Neuropsicologia, Psiquiatria e Saúde Mental. Atua também como Palestrante, Professor Universitário (Anhanguera e INNAP) e Capacitado em Avaliação Psicológica para Vasectomia e Laqueadura. Membro Associado do Grupo Cresex. Atendimento Presencial e Online Nacional e Internacional.",
       instagram: "giovanni.psicologia"
     },
     {
@@ -336,7 +336,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
-      bio:"Psicóloga clínica, com atuação fundamentada na Abordagem Cognitivo-Comportamental e na Terapia do Esquema, desenvolvendo intervenções voltadas ao fortalecimento emocional e à promoção da saúde mental. Formação em Transtornos de Ansiedade e Transtornos Relacionados pela USP, além de especialização em Gestão de Pessoas e Orientação Profissional. Membro associada do Grupo CRESEX. Atendimento presencial e online."
+      bio:"Psicóloga clínica, com atuação fundamentada na Abordagem Cognitivo-Comportamental e na Terapia do Esquema, desenvolvendo intervenções voltadas ao fortalecimento emocional e à promoção da saúde mental. Formação em Transtornos de Ansiedade e Transtornos Relacionados pela USP, além de especialização em Gestão de Pessoas e Orientação Profissional. Membro associada do Grupo CRESEX. Atendimento presencial e online.",
       instagram: "juliana_escarpinati"
 
     },
@@ -385,7 +385,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Salvador, BA",
       image:imageMap ["marcia-fialho.jpg"] || imageMap["marcia-fialho.jpeg"] || imageMap["marcia-fialho.png"] || "", 
-      bio: "Psicóloga Clínica na Abordagem da TCC (Terapia Cognitiva Comportamental) e Pedagoga. Pós-Graduação em Terapia Cognitiva, Pós-Graduação em Psicologia Organizacional e Formação em Psicologia Financeira. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "Psicóloga Clínica na Abordagem da TCC (Terapia Cognitiva Comportamental) e Pedagoga. Pós-Graduação em Terapia Cognitiva, Pós-Graduação em Psicologia Organizacional e Formação em Psicologia Financeira. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "marciafialhopsifinanceira"
     },
     {
@@ -448,7 +448,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Rio De Janeiro, RJ",
       image:imageMap ["maritza-silva.jpg"] || imageMap["maritza-silva.jpeg"] || imageMap["maritza-silva.png"] || "", 
-      bio: "terapeuta de relacionamentos e sexualidade, analista comportamental e educadora. Atua no atendimento individual e de casais, auxiliando na construção de relações mais saudáveis, conscientes e prazerosas. Também atua no desenvolvimento pessoal e profissional por meio do mapeamento comportamental, promovendo autoconhecimento, clareza emocional e mudanças consistentes, com base em práticas fundamentadas cientificamente. Membro Associada do Grupo Cresex. Atendimento Presencial e Online."
+      bio: "terapeuta de relacionamentos e sexualidade, analista comportamental e educadora. Atua no atendimento individual e de casais, auxiliando na construção de relações mais saudáveis, conscientes e prazerosas. Também atua no desenvolvimento pessoal e profissional por meio do mapeamento comportamental, promovendo autoconhecimento, clareza emocional e mudanças consistentes, com base em práticas fundamentadas cientificamente. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "maritzasilva.terapeuta"
     },
     {
@@ -472,7 +472,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image:imageMap["maykon-martins-carvalho.jpg"] || imageMap["maykon-martins-carvalho.jpeg"] || imageMap["maykon-martins-carvalho.png"] || "", 
-      bio:"Psicologo cliníco CRP (MG 04/64091)"
+      bio:"Psicologo cliníco CRP (MG 04/64091)",
       instagram: "maykonmartinspsico"
     },
     {
@@ -520,7 +520,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["nubia-carvalho.jpg"] || imageMap["nubia-carvalho.jpeg"] || imageMap["nubia-carvalho.png"] || "", 
-      bio:""
+      bio:"",
       instagram: "psi_nubiacarvalho"
     }, 
     {
@@ -528,7 +528,7 @@ export default function ProfessionalPage() {
       specialty: "PsicólogO ClínicO",
       city: "Uberlândia, MG",
       image:imageMap ["paulo-roberto.jpg"] || imageMap["paulo-roberto.jpeg"] || imageMap["paulo-roberto.png"] || "", 
-      bio: "PAULERA é psicólogo (CRP-04/70114) e artista. Atende online e presencialmente ao ar livre no Parque do Sabiá em Uberlândia-MG. Tem proximidade com demandas de quem tem vivências alternativas e que flerta com a cultura underground. Utiliza a TCC e a ACT como abordagens"
+      bio: "PAULERA é psicólogo (CRP-04/70114) e artista. Atende online e presencialmente ao ar livre no Parque do Sabiá em Uberlândia-MG. Tem proximidade com demandas de quem tem vivências alternativas e que flerta com a cultura underground. Utiliza a TCC e a ACT como abordagens",
       instagram:"paulera.br"
     },
     {
@@ -536,7 +536,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image: imageMap["pedro-santos.jpg"] || imageMap["pedro-santos.jpeg"] || imageMap["pedro-santos.png"],
-      bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO)."
+      bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO).",
       instagram: "pegosler"
     },    
     {
@@ -551,7 +551,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["pollyana-borges.jpg"] || imageMap["pollyana-borges.jpeg"] || imageMap["pollyana-borges.png"] || "", 
-      bio: "Membro Associada do Grupo Cresex."
+      bio: "Membro Associada do Grupo Cresex.",
       instagram: "pollyanapompoarismo"
     },
     {
@@ -559,7 +559,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São Caetano Do Sul, SP",
       image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
-      bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes."
+      bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes.",
       instagram: "sexologa_reginareis"
     },    
     { 
@@ -583,7 +583,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["roberta-resende.jpg"] || imageMap["roberta-resende.jpeg"] || imageMap["roberta-resende.png"],
-      bio: "Formada pela Universidade Federal de Uberlândia desde 1994. Especialista em Educação Sexual; Pós graduada em Psicosexologia, Capacitada como terapeuta de relacionamento e casais; Capacitação em Avaliação Psicológica para cirurgia Bariátrica. Atuou como Psicóloga no Projeto Federal Sentinela, com sede em Goiania, com adolescentes grávidas vítimas de abuso sexual. Membro do Centro de Referência em Sexualidade (Cresex)."
+      bio: "Formada pela Universidade Federal de Uberlândia desde 1994. Especialista em Educação Sexual; Pós graduada em Psicosexologia, Capacitada como terapeuta de relacionamento e casais; Capacitação em Avaliação Psicológica para cirurgia Bariátrica. Atuou como Psicóloga no Projeto Federal Sentinela, com sede em Goiania, com adolescentes grávidas vítimas de abuso sexual. Membro do Centro de Referência em Sexualidade (Cresex).",
       instagram: "robertarrresende"
     },    
     {
@@ -591,7 +591,7 @@ export default function ProfessionalPage() {
       specialty: "Fisioterapeuta",
       city: "Ubêrlandia - MG",
       image:imageMap["rodolfo-horbach.jpg"] || imageMap["rodolfo-horbach.jpeg"] || imageMap["rodolfo-horbach.png"] || "", 
-      bio:"Fisioterapeuta (Crefito4 304558-F). Osteopatia estrutural IDOT. Treinamento Funcional. Formação em tratamentos da coluna vertebral . Formação Internacional Método Stecco de liberação miofascial.Formação internacional kinesiotape.Membro do Centro de Referência em Sexualidade (CRESEX).Formações em Assoalho Pélvico/ Disfunção sexuais masculinas .Fisioterapia pélvica após câncer de próstata"
+      bio:"Fisioterapeuta (Crefito4 304558-F). Osteopatia estrutural IDOT. Treinamento Funcional. Formação em tratamentos da coluna vertebral . Formação Internacional Método Stecco de liberação miofascial.Formação internacional kinesiotape.Membro do Centro de Referência em Sexualidade (CRESEX).Formações em Assoalho Pélvico/ Disfunção sexuais masculinas .Fisioterapia pélvica após câncer de próstata",
       instagram: "drodolfofisio.coluna"
     },
     {
@@ -599,7 +599,7 @@ export default function ProfessionalPage() {
       specialty: "Pisicólogo Clínico e Sexologo",
       city: "Belo Horizonte, MG",
       image:imageMap["rodrigo-torres.jpg"] || imageMap["rodrigo-torres.jpeg"] || imageMap["rodrigo-torres.png"] || "", 
-      bio:"Psicólogo e Sexólogo (CRP:04/26857). Máster pela Univ. de Barcelona e especialista pela SBRASH, onde integra os Conselhos Deliberativo e Fiscal (2025-26). Coordena o Inst. Ibero-americano de Sexologia no Brasil. Membro da ISSM, ABEMSS e ABPBE. Com formação em TCS, TCC, Terapia Breve e Psicologia Positiva, sua atuação é pautada em evidências, tendo sido Secretário Geral e Sub-Delegado da SBRASH. Membro Associado do Grupo Cresex. Atendimento Presencial e Online."
+      bio:"Psicólogo e Sexólogo (CRP:04/26857). Máster pela Univ. de Barcelona e especialista pela SBRASH, onde integra os Conselhos Deliberativo e Fiscal (2025-26). Coordena o Inst. Ibero-americano de Sexologia no Brasil. Membro da ISSM, ABEMSS e ABPBE. Com formação em TCS, TCC, Terapia Breve e Psicologia Positiva, sua atuação é pautada em evidências, tendo sido Secretário Geral e Sub-Delegado da SBRASH. Membro Associado do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "rodrigotorrespsi"
 
     }, 
@@ -616,7 +616,7 @@ export default function ProfessionalPage() {
       specialty: "Biologo e Educador",
       city: "Uberlândia, MG",
       image: imageMap["sandro-prado.jpg"] || imageMap["sandro-prado.jpeg"] || imageMap["sandro-prado.png"],
-      bio: "Biólogo e educador, atuo no INBIO/UFU explorando as conexões entre Educação em Biologia, gêneros e sexualidades sob a lente das filosofias da diferença. Meu foco é cartografar miudezas e o pulsar da vida, criando espaços de resistência na formação de professores. Busco uma "educação menor": ativando percepções e linguagens que engajem corpos e inventem novos modos de existir nos interstícios. Membro do Grupo Cresex, colaboro com o Núcleo de Estudos em Sexualidade e Gênero (NESG) e o Núcleo de Estudos em Educação e Diferença (NEED)."
+      bio: "Biólogo e educador, atuo no INBIO/UFU explorando as conexões entre Educação em Biologia, gêneros e sexualidades sob a lente das filosofias da diferença. Meu foco é cartografar miudezas e o pulsar da vida, criando espaços de resistência na formação de professores. Busco uma "educação menor": ativando percepções e linguagens que engajem corpos e inventem novos modos de existir nos interstícios. Membro do Grupo Cresex, colaboro com o Núcleo de Estudos em Sexualidade e Gênero (NESG) e o Núcleo de Estudos em Educação e Diferença (NEED).",
     },      
     {
       name: "Schirley Tavares Oliveira",
