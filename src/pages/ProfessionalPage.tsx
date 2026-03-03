@@ -192,6 +192,14 @@ export default function ProfessionalPage() {
       instagram: "deboracarvalhogs"
     }, 
     {
+      name: "Deise Lourenço",
+      specialty: "Psicóloga Clínica",
+      city: "São José Dos Campos, SP",
+      image: imageMap["deise-lourenco.jpg"] || imageMap["deise-lourenco.jpeg"] || imageMap["deise-lourenco.png"],
+      bio: "Psicóloga (CRP) | TCC e Terapia do Esquema. Atuo com terapia de casais e cognitiva sexual, focada em autoconhecimento, saúde sexual e intimidade. Especialista em hipnose e relaxamento. Co-autora do livro Psico sexologia clínica e Membro CRESEX. Atendimento online e presencial.",
+      instagram: "devalee.psicologa"
+    },
+    {
       name: "Élen Jane Santoro",
       specialty: "Psicóloga Clínica",
       city: "Cotia, SP",
