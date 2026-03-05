@@ -196,7 +196,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São José Dos Campos, SP",
       image: imageMap["deise-lourenco.jpg"] || imageMap["deise-lourenco.jpeg"] || imageMap["deise-lourenco.png"],
-      bio: "Psicóloga (CRP) | TCC e Terapia do Esquema. Atuo com terapia de casais e cognitiva sexual, focada em autoconhecimento, saúde sexual e intimidade. Especialista em hipnose e relaxamento. Co-autora do livro Psico sexologia clínica e Membro CRESEX. Atendimento online e presencial.",
+      bio: "Psicóloga (CRP: 05/27361) | TCC e Terapia do Esquema. Atuo com terapia de casais e cognitiva sexual, focada em autoconhecimento, saúde sexual e intimidade. Especialista em hipnose e relaxamento. Co-autora do livro Psico sexologia clínica e Membro CRESEX. Atendimento online e presencial.",
       instagram: "devalee.psicologa"
     },
     {
@@ -204,7 +204,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Cotia, SP",
       image:imageMap ["elen-jane-santoro.jpg"] || imageMap["elen-jane-santoro.jpeg"] || imageMap["elen-jane-santoro.png"] || "", 
-      bio: "Psicóloga Clínica (CRP:06/43947). Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga Clínica (CRP 06/43947) com abordagem em Terapia Cognitiva Sexual. Atua no tratamento de disfunções sexuais masculinas e saúde sexual, com foco em adolescentes, adultos, casais e orientação a pais. Especialista em Sexualidade, Palestrante, Professora, Escritora e Empreendedora com atuação no Ambulatório de Andrologia da UNIFESP. Membro associado ao Grupo CRESEX. Atendimento online e presencial.",
+      instagram: "elensantoro"
     },
     {
       name: "Élloa Castro De Souza Coelho",
