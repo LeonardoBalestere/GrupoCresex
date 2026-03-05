@@ -173,7 +173,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["cleyciane-faria.jpg"] || imageMap["cleyciane-faria.jpeg"] || imageMap["cleyciane-faria.png"],
-      bio: "Psicóloga Clínica com Abordagem na TCC (Terapia Cognitivo-Comportamental) e Nutricionista pela UFU, Tem Mestrado em Psicologia da Saúde (UFU) e é Doutoranda em Ciências da Saúde também pela UFU. Tem Forte Interesse por Temáticas Interdisciplinares em Saúde. Professora Universitária há mais de 20 Anos em Instituições Privadas de Uberlândia e Região. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga Clínica (CRP 04/23407) com Abordagem na TCC (Terapia Cognitivo-Comportamental) e Nutricionista pela UFU, Tem Mestrado em Psicologia da Saúde (UFU) e é Doutoranda em Ciências da Saúde também pela UFU. Tem Forte Interesse por Temáticas Interdisciplinares em Saúde. Professora Universitária há mais de 20 Anos em Instituições Privadas de Uberlândia e Região. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "cleycianefaria"
     },
     {
@@ -242,7 +242,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São Paulo, SP",
       image:imageMap ["fernanda-fraga.jpg"] || imageMap["fernanda-fraga.jpeg"] || imageMap["fernanda-fraga.png"] || "", 
-      bio: "Psicóloga Clínica na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga Clínica (CRP: 06/227531) na abordagem construcionista social com Pos Graduação em Psicalnálise. Também Atua como Palestrante em Eventos Voltados para Mulheres. Graduada em Sexologia Cristã. Pós-Graduanda em Psicosexologia Clínica pelo CRESEX. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "@fernandadiasfraga"
     },
     {
@@ -250,7 +250,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["fernanda-marqueto.jpg"] || imageMap["fernanda-marqueto.jpeg"] || imageMap["fernanda-marqueto.png"] || "", 
-      bio: "Psicóloga Clínica na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Online.",
+      bio: "Psicóloga Clínica (CRP: 06/227531) na Abordagem da Psicanálise. Mestre em Psicologia pela UFU. Pesquisadora com Foco em Pessoas Idosas LGBTQIAPN+ na Intersecção com um Possível Acolhimento em Instituições de Longa Permanência para Idosos, Estudos de Gênero e Sexualidade Humana. Atua também com Políticas e Uso Problemático de Drogas, Processos do Envelhecimento, Avaliação e Reabilitação Cognitiva de Pessoas Idosas, Grupos de Estabelecimento e Fortalecimento de Vínculo e Grupos de Convivência. Membro Associada do Grupo Cresex. Atendimento Online.",
     },
     {
       name: "Gabe Spec",
@@ -378,7 +378,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga",
       city: "Uberlândia, MG",
       image: imageMap["lourdes-rosa.jpg"] || imageMap["lourdes-rosa.jpeg"] || imageMap["lourdes-rosa.png"],
-      bio: "Psicóloga clínica especializada em sexologia, terapia sexual e de casais. Pós graduada em psicopedagogia pela Universidade Federal de Uberlândia. Especializada em Terapia e Educação sexual pelo Instituto Casal Tessarioli, em São Paulo, (CEFATEF) e especialista em Sexologia pelo mesmo instituto. Membro do grupo de Estudos em Sexualidade, na terapia cognitiva sexual. Atua na avaliação, diagnóstico e tratamento das disfunções sexuais masculinas, femininas, independente do gênero e orientação sexual.Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga clínica (CRP 04/85352) especializada em sexologia, terapia sexual e de casais. Pós graduada em psicopedagogia pela Universidade Federal de Uberlândia. Especializada em Terapia e Educação sexual pelo Instituto Casal Tessarioli, em São Paulo, (CEFATEF) e especialista em Sexologia pelo mesmo instituto. Membro do grupo de Estudos em Sexualidade, na terapia cognitiva sexual. Atua na avaliação, diagnóstico e tratamento das disfunções sexuais masculinas, femininas, independente do gênero e orientação sexual.Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "psicologiasexologialourdesrosa" 
     },
     {
@@ -394,7 +394,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Salvador, BA",
       image:imageMap ["marcia-fialho.jpg"] || imageMap["marcia-fialho.jpeg"] || imageMap["marcia-fialho.png"] || "", 
-      bio: "Psicóloga Clínica na Abordagem da TCC (Terapia Cognitiva Comportamental) e Pedagoga. Pós-Graduação em Terapia Cognitiva, Pós-Graduação em Psicologia Organizacional e Formação em Psicologia Financeira. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Psicóloga Clínica (CRP 03/85352) na Abordagem da TCC (Terapia Cognitiva Comportamental) e Pedagoga. Pós-Graduação em Terapia Cognitiva, Pós-Graduação em Psicologia Organizacional e Formação em Psicologia Financeira. Pós-Graduanda em Psicosexologia Clínica pelo Centro de Referência em Sexualidade. membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
       instagram: "marciafialhopsifinanceira"
     },
     {
@@ -433,7 +433,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["marilia-souza.jpg"] || imageMap["marilia-souza.jpeg"] || imageMap["marilia-souza.png"],
-      bio: "Psicóloga clínica, mestra em Ciências da Saúde, pós-graduada em Docência do Ensino Superior e MBA em Gestão de Pessoas Recebeu uma premiação em Bruxelas com a apresentação do trabalho \"Evaluation of Common Mental Disorders in Leprosy through the “Self Reporting Questionnaire\". Trabalhou com jovens ministrando aulas sobre educação sexual, é consultora em saúde e sexualidade e participa das reuniões da Comissão saúde e sexualidade no Conselho Regional de Psicologia.",
+      bio: "Psicóloga clínica (CRP 04/85352), mestra em Ciências da Saúde, pós-graduada em Docência do Ensino Superior e MBA em Gestão de Pessoas Recebeu uma premiação em Bruxelas com a apresentação do trabalho \"Evaluation of Common Mental Disorders in Leprosy through the “Self Reporting Questionnaire\". Trabalhou com jovens ministrando aulas sobre educação sexual, é consultora em saúde e sexualidade e participa das reuniões da Comissão saúde e sexualidade no Conselho Regional de Psicologia.",
       instagram: "mariliapsicologa"
     },
     {
@@ -465,7 +465,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo clinico",
       city: "Uberaba, MG",
       image: imageMap["mateus-balduino.jpg"] || imageMap["mateus-balduino.jpeg"] || imageMap["mateus-balduino.png"] || "",
-      bio: "Psicólogo e realizo atendimentos online. Graduado em Psicologia pela Uniube, tenho pós-graduação em Sexologia, Psicodrama, Teologia, Filosofia e Antropologia. Desenvolvi um olhar humano e profundo para acolher dores, desafios e espontaneidade. Tenho experiência com disfunções sexuais, com a comunidade LGBTQIAPN+ e também com relacionamentos não monogâmicos. Meu propósito é simples: ajudar você a viver de forma plena, autêntica e com mais sentido.",
+      bio: "Psicólogo (CRP 04/85352) com abordagem em Psicodrama. Atua com acolhimento de dores, desafios e espontaneidade, com foco em disfunções sexuais, comunidade LGBTQIAPN+ e relacionamentos não monogâmicos. Pós-graduado em Sexologia, Teologia, Filosofia e Antropologia pela Uniube. Membro associado do CRESEX. Atendimento online.",
       instagram: "metamultiuniversalista"
     }, 
     {
@@ -473,7 +473,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica e Sexologa",
       city: "Catalão, GO",
       image:imageMap["mayara-cardoso.jpg"] || imageMap["mayara-cardoso.jpeg"] || imageMap["mayara-cardoso.png"] || "", 
-      bio: "Psicóloga Clínica na abordagem TCC (Terapia Cognitivo-Comportamental), especialista em sexologia e educação sexual. Atua com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade. Membro Associada do Grupo Cresex. Atendimento 100% online.",
+      bio: "Psicóloga Clínica (CRP 09/008056) na abordagem TCC (Terapia Cognitivo-Comportamental), especialista em sexologia e educação sexual. Atua com foco especial em mulheres em menopausa ou pós menopausa; buscando qualidade na saúde emocional, autoestima e sexualidade. Membro Associada do Grupo Cresex. Atendimento 100% online.",
       instagram: "caminhoodacura"
     },    
     {
@@ -568,7 +568,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "São Caetano Do Sul, SP",
       image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
-      bio: "Qualificações: Experiência em organização e Produção de eventos femininos, envolvendo ciclo de palestas e dinâmicas; atuação na área da docência ministrando oficinas de prevenção à violência sexual contra crianças e adolescentes.",
+      bio: "Psicoterapeuta e Educadora com abordagem em Psicanálise e Terapia de Casal e Família. Atua com foco em disfunções sexuais, prevenção à violência contra crianças e adolescentes e saúde feminina. Pós-graduada em Terapia Sexual, Educação e Saúde (CEFATEF) e Terapia de Casal (UNIFESP), com formação em Psicanálise (NEM). Membro associado do CRESEX. Atendimento online e presencial na Clínica Espaço Viver Saúde.",
       instagram: "sexologa_reginareis"
     },    
     { 
