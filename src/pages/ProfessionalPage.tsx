@@ -219,7 +219,7 @@ export default function ProfessionalPage() {
       specialty: "Publicitária",
       city: "Uberlândia, MG",
       image: imageMap["erica-santos.jpg"] || imageMap["erica-santos.jpeg"] || imageMap["erica-santos.png"],
-      bio: "Transformo presença digital em crescimento ativo. +50 empresas atendidas. 500 mil acessos/mêsMembro Associada do Grupo Cresex.",
+      bio: "Transformo presença digital em crescimento ativo. +50 empresas atendidas. 500 mil acessos/mês. Membro Associada do Grupo Cresex.",
       instagram: "vitrine_uberlandia"
     }, 
     {
@@ -449,7 +449,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["marinalva-santana.jpg"] || imageMap["marinalva-santana.jpeg"] || imageMap["marinalva-santana.png"] || "", 
-      bio:"Marinalva Santana (CRP 04/43084). Psicóloga com pós-graduações em Terapia Familiar e Sexologia (FASES), Psicodrama (FATRA) e Terapia Sistêmica de Família e Casal (FLT). Docente no CRESEX, leciona Técnicas de Terapia Sistêmica Familiar e Sexual na pós em Psicossexologia. Atua na clínica com foco em casais, famílias e atendimentos individuais. Membro Associada do Grupo Cresex.",
+      bio:"Psicóloga Clínica (CRP 04/43084) com abordagem em Terapia Sistêmica e Psicodrama. Atua na clínica com foco em casais, famílias e atendimentos individuais. Pós-graduada em Terapia Familiar e Sexologia (FASES), Psicodrama (FATRA) e Terapia Sistêmica de Família e Casal (FLT). Docente no CRESEX em Técnicas de Terapia Sistêmica Familiar e Sexual. Membra CRESEX. Atendimento online e presencial.",
       instagram: "marinalvamelopsico"
     },
     {
@@ -494,7 +494,7 @@ export default function ProfessionalPage() {
     },    
     {
       name: "Meg Silva Santos",
-      specialty: "Psicóloga Clínica",
+      specialty: "Psicóloga Clínica e Sexologa",
       city: "Guarulhos, SP",
       image: imageMap["meg-silva.jpg"] || imageMap["meg-silva.jpeg"] || imageMap["meg-silva.png"],
       bio: "Psicóloga e Sexóloga (CRP 06/187947), com atuação na abordagem Fenomenológica Existencial, pós-graduada em Sexologia e Psicologia Organizacional. Atendo crianças, adolescentes, adultos e casais, com foco em saúde mental, sexualidade, questões de gênero e LGBTQIAPN+. Pesquisadora do trabalho sexual desde 2018. Experiência prévia de 18 anos em RH. Escritora e palestrante, promovo autoconhecimento e construção de sentido.",
@@ -502,7 +502,7 @@ export default function ProfessionalPage() {
     },    
     {
       name: "Miriam Vieira",
-      specialty: "Psicóloga",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["mirian-vieira.jpg"] || imageMap["mirian-vieira.jpeg"] || imageMap["mirian-vieira.png"],
       bio: "Psicóloga clínica ( CRP: 3521/04 ) na Abordagem do Psicodrama e Terapia sistêmica e Psicoterapeuta de Casais. Atua individualmente, com adolescentes, casais e grupos na área vocacional e na orientação sexual. Pós graduada em Psicosexologia; Especialista em Psicodrama Clinico, Pedagógico e Dinâmica de Grupo; com Formação em Terapia Sistêmica e Genosistemica. Professora na área da sexualidade e autora de diversos títulos publicados. Membro associada do Grupo Cresex. Atendimento online e presencial",
@@ -510,15 +510,15 @@ export default function ProfessionalPage() {
     },   
     {
       name: "Monalise Do Carmo",
-      specialty: "Psicóloga Clínica",
+      specialty: "Médica clínica médica e geriatria",
       city: "São Paulo, SP",
       image:imageMap ["monalise-do-carmo.jpg"] || imageMap["monalise-do-carmo.jpeg"] || imageMap["monalise-do-carmo.png"] || "", 
-      bio: "Membro Associada do Grupo Cresex.",
+      bio: "Médica Geriatra e Clínica Médica (CRM-SP 205179 ) com abordagem baseada em evidências e decisões centradas no paciente. Atua com foco em funcionalidade, assistência hospitalar e ambulatorial. Especialista com residência e preceptoria no Hospital do Servidor Público Estadual de SP (HSPE). Membro Associado do Grupo CRESEX. Atendimento online e presencial.",
       instagram: "dra_monalise"
     },
     {
       name: "Nilda Alves",
-      specialty: "Psicóloga Clínica E Sexologa",
+      specialty: "Psicóloga Clínica e Sexologa",
       city: "Catalão, GO",
       image:imageMap["nilda-alves.jpg"] || imageMap["nilda-alves.jpeg"] || imageMap["nilda-alves.png"] || "", 
       bio:"Psicóloga (CRP09/6795), Sexológa Clínica, psicoterapeuta de casais, especialista em psicosexologia, sexualidade Humana e Genero e sexualidade. Palestrante e estudiosa em temas da Psicologia e Sexualidade. simpatizante de varias abortagens. Atualmente e aluna da pos graduação em Analise transacional. Membro da Associada do Grupo Cresex. Atendimento Presencial e Online",
@@ -534,10 +534,10 @@ export default function ProfessionalPage() {
     }, 
     {
       name: "Paulo Roberto",
-      specialty: "PsicólogO ClínicO",
+      specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image:imageMap ["paulo-roberto.jpg"] || imageMap["paulo-roberto.jpeg"] || imageMap["paulo-roberto.png"] || "", 
-      bio: "PAULERA é psicólogo (CRP-04/70114) e artista. Atende online e presencialmente ao ar livre no Parque do Sabiá em Uberlândia-MG. Tem proximidade com demandas de quem tem vivências alternativas e que flerta com a cultura underground. Utiliza a TCC e a ACT como abordagens",
+      bio: "Psicólogo (CRP 04/70114) e Artista com abordagem em TCC e ACT (Terapia de Aceitação e Compromisso). Atua com demandas de vivências alternativas e cultura underground, com foco em processos criativos e saúde mental. Graduado em Psicologia com experiência em clínica ampliada. Membro Associado do Grupo CRESEX. Atendimento online e presencial ao ar livre (Parque do Sabiá, Uberlândia-MG).",
       instagram:"paulera.br"
     },
     {
@@ -545,7 +545,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image: imageMap["pedro-santos.jpg"] || imageMap["pedro-santos.jpeg"] || imageMap["pedro-santos.png"],
-      bio: "Graduação pela UFU - 2021. Pós graduando em TCC - Previsão 2026 (Fernanda Landeiro). Formação em TCS - 2025 (Aline Sardinha). Formação em TCC para minorias - 2022(FOCO).",
+      bio: "Psicólogo (CRP 04/63459) com abordagem em Terapia Cognitivo-Comportamental (TCC) e Terapia Cognitiva Sexual (TCS). Atua com foco em minorias e sexualidade humana, utilizando intervenções baseadas em evidências. Pós-graduando em TCC (Fernanda Landeiro) e formado em TCS (Aline Sardinha) e TCC para Minorias (FOCO). Graduado pela UFU. Membro Associado do Grupo CRESEX. Atendimento online e presencial.",
       instagram: "pegosler"
     },    
     {
@@ -565,10 +565,10 @@ export default function ProfessionalPage() {
     },
     {
       name: "Regina Araújo",
-      specialty: "Psicóloga Clínica",
+      specialty: "Psicoterapeuta e Educadora ",
       city: "São Caetano Do Sul, SP",
       image: imageMap["regina-araujo.jpg"] || imageMap["regina-araujo.jpeg"] || imageMap["regina-araujo.png"],
-      bio: "Psicoterapeuta e Educadora com abordagem em Psicanálise e Terapia de Casal e Família. Atua com foco em disfunções sexuais, prevenção à violência contra crianças e adolescentes e saúde feminina. Pós-graduada em Terapia Sexual, Educação e Saúde (CEFATEF) e Terapia de Casal (UNIFESP), com formação em Psicanálise (NEM). Membro associado do CRESEX. Atendimento online e presencial na Clínica Espaço Viver Saúde.",
+      bio: "Psicoterapeuta e Educadora com abordagem em Psicanálise e Terapia de Casal e Família. Atua com foco em disfunções sexuais, prevenção à violência contra crianças e adolescentes e saúde feminina. Pós-graduada em Terapia Sexual, Educação e Saúde (CEFATEF) e Terapia de Casal (UNIFESP), com formação em Psicanálise (NEM). Membro associado do Grupo CRESEX. Atendimento online e presencial na Clínica Espaço Viver Saúde.",
       instagram: "sexologa_reginareis"
     },    
     { 
@@ -576,7 +576,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica E Sexologa",
       city: "Uberlândia, MG",
       image:imageMap["renata-monteiro.jpg"] || imageMap["renata-monteiro.jpeg"] || imageMap["renata-monteiro.png"] || "", 
-      bio:"Psicóloga Perinatal (CRP04/41235) e especialista em Saúde Mental, Parentalidade e Sexualidade (CRESEX). Atua via TCC no planejamento gestacional, pré-natal psicológico, puerpério, luto e infertilidade. Oferece atendimento acolhedor a famílias LGBTQIA+ e adultos. Palestrante e supervisora, realiza grupos terapêuticos. Presencial em Uberlândia/MG e online para brasileiras em todo o mundo.",
+      bio:"Psicóloga Perinatal (CRP04/41235) e especialista em Saúde Mental, Parentalidade e Sexualidade (CRESEX). Atua via TCC no planejamento gestacional, pré-natal psicológico, puerpério, luto e infertilidade. Oferece atendimento acolhedor a famílias LGBTQIA+ e adultos. Palestrante e supervisora, realiza grupos terapêuticos. Membro Associado do Grupo CRESEX. Presencial em Uberlândia/MG e online para brasileiras em todo o mundo.",
       instagram: "renatamonteiropsico"
     }, 
     {
@@ -584,7 +584,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Belo Horizonte, MG",
       image: imageMap["renata-lanza.jpg"] || imageMap["renata-lanza.jpeg"] || imageMap["renata-lanza.png"],
-      bio: "Realizo atendimentos em terapia individual ou terapia de casal, atuando principalmente com demandas de relacionamentos, queixas sexuais, e autoestima feminina. Também atuo com questões relacionadas à monogamia/não monogamia e às várias formas de amar. Atendimentos em português ou em inglês.",
+      bio: "Psicóloga Clínica (CRP 04/23203) na Abordagem da TCC (Terapia Cognitivo-Comportamental). Atua em terapia individual e de casal, com foco em relacionamentos, queixas sexuais, autoestima feminina e configurações de monogamia/não-monogamia. Especialista em Sexualidade Humana e Relacionamentos. Membro associado do Grupo CRESEX. Atendimento online e presencial em português e inglês.",
       instagram: "renatalanza.psi"
     },    
     {
@@ -592,7 +592,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["roberta-resende.jpg"] || imageMap["roberta-resende.jpeg"] || imageMap["roberta-resende.png"],
-      bio: "Formada pela Universidade Federal de Uberlândia desde 1994. Especialista em Educação Sexual; Pós graduada em Psicosexologia, Capacitada como terapeuta de relacionamento e casais; Capacitação em Avaliação Psicológica para cirurgia Bariátrica. Atuou como Psicóloga no Projeto Federal Sentinela, com sede em Goiania, com adolescentes grávidas vítimas de abuso sexual. Membro do Centro de Referência em Sexualidade (Cresex).",
+      bio: "Psicóloga (CRP 04/12344) com especialização em Educação Sexual e Psicossexologia. Atua com foco em terapia de casal, relacionamentos e avaliação psicológica para cirurgia bariátrica. Possui sólida experiência no atendimento a adolescentes grávidas vítimas de violência (Projeto Sentinela). Graduada pela UFU. Membro Associado do Grupo CRESEX. Atendimento online e presencial.",
       instagram: "robertarrresende"
     },    
     {
@@ -614,10 +614,10 @@ export default function ProfessionalPage() {
     }, 
     {
       name: "Sandra Vasconcelos",
-      specialty: "Psicóloga",
+      specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image: imageMap["sandra-vasconcelos.jpg"] || imageMap["sandra-vasconcelos.jpeg"] || imageMap["sandra-vasconcelos.png"],
-      bio: "Especialista em adolescência. Graduada em Psicologia pelo Centro Universitário do Triângulo  - UNITRI, Uberlândia, MG, Brasil (2016). Mestre em Psicologia Clínica pela Universidade do Minho, Braga, Portugal. Pós Graduada em Terapia Familiar e Sexologia pela Faculdade Shalom de Ensino Superior. Atendendimentos, personalizados individuais, casais e em grupos.",
+      bio: "Psicóloga (CRP sob consulta) especialista em adolescência, com abordagem em Terapia Familiar e Sexologia. Atua com atendimentos personalizados para indivíduos, casais e grupos. Mestre em Psicologia Clínica pela Universidade do Minho (Portugal), graduada pelo Centro Universitário do Triângulo (UNITRI) e pós-graduada pela Faculdade Shalom. Membro Associado do Grupo CRESEX. Atendimento online e presencial.",
       instagram: "sandramarquesvasconcelos"
     },    
     {
@@ -686,7 +686,8 @@ export default function ProfessionalPage() {
       specialty: "Terapeuta Tântrica, Terapeuta Integrativa e Massoterapeuta",
       city: "Uberlândia, MG",
       image:imageMap ["veronica-carolina.jpg"] || imageMap["veronica-carolina.jpeg"] || imageMap["veronica-carolina.png"] || "", 
-      bio: "Terapeuta Tântrica e Integrativa (Registro em formação/especialista) com abordagem no método Corpo Ancestral em Movimento. Atua no desenvolvimento humano, cuidado integral do corpo e emoções, com foco em atendimentos individuais e vivências para mulheres. Especialista em Massoterapia, Reiki, Apometria e Radiestesia. Membro associado do Grupo Cresex. Atendimento presencial."
+      bio: "Terapeuta Tântrica e Integrativa (Registro em formação/especialista) com abordagem no método Corpo Ancestral em Movimento. Atua no desenvolvimento humano, cuidado integral do corpo e emoções, com foco em atendimentos individuais e vivências para mulheres. Especialista em Massoterapia, Reiki, Apometria e Radiestesia. Membro associado do Grupo Cresex. Atendimento presencial."]
+      instagram: "veronicafragaa"
     },
     {
       name: "Vilma Reiter",
