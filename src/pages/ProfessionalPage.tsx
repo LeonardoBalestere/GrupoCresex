@@ -682,6 +682,13 @@ export default function ProfessionalPage() {
       bio: "Membro Associada do Grupo Cresex."
     },
     {
+      name: "Verônica Fraga",
+      specialty: "Terapeuta Tântrica, Terapeuta Integrativa e Massoterapeuta",
+      city: "Uberlândia, MG",
+      image:imageMap ["veronica-carolina.jpg"] || imageMap["veronica-carolina.jpeg"] || imageMap["veronica-carolina.png"] || "", 
+      bio: "Terapeuta Tântrica e Integrativa (Registro em formação/especialista) com abordagem no método Corpo Ancestral em Movimento. Atua no desenvolvimento humano, cuidado integral do corpo e emoções, com foco em atendimentos individuais e vivências para mulheres. Especialista em Massoterapia, Reiki, Apometria e Radiestesia. Membro associado do Grupo Cresex. Atendimento presencial."
+    },
+    {
       name: "Vilma Reiter",
       specialty: "Psicóloga e Psicosexóloga",
       city: "Blumenau, SC",
