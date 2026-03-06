@@ -686,8 +686,8 @@ export default function ProfessionalPage() {
       specialty: "Terapeuta Tântrica, Terapeuta Integrativa e Massoterapeuta",
       city: "Uberlândia, MG",
       image:imageMap ["veronica-carolina.jpg"] || imageMap["veronica-carolina.jpeg"] || imageMap["veronica-carolina.png"] || "", 
-      bio: "Terapeuta Tântrica e Integrativa (Registro em formação/especialista) com abordagem no método Corpo Ancestral em Movimento. Atua no desenvolvimento humano, cuidado integral do corpo e emoções, com foco em atendimentos individuais e vivências para mulheres. Especialista em Massoterapia, Reiki, Apometria e Radiestesia. Membro associado do Grupo Cresex. Atendimento presencial."]
-      instagram: "veronicafragaa"
+      bio: "Terapeuta Tântrica e Integrativa (Registro em formação/especialista) com abordagem no método Corpo Ancestral em Movimento. Atua no desenvolvimento humano, cuidado integral do corpo e emoções, com foco em atendimentos individuais e vivências para mulheres. Especialista em Massoterapia, Reiki, Apometria e Radiestesia. Membro associado do Grupo Cresex. Atendimento presencial.",
+      instagram: "veronicafragaa",
     },
     {
       name: "Vilma Reiter",
