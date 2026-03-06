@@ -454,10 +454,10 @@ export default function ProfessionalPage() {
     },
     {
       name: "Maritza Silva",
-      specialty: "Psicóloga Clínica",
+      specialty: "Terapeuta de Relacionamentos e Sexualidade",
       city: "Rio De Janeiro, RJ",
       image:imageMap ["maritza-silva.jpg"] || imageMap["maritza-silva.jpeg"] || imageMap["maritza-silva.png"] || "", 
-      bio: "terapeuta de relacionamentos e sexualidade, analista comportamental e educadora. Atua no atendimento individual e de casais, auxiliando na construção de relações mais saudáveis, conscientes e prazerosas. Também atua no desenvolvimento pessoal e profissional por meio do mapeamento comportamental, promovendo autoconhecimento, clareza emocional e mudanças consistentes, com base em práticas fundamentadas cientificamente. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
+      bio: "Atuo no cuidado da saúde emocional, relacional e sexual de pessoas adultas (18+), em atendimentos individuais e de casais. Auxilio no manejo de conflitos de relacionamento, dificuldades de comunicação, ciúmes, sofrimento ligado à sexualidade e disfunções sexuais. Meu trabalho busca promover autoconhecimento, relações mais saudáveis e uma vivência da sexualidade com mais consciência e bem-estar. Membro associado do Grupo Cresex. Atendimento Online",
       instagram: "maritzasilva.terapeuta"
     },
     {
