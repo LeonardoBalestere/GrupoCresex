@@ -481,7 +481,7 @@ export default function ProfessionalPage() {
       specialty: "Psicólogo Clínico",
       city: "Uberlândia, MG",
       image:imageMap["maykon-martins-carvalho.jpg"] || imageMap["maykon-martins-carvalho.jpeg"] || imageMap["maykon-martins-carvalho.png"] || "", 
-      bio:"Psicologo cliníco CRP (MG 04/64091)",
+      bio:"Psicólogo clínico (CRP 04/64091). Atua com psicoterapia clínica e atendimento especializado em HIV na RNP, com foco em saúde sexual e saúde mental. Possui pós-graduação em Análise do Comportamento, formação em Genograma e Bases Sistêmicas. É membro Associado do Grupo CRESEX. Atendimentos online e presencial",
       instagram: "maykonmartinspsico"
     },
     {
@@ -529,7 +529,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["nubia-carvalho.jpg"] || imageMap["nubia-carvalho.jpeg"] || imageMap["nubia-carvalho.png"] || "", 
-      bio:"",
+      bio:"Psicóloga  com abordagem em TCC e Psicanálise. Atua com foco em neuropsicologia, avaliação psicológica, psicodiagnóstico e infância/adolescência. Possui vasta formação multidisciplinar, incluindo Pós-graduação em Gestão de Pessoas (FGV) e graduação em Sociologia (UNIFACS), com experiência acadêmica internacional em ciências humanas. Membro Associado do Grupo CRESEX. Atendimento online e presencial",
       instagram: "psi_nubiacarvalho"
     }, 
     {
@@ -560,7 +560,7 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap ["pollyana-borges.jpg"] || imageMap["pollyana-borges.jpeg"] || imageMap["pollyana-borges.png"] || "", 
-      bio: "Membro Associada do Grupo Cresex.",
+      bio: "Sexóloga, especialista em sexualidade e autoestima, professora de pompoarismo, palestrante e humorista. Membro Associada do Grupo Cresex.",
       instagram: "pollyanapompoarismo"
     },
     {
@@ -632,7 +632,8 @@ export default function ProfessionalPage() {
       specialty: "Psicóloga Clínica",
       city: "Divinópolis, MG",
       image:imageMap ["schirley-tavares-oliveira.jpg"] || imageMap["schirley-tavares-oliveira.jpeg"] || imageMap["schirley-tavares-oliveira.png"] || "", 
-      bio: "Membro Associada Grupo Cresex",
+      bio: "Psicóloga Clínica (CRP 04/68031) na Abordagem da TCS (Terapia Cognitivo-Sexual).Atua com psicoterapia clínica com foco em sexualidade humana. Possui formação em Sexologia Clínica e formação em Terapia Cognitiva Sexual, sendo pós-graduanda em Sexualidade Humana, inclusive pela CBI of Miami. É Membro Associada do GRUPO CRESEX. atendimento online e presencial.",
+
       instagram: "schirleytavarespsi"
     },
     {
@@ -640,7 +641,7 @@ export default function ProfessionalPage() {
       specialty: "Sexóloga e Terapeuta Tântrica",
       city: "Peixoto De Azevedo, MT",
       image: imageMap["silvia-silva-lima.jpg"] || imageMap["silvia-silva-lima.jpeg"] || imageMap["silvia-silva-lima.png"],
-      bio: "Meu nome é Silvia Silva Lima, tenho 45 anos, sou casada e mãe de 2 filhos. Sou formada em Administração de Empresas, pós graduada em Gestão de Pessoas",
+      bio: "Psicóloga Clínica (CRP 18/06570) com especialização em  Psicosexologia Clínica pelo Grupo CRESEX. Atua com Psicoterapia Sexual e de Casal, com foco em Educação Sexual, palestras sobre sexualidade e empreendedorismo no mercado de produtos sensuais. Possui formação em Psicoterapia Sexual e de Casal e formação em Educação Sexual. É membro Associado do Grupo Cresex. Atendimento online e presencial.",
       instagram: "silviapsicologapxto"
     },    
     {
