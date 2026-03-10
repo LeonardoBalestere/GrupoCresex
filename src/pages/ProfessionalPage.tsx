@@ -120,7 +120,7 @@ export default function ProfessionalPage() {
       city: "Uberlândia, MG",
       image: imageMap["bianca-gontijo.jpg"] || imageMap["bianca-gontijo.jpeg"] || imageMap["bianca-gontijo.png"],
       bio: "Psicóloga (CRP 04/81838) formada pela Universidade Federal de Mato Grosso. Aprimoramento em Sexualidade Humana, pós-graduanda em Psicologia Clínica Histórico-Cultural, formação na Psicodinâmica do Trabalho e Clínica do Trabalhador, atende ao público adulto e idoso nas mais diversas áreas que tangem o adoecimento psíquico, oferecendo acolhimento e suporte profissional para o processo de consciência e autonomia do sujeito. Membro Associada do Grupo Cresex. Atendimento Presencial e Online.",
-      instagram: "briancagontijo.psi"
+      instagram: "biancagontijo.psi"
     }, 
     {   
       name: "Bruno De Medeiros",
