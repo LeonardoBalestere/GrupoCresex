@@ -341,11 +341,11 @@ export default function ProfessionalPage() {
       instagram: 'julianagracaoficial'
     }, 
     {
-      name: "Juliana Scarpinati",
+      name: "Juliana Escarpinati",
       specialty: "Psicóloga Clínica",
       city: "Uberlândia, MG",
       image:imageMap["juliana-scarpinati.jpg"] || imageMap["juliana-scarpinati.jpeg"] || imageMap["juliana-scarpinati.png"] || "", 
-      bio:"Psicóloga clínica, com atuação fundamentada na Abordagem Cognitivo-Comportamental e na Terapia do Esquema, desenvolvendo intervenções voltadas ao fortalecimento emocional e à promoção da saúde mental. Formação em Transtornos de Ansiedade e Transtornos Relacionados pela USP, além de especialização em Gestão de Pessoas e Orientação Profissional. Membro associada do Grupo CRESEX. Atendimento presencial e online.",
+      bio:"Psicóloga clínica (CRP 04/85397), com atuação fundamentada na abordagem Cognitivo-Comportamental e na Terapia do Esquema, para intervenções voltadas ao fortalecimento emocional e à promoção da saúde mental. Possuo formação em Transtornos de Ansiedade e Transtornos Relacionados pela USP, além de especialização em Gestão de Pessoas e Orientação Profissional. Sou membro associada do Grupo CRESEX. Atendimento presencial e online.",
       instagram: "juliana_escarpinati"
 
     },
