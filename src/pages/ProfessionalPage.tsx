@@ -638,10 +638,10 @@ export default function ProfessionalPage() {
     },
     {
       name: "Silvia Silva Lima",
-      specialty: "Sexóloga e Terapeuta Tântrica",
+      specialty: "Psicóloga Clínica e Sexologa",
       city: "Peixoto De Azevedo, MT",
       image: imageMap["silvia-silva-lima.jpg"] || imageMap["silvia-silva-lima.jpeg"] || imageMap["silvia-silva-lima.png"],
-      bio: "Psicóloga Clínica (CRP 18/06570) com especialização em  Psicosexologia Clínica pelo Grupo CRESEX. Atua com Psicoterapia Sexual e de Casal, com foco em Educação Sexual, palestras sobre sexualidade e empreendedorismo no mercado de produtos sensuais. Possui formação em Psicoterapia Sexual e de Casal e formação em Educação Sexual. É membro Associado do Grupo Cresex. Atendimento online e presencial.",
+      bio: "Psicóloga Clínica (CRP 18/06570) com especialização em Psicosexologia Clínica pelo Grupo CRESEX. Atua com Psicoterapia Sexual e de Casal, com foco em Educação Sexual, palestras sobre sexualidade e empreendedorismo no mercado de produtos sensuais. Possui formação em Psicoterapia Sexual e de Casal e formação em Educação Sexual. É membro Associado do Grupo Cresex. Atendimento online e presencial.",
       instagram: "silviapsicologapxto"
     },    
     {
