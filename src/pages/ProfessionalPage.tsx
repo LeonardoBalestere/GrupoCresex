@@ -8,7 +8,7 @@ import { useState } from "react";
 // Load image assets from src/assets using Vite glob (bundled & fingerprinted)
 const _assetModules = import.meta.glob(
   "/src/assets/*.{png,jpg,jpeg,webp}",
-  { as: "url", eager: true }
+  { eager: true, import: "default", query: "?url" }
 ) as Record<string, string>;
 const imageMap = Object.fromEntries(
   Object.entries(_assetModules).map(([path, url]) => [path.split("/").pop()!, url])

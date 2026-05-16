@@ -4,7 +4,7 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { Award, BookOpen, Users, Globe, Heart, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import monica2Img from "../assets/monica2.jpg";
+import monica2Img from "../assets/monica2.png";
 
 export default function FounderPage() {
   const achievements = [

@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 import { Heart, Users, BookOpen, Sparkles, Award, Target } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import monicaImage from "../assets/monica2.jpg";
+import monicaImage from "../assets/monica2.png";
 import backgroundImage from "../assets/background.png";
 
 export default function HomePage() {
