@@ -243,7 +243,7 @@ export default function HomePage() {
                     scale: 1.05,
                     borderColor: "#d4af37"
                   }}
-                  onClick={() => navigate("/NossaHistória")}
+                  onClick={() => navigate("/contato")}
                 >
                   Conheça Mais
                 </motion.button>

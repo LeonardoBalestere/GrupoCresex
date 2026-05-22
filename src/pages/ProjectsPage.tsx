@@ -2,22 +2,14 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
-import { Heart, Users, Shield, BookOpen, Home, MessageCircle, Sparkles, Award } from "lucide-react";
+import { Heart, Users, Shield, BookOpen, MessageCircle, Sparkles, Award } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 
 export default function ProjectsPage() {
   const projects = [
     {
-      icon: Home,
-      title: "Espaço Acolha",
-      subtitle: "Acolhimento a vítimas de violência sexual",
-      description: "Espaço seguro e acolhedor para vítimas de violência sexual, oferecendo atendimento psicológico, jurídico e social gratuito. Nossa equipe multidisciplinar trabalha para restaurar a dignidade e autonomia das vítimas.",
-      impact: "Mais de 500 pessoas acolhidas desde 2021",
-      color: "from-[#c71212] to-[#d4af37]"
-    },
-    {
       icon: Heart,
-      title: "Banco Arco-Íris",
+      title: "Talentos Afirmativos",
       subtitle: "Apoio à comunidade LGBTQIA+",
       description: "Rede de suporte para pessoas LGBTQIA+ que enfrentam discriminação, rejeição familiar ou dificuldades de acesso a serviços de saúde. Oferecemos orientação, acolhimento e direcionamento a profissionais especializados.",
       impact: "200+ atendimentos mensais em todo o Brasil",

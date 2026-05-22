@@ -2,7 +2,7 @@ import { ScrollReveal } from "../components/ScrollReveal";
 import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
-import { Stethoscope, BookOpen, Mic, Calendar, Heart, Briefcase, Store, House } from "lucide-react";
+import { Stethoscope, BookOpen, Mic, Calendar, Heart, Briefcase } from "lucide-react";
 
 
 export default function ServicesPage() {
@@ -33,9 +33,9 @@ export default function ServicesPage() {
     },
     {
       icon: Mic,
-      title: "Podcast GRUPO CRESEX",
-      description: "Conversas francas sobre sexualidade, relacionamentos e saúde sexual com especialistas renomados.",
-      action: "Ouvir Podcast",
+      title: "PodBroxar",
+      description: "Conversas francas sobre sexualidade, relacionamentos e saúde sexual com especialistas renomados no PodBroxar.",
+      action: "Ouvir PodBroxar",
       color: "from-[#333333] to-[#c71212]",
       href: "https://open.spotify.com/show/5jgSGk9IHM8IlVBD4TnwC8?si=e7b9544dcb9a4e74"
     },
@@ -49,26 +49,10 @@ export default function ServicesPage() {
     },
     {
       icon: Heart,
-      title: "Banco Arco-Íris",
+      title: "Talentos Afirmativos",
       description: "Rede de apoio e recursos para a comunidade LGBTQIA+. Orientação, acolhimento e direcionamento profissional.",
       action: "Saiba Mais",
       color: "from-[#c71212] to-[#d4af37]",
-      href: "/contato"
-    },
-    {
-      icon: Store,
-      title: "Casa de Lilith",
-      description: "Sex shop com curadoria de produtos eróticos e sensuais para todos os gêneros e orientações. Promovendo o prazer e a saúde sexual com discrição e informação.",
-      action: "Ir para a Loja",
-      color: "from-[#333333] to-[#d4af37]",
-      href: "https://casadelilith.com"
-    },
-    {
-      icon: House,
-      title: "Espaço Acolha",
-      description: "Espaço de acolhimento para vítimas de violência sexual. Atendimento humanizado e multiprofissional.",
-      action: "Conhecer Projeto",
-      color: "from-[#333333] to-[#d4af37]",
       href: "/contato"
     }
   ];

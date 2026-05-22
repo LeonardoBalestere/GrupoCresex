@@ -16,12 +16,9 @@ export function Footer() {
   const y = useTransform(scrollYProgress, [0, 0.5, 1], [100, 0, 0]);
   const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 1, 1]);
 
-  // Keep footer quick links in sync with Header/App routes.
-  // Note: `/fundadora` route is not defined in `src/App.tsx` — point to `/NossaHistória` instead.
   const quickLinks = [
     { label: "Início", path: "/" },
     { label: "Serviços", path: "/servicos" },
-    { label: "Saiba Mais", path: "/NossaHistória" },
     { label: "ENASEX", path: "/enasex" },
     { label: "Projetos", path: "/projetos" },
     { label: "Membros", path: "/membros" },
@@ -44,7 +41,6 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img src={logo} alt="Logo do GRUPO CRESEX" className="w-12 h-12" />
-              <span className="text-2xl">GRUPO CRESEX</span>
             </div>
             <p className="text-gray-400">
               Conectando profissionais da sexualidade para um futuro melhor.
@@ -156,7 +152,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © {currentYear} GRUPO CRESEX - Grupo de Profissionais da Sexualidade. Todos os direitos reservados.
+            © {currentYear}. Todos os direitos reservados.
           </p>
         </div>
       </motion.div>

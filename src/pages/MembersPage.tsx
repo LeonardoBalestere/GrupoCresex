@@ -1,10 +1,6 @@
-import { ScrollReveal } from "../components/ScrollReveal";
-import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
-import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
-import { MessageCircle, Search, Filter,UserPlus, Heart, Star, Shield, TrendingUp, Award, Users, BookOpen, CheckCircle } from "lucide-react";
+import { UserPlus, Heart, Star, Shield, TrendingUp, Award, Users, BookOpen, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 export default function MembersPage() {
   const membershipBenefits = [
