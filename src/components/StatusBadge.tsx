@@ -17,6 +17,3 @@ export default function StatusBadge({ isActive }: StatusBadgeProps) {
 }
 
 export { StatusBadge };
-
-
-

@@ -1,6 +1,7 @@
 
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
+  import tailwindcss from '@tailwindcss/vite';
   import path from 'path';
   import fs from 'fs';
 
@@ -12,7 +13,8 @@
         generateBundle() {
           fs.copyFileSync('./_redirects', './build/_redirects');
         }
-      }
+      },
+      tailwindcss(),
     ],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -26,7 +28,6 @@
         'next-themes@0.4.6': 'next-themes',
         'lucide-react@0.487.0': 'lucide-react',
         'input-otp@1.4.2': 'input-otp',
-        'figma:asset/e8a1af6ffc99fdcaf7bcd74a6087b01f31a4bff7.png': path.resolve(__dirname, './src/assets/e8a1af6ffc99fdcaf7bcd74a6087b01f31a4bff7.png'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
         'cmdk@1.1.1': 'cmdk',
         'class-variance-authority@0.7.1': 'class-variance-authority',
@@ -60,6 +61,15 @@
       },
     },
     build: {
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return id.toString().split('node_modules/')[1].split('/')[0].toString();
+            }
+          }
+        }
+      },
       target: 'esnext',
       outDir: 'build',
     },

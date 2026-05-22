@@ -1,4 +1,4 @@
-﻿import { Pencil, Trash2, ToggleLeft, ToggleRight } from "lucide-react";
+﻿import { Pencil, ToggleLeft, ToggleRight } from "lucide-react";
 import { StatusBadge } from "./StatusBadge";
 
 export type Member = {
@@ -15,7 +15,6 @@ export type Member = {
 type MemberTableRowProps = {
   member: Member;
   onEdit: (member: Member) => void;
-  onDelete: (id: string) => void;
   onToggle: (id: string, next: boolean) => void;
 };
 
@@ -29,7 +28,7 @@ function getInitials(name?: string | null) {
     .join("");
 }
 
-export default function MemberTableRow({ member, onEdit, onDelete, onToggle }: MemberTableRowProps) {
+export default function MemberTableRow({ member, onEdit, onToggle }: MemberTableRowProps) {
   const isActive = Boolean(member.active);
   const initials = getInitials(member.name);
 
@@ -58,7 +57,7 @@ export default function MemberTableRow({ member, onEdit, onDelete, onToggle }: M
         <div className="flex flex-wrap gap-2">
           <button
             type="button"
-            onClick={() => onToggle(member.id, !isActive)}
+            onClick={() => onToggle(member.id, !member.active)}
             aria-label={isActive ? "Desativar membro" : "Ativar membro"}
             title={isActive ? "Desativar" : "Ativar"}
             className="inline-flex items-center justify-center rounded-lg border border-gray-300 px-3 py-2 text-gray-700 transition hover:border-gray-400 hover:bg-gray-50"
@@ -73,15 +72,6 @@ export default function MemberTableRow({ member, onEdit, onDelete, onToggle }: M
             className="inline-flex items-center justify-center rounded-lg border border-gray-300 px-3 py-2 text-gray-700 transition hover:border-red-300 hover:text-red-700"
           >
             <Pencil size={16} />
-          </button>
-          <button
-            type="button"
-            onClick={() => onDelete(member.id)}
-            aria-label="Excluir membro"
-            title="Excluir"
-            className="inline-flex items-center justify-center rounded-lg border border-red-200 px-3 py-2 text-red-700 transition hover:bg-red-50"
-          >
-            <Trash2 size={16} />
           </button>
         </div>
       </td>

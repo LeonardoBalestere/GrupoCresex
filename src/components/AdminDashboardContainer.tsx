@@ -2,7 +2,7 @@
 import AdminDashboardView from './AdminDashboardView';
 import MemberFormModal, { type MemberFormData } from './MemberFormModal';
 import type { Member } from './MemberTableRow';
-import { createMember, deleteMember, fetchMembers, updateMember } from '../services/memberService';
+import { createMember, fetchMembers, updateMember, toggleMemberStatus } from '../services/memberService';
 
 type FormValues = Omit<MemberFormData, 'photoFile'>;
 
@@ -16,7 +16,6 @@ export default function AdminDashboardContainer() {
   const loadMembers = async () => {
     setIsLoading(true);
     setError('');
-
     try {
       const data = await fetchMembers();
       setMembers(data);
@@ -50,7 +49,6 @@ export default function AdminDashboardContainer() {
 
   const handleCreate = async (data: FormValues, file?: File | null) => {
     setError('');
-
     try {
       await createMember(data, file ?? undefined);
       await loadMembers();
@@ -62,7 +60,6 @@ export default function AdminDashboardContainer() {
 
   const handleUpdate = async (id: string, data: FormValues, file?: File | null) => {
     setError('');
-
     try {
       await updateMember(id, data, file ?? undefined);
       await loadMembers();
@@ -72,28 +69,11 @@ export default function AdminDashboardContainer() {
     }
   };
 
-  const handleDelete = async (id: string) => {
+  // NOVA LÓGICA DE TOGGLE
+  const handleToggleStatus = async (id: string, nextIsActive: boolean) => {
     setError('');
-
     try {
-      await deleteMember(id);
-      await loadMembers();
-    } catch (err: any) {
-      setError(err?.message || String(err));
-    }
-  };
-
-  const handleToggleStatus = async (id: string) => {
-    setError('');
-
-    try {
-      const currentMember = members.find((member) => member.id === id);
-      if (!currentMember) {
-        throw new Error('Member not found');
-      }
-
-      const nextIsActive = !Boolean(currentMember.active);
-      await updateMember(id, { ...currentMember, active: nextIsActive });
+      await toggleMemberStatus(id, nextIsActive);
       await loadMembers();
     } catch (err: any) {
       setError(err?.message || String(err));
@@ -102,35 +82,31 @@ export default function AdminDashboardContainer() {
 
   const handleSubmit = async (payload: MemberFormData) => {
     const { photoFile, id, ...data } = payload;
-
     if (id) {
       await handleUpdate(id, data, photoFile ?? undefined);
       return;
     }
-
     await handleCreate(data, photoFile ?? undefined);
   };
 
   return (
-    <>
-      <AdminDashboardView
-        members={members}
-        isLoading={isLoading}
-        error={error || null}
-        onAddClick={handleAddClick}
-        onEditClick={handleEditClick}
-        onDeleteClick={handleDelete}
-        onToggleStatus={handleToggleStatus}
-      />
+      <>
+        <AdminDashboardView
+            members={members}
+            isLoading={isLoading}
+            error={error || null}
+            onAddClick={handleAddClick}
+            onEditClick={handleEditClick}
+            // Prop onDeleteClick removida!
+            onToggleStatus={handleToggleStatus}
+        />
 
-      <MemberFormModal
-        isOpen={isModalOpen}
-        onClose={handleCloseModal}
-        onSubmit={handleSubmit}
-        initialData={memberToEdit ?? undefined}
-      />
-    </>
+        <MemberFormModal
+            isOpen={isModalOpen}
+            onClose={handleCloseModal}
+            onSubmit={handleSubmit}
+            initialData={memberToEdit ?? undefined}
+        />
+      </>
   );
 }
-
-

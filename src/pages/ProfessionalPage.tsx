@@ -2,21 +2,18 @@ import { ScrollRevealTitle } from "../components/ScrollRevealTitle";
 import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { MessageCircle, Search, Filter, Instagram } from "lucide-react";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { supabase } from "../lib/supabaseClient";
 import type { Member } from "../components/MemberTableRow";
+import { Container } from "@/components/layout/Container";
 
 export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSpecialty, setSelectedSpecialty] = useState("all");
-  const [sortOrder, setSortOrder] = useState<"A-Z" | "Z-A">("A-Z");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(12);
 
   const [members, setMembers] = useState<Member[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const professionalsListRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     let mounted = true;
@@ -65,31 +62,6 @@ export default function ProfessionalPage() {
     return matchesSearch && matchesSpecialty;
   });
 
-  const sortedMembers = [...filteredMembers].sort((a, b) => {
-    const nameA = (a.name || "").toString();
-    const nameB = (b.name || "").toString();
-    return sortOrder === "A-Z" ? nameA.localeCompare(nameB, "pt-BR") : nameB.localeCompare(nameA, "pt-BR");
-  });
-
-  const totalPages = Math.max(1, Math.ceil(sortedMembers.length / itemsPerPage));
-  const paginatedMembers = sortedMembers.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
-
-  const goToPage = (page: number) => {
-    const nextPage = Math.max(1, Math.min(totalPages, page));
-    setCurrentPage(nextPage);
-    professionalsListRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm, selectedSpecialty, sortOrder]);
-
-  useEffect(() => {
-    if (currentPage > totalPages) {
-      setCurrentPage(totalPages);
-    }
-  }, [currentPage, totalPages]);
-
   const handleWhatsAppClick = (phone: string, name: string) => {
     const message = encodeURIComponent(
       `Olá, vim através do site GRUPO CRESEX e gostaria de saber mais sobre os serviços de ${name}.`
@@ -110,7 +82,7 @@ export default function ProfessionalPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container className="relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -123,12 +95,12 @@ export default function ProfessionalPage() {
               em todo o Brasil
             </p>
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Search and Filter */}
       <section className="py-8 bg-[#fafafa] border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-1 relative">
               <Search
@@ -161,19 +133,8 @@ export default function ProfessionalPage() {
                 ))}
               </select>
             </div>
-
-            <div className="relative">
-              <select
-                value={sortOrder}
-                onChange={(e) => setSortOrder(e.target.value as "A-Z" | "Z-A")}
-                className="px-4 pr-8 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-[#c71212] bg-white appearance-none cursor-pointer"
-              >
-                <option value="A-Z">A-Z</option>
-                <option value="Z-A">Z-A</option>
-              </select>
-            </div>
           </div>
-        </div>
+        </Container>
       </section>
 
       {/* Professionals Grid */}
@@ -183,7 +144,7 @@ export default function ProfessionalPage() {
           <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-[#d4af37] rounded-full blur-3xl"></div>
         </div>
 
-        <div ref={professionalsListRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <Container className="relative z-10">
           {isLoading ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {Array.from({ length: 6 }).map((_, i) => (
@@ -217,13 +178,13 @@ export default function ProfessionalPage() {
               <ScrollRevealTitle>
                 <div className="text-center mb-12">
                   <p className="text-[#666666]">
-                    {sortedMembers.length} profissional{sortedMembers.length !== 1 ? "is" : ""} encontrado{sortedMembers.length !== 1 ? "s" : ""}
+                    {filteredMembers.length} profissional{filteredMembers.length !== 1 ? "is" : ""} encontrado{filteredMembers.length !== 1 ? "s" : ""}
                   </p>
                 </div>
               </ScrollRevealTitle>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {paginatedMembers.map((member, index) => (
+                {filteredMembers.map((member, index) => (
                   <ScrollRevealCard key={index} delay={index * 0.1}>
                     <motion.div
                       className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 h-full flex flex-col"
@@ -286,31 +247,9 @@ export default function ProfessionalPage() {
                   </ScrollRevealCard>
                 ))}
               </div>
-
-              <div className="mt-10 flex items-center justify-center gap-4">
-                <button
-                  type="button"
-                  onClick={() => goToPage(currentPage - 1)}
-                  disabled={currentPage === 1}
-                  className="px-4 py-2 bg-[#fafafa] text-black border border-gray-200 rounded-lg hover:border-[#c71212] transition-colors disabled:opacity-50"
-                >
-                  Anteriores
-                </button>
-                <span className="text-[#666666]">
-                  {currentPage} / {totalPages}
-                </span>
-                <button
-                  type="button"
-                  onClick={() => goToPage(currentPage + 1)}
-                  disabled={currentPage === totalPages}
-                  className="px-4 py-2 bg-[#fafafa] text-black border border-gray-200 rounded-lg hover:border-[#c71212] transition-colors disabled:opacity-50"
-                >
-                  Próximos
-                </button>
-              </div>
             </>
           )}
-        </div>
+        </Container>
       </section>
 
       {/* Become a Member CTA */}
@@ -319,7 +258,7 @@ export default function ProfessionalPage() {
           <div className="absolute top-0 right-0 w-96 h-96 bg-[#d4af37] rounded-full blur-3xl"></div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <Container className="text-center relative z-10">
           <ScrollRevealTitle>
             <h2 className="text-[#fafafa] mb-6">Seja um Membro GRUPO CRESEX</h2>
             <p className="text-[#fafafa] mb-8 text-xl">
@@ -342,8 +281,8 @@ export default function ProfessionalPage() {
               Quero Ser Membro
             </motion.button>
           </ScrollRevealTitle>
-        </div>
+        </Container>
       </section>
     </div>
   );
-}
+ }

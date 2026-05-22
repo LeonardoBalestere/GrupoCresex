@@ -63,8 +63,21 @@ export async function updateMember(id: string, data: MemberData, photoFile?: Fil
   return updated as Member;
 }
 
-export async function deleteMember(id: string): Promise<void> {
-  await ensureNoError(supabase.from("members").delete().eq("id", id));
+export async function toggleMemberStatus(id: string, nextIsActive: boolean): Promise<void> {
+  // Se for ativado, remove o deleted_at. Se for desativado, preenche com a data atual.
+  const payload = {
+    active: nextIsActive,
+    deleted_at: nextIsActive ? null : new Date().toISOString()
+  };
+
+  const { error } = await supabase
+      .from("members")
+      .update(payload)
+      .eq("id", id);
+
+  if (error) {
+    throw new Error(error.message);
+  }
 }
 
 const memberService = {
@@ -72,7 +85,6 @@ const memberService = {
   uploadPhoto,
   createMember,
   updateMember,
-  deleteMember,
 };
 
 export default memberService;

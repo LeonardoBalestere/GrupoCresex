@@ -1,6 +1,9 @@
 ﻿import { type ReactNode, useEffect, useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabaseClient";
+import Flex from "./ui/Flex";
+import Text from "./ui/Text";
+import { Card } from "./ui/card";
 
 type ProtectedRouteProps = {
   children: ReactNode;
@@ -57,11 +60,13 @@ export function ProtectedRoute({ children }: ProtectedRouteProps) {
 
   if (isCheckingSession) {
     return (
-      <div className="flex min-h-[60vh] items-center justify-center px-4">
-        <div className="rounded-xl border border-gray-200 bg-white px-6 py-4 text-sm text-gray-600 shadow-sm">
-          Verificando autenticação...
-        </div>
-      </div>
+      <Flex align="center" justify="center" className="min-h-[60vh] w-full px-4">
+        <Card className="w-full max-w-sm">
+          <Text variant="body" className="text-gray-600">
+            Verificando autenticação...
+          </Text>
+        </Card>
+      </Flex>
     );
   }
 

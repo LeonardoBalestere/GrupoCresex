@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 /* NOTE: This file contains design tokens and Tailwind base layers exported from the project's design system.
    It is kept for reference/history but is NOT the active CSS entry in the app. The active entry is `src/index.css` (imported in `src/main.tsx`).
    If you intend to replace the active CSS with this file, update `src/main.tsx` to import it and run a careful visual test.
 */
 
 @custom-variant dark (&:is(.dark *));
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   --font-size: 16px;

@@ -37,10 +37,6 @@ const memberService = {
 
     return data as Member;
   },
-
-  async deleteMember(id: string): Promise<void> {
-    await handleResponse(supabase.from("members").delete().eq("id", id));
-  },
 };
 
 export default memberService;
