@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import monicaImage from "../assets/monica2.webp";
 import backgroundImage from "../assets/background.webp";
-import { Container } from "../components/layout/Container";
+import { Container } from "../components/layout/container";
 import { Button } from "../components/ui/button";
 import { Card } from "../components/ui/card";
 import Flex from "../components/ui/Flex";
