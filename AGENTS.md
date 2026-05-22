@@ -12,7 +12,7 @@
 ## Primitive UI architecture (STRICT ENFORCEMENT)
 - **BANNED:** Do not use raw HTML tags like `<div>` (for layout), `<p>`, `<h1>`, `<h2>`, or `<button>`.
 - **REQUIRED:** You must use the established primitives in `src/components/ui/`: `<Flex>`, `<Text>`, `<Button>`, and `<Card>`.
-- The unified width wrapper lives at `src/components/layout/Container.tsx`. Every major section content block must be wrapped in `<Container>`.
+- The unified width wrapper lives at `src/components/layout/container.tsx`. Every major section content block must be wrapped in `<Container>`.
 - **No Inline Styles:** `style={{...}}` is strictly prohibited. All styling must be handled via Tailwind classes or primitive variants.
 
 ## Component boundaries

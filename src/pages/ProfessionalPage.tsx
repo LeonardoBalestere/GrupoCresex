@@ -5,7 +5,7 @@ import { MessageCircle, Search, Filter, Instagram } from "lucide-react";
 import { useState, useEffect } from "react";
 import { supabase } from "../lib/supabaseClient";
 import type { Member } from "../components/MemberTableRow";
-import { Container } from "@/components/layout/Container";
+import { Container } from "@/components/layout/container";
 
 export default function ProfessionalPage() {
   const [searchTerm, setSearchTerm] = useState("");
