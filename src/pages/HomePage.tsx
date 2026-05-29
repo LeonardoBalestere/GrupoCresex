@@ -251,7 +251,7 @@ export default function HomePage() {
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="relative z-10 text-center">
-               <Text as="h2" variant="h2" className="text-[#fafafa]">ENASEX 2025</Text>
+               <Text as="h2" variant="h2" className="text-[#fafafa]">ENASEX 2027</Text>
                <Text variant="body" className="text-[#d4af37] text-lg">
                  Encontro Nacional de Profissionais da Sexualidade
                </Text>

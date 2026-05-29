@@ -83,7 +83,7 @@ export default function EnasexPage() {
             <div className="inline-block px-6 py-3 bg-[#d4af37] rounded-full mb-6">
               <span className="text-black">6ª Edição</span>
             </div>
-            <h1 className="text-[#fafafa] mb-6">ENASEX 2025</h1>
+            <h1 className="text-[#fafafa] mb-6">ENASEX 2027</h1>
             <p className="text-[#d4af37] text-2xl mb-8">
               Encontro Nacional de Sexualidade
             </p>
