@@ -23,6 +23,14 @@ export async function fetchMembers(): Promise<Member[]> {
   return Array.isArray(data) ? (data as Member[]) : [];
 }
 
+export async function fetchActiveMembers(): Promise<Member[]> {
+  const data = await ensureNoError(
+    supabase.from("members").select("*").is("deleted_at", null)
+  );
+
+  return Array.isArray(data) ? (data as Member[]) : [];
+}
+
 export async function uploadPhoto(file: File): Promise<string> {
   const fileName = `${crypto.randomUUID()}-${file.name}`;
   const { error: uploadError } = await supabase.storage.from("member-photos").upload(fileName, file);
@@ -64,16 +72,16 @@ export async function updateMember(id: string, data: MemberData, photoFile?: Fil
 }
 
 export async function toggleMemberStatus(id: string, nextIsActive: boolean): Promise<void> {
-  // Se for ativado, remove o deleted_at. Se for desativado, preenche com a data atual.
+  // Se o próximo status for ativo (true), limpamos a data. 
+  // Se o próximo status for inativo (false), setamos a data atual.
   const payload = {
-    active: nextIsActive,
     deleted_at: nextIsActive ? null : new Date().toISOString()
   };
 
   const { error } = await supabase
-      .from("members")
-      .update(payload)
-      .eq("id", id);
+    .from("members")
+    .update(payload)
+    .eq("id", id);
 
   if (error) {
     throw new Error(error.message);
@@ -85,6 +93,7 @@ const memberService = {
   uploadPhoto,
   createMember,
   updateMember,
+  toggleMemberStatus,
 };
 
 export default memberService;

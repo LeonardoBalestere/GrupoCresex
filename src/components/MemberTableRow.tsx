@@ -7,8 +7,8 @@ export type Member = {
   specialty?: string | null;
   city?: string | null;
   image?: string | null;
-  active?: boolean | null;
   created_at?: string | null;
+  deleted_at?: string | null; // <-- Adicionado
   [key: string]: unknown;
 };
 
@@ -29,7 +29,8 @@ function getInitials(name?: string | null) {
 }
 
 export default function MemberTableRow({ member, onEdit, onToggle }: MemberTableRowProps) {
-  const isActive = Boolean(member.active);
+  // LÓGICA ATUALIZADA: É ativo se NÃO tiver data de deleção
+  const isActive = !member.deleted_at; 
   const initials = getInitials(member.name);
 
   return (
@@ -57,7 +58,8 @@ export default function MemberTableRow({ member, onEdit, onToggle }: MemberTable
         <div className="flex flex-wrap gap-2">
           <button
             type="button"
-            onClick={() => onToggle(member.id, !member.active)}
+            // Passa o NOVO status que desejamos (se está ativo, o próximo é false)
+            onClick={() => onToggle(member.id, !isActive)} 
             aria-label={isActive ? "Desativar membro" : "Ativar membro"}
             title={isActive ? "Desativar" : "Ativar"}
             className="inline-flex items-center justify-center rounded-lg border border-gray-300 px-3 py-2 text-gray-700 transition hover:border-gray-400 hover:bg-gray-50"
@@ -78,4 +80,3 @@ export default function MemberTableRow({ member, onEdit, onToggle }: MemberTable
     </tr>
   );
 }
-

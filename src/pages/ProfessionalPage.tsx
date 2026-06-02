@@ -3,8 +3,8 @@ import { ScrollRevealCard } from "../components/ScrollRevealCard";
 import { motion } from "motion/react";
 import { MessageCircle, Search, Filter, Instagram } from "lucide-react";
 import { useState, useEffect } from "react";
-import { supabase } from "../lib/supabaseClient";
 import type { Member } from "../components/MemberTableRow";
+import { fetchActiveMembers } from "../services/memberService";
 import { Container } from "@/components/layout/container";
 
 export default function ProfessionalPage() {
@@ -21,19 +21,15 @@ export default function ProfessionalPage() {
     (async () => {
       try {
         setIsLoading(true);
-        const { data, error } = await supabase.from("members").select("*").eq("isActive", true);
+        // Chama a função do service que já filtra o deleted_at
+        const data = await fetchActiveMembers();
 
         if (!mounted) return;
 
-        if (error) {
-          console.error("Supabase error fetching members:", error);
-          setError(error.message);
-          setMembers([]);
-        } else {
-          setMembers(Array.isArray(data) ? (data as Member[]) : []);
-          setError(null);
-        }
+        setMembers(data);
+        setError(null);
       } catch (err: any) {
+        if (!mounted) return;
         console.error(err);
         setError(err?.message ?? String(err));
         setMembers([]);

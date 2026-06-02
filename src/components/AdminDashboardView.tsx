@@ -26,7 +26,7 @@ export default function AdminDashboardView({
   onEditClick,
   onToggleStatus,
 }: AdminDashboardViewProps) {
-  const activeMembers = members.filter((member) => Boolean(member.active)).length;
+  const activeMembers = members.filter((member) => !member.deleted_at).length;
   const membersWithPhotos = members.filter((member) => Boolean(member.image)).length;
 
   return (
