@@ -69,7 +69,7 @@ export default function HomePage() {
          </Container>
        </section>
 
-       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa]">
+       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa] overflow-hidden">
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="mb-16 text-center">
@@ -161,7 +161,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa]">
+       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa] overflow-hidden">
          <Container className="overflow-hidden">
            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
              <ScrollReveal direction="left">
@@ -241,19 +241,19 @@ export default function HomePage() {
        </section>
 
        <section className="py-16 md:py-24 relative overflow-hidden bg-black">
-         <div
-           className="absolute inset-0 bg-cover bg-center"
-           style={{ backgroundImage: `url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25mZXJlbmNlJTIwZXZlbnR8ZW58MXx8fHwxNzMzMDc0MjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080')` }}
-         >
-           <div className="absolute inset-0 bg-gradient-to-r from-[#c71212]/90 to-black/80"></div>
-         </div>
+          <ImageWithFallback
+            src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25mZXJlbmNlJTIwZXZlbnR8ZW58MXx8fHwxNzMzMDc0MjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="ENASEX Conferência"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#c71212]/90 to-black/80"></div>
 
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="relative z-10 text-center">
                <Text as="h2" variant="h2" className="text-[#fafafa]">ENASEX 2027</Text>
                <Text variant="body" className="text-[#d4af37] text-lg">
-                 Encontro Nacional de Profissionais da Sexualidade
+                 Encontro Nacional de Sexualidade
                </Text>
                <Text variant="body" className="text-[#fafafa] w-full max-w-[768px]">
                  O maior evento de educação em sexualidade do Brasil. Palestras, workshops e networking
@@ -267,7 +267,7 @@ export default function HomePage() {
          </Container>
        </section>
 
-       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa]">
+       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa] overflow-hidden">
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="mb-16 text-center">
@@ -287,7 +287,7 @@ export default function HomePage() {
          </Container>
        </section>
 
-       <section className="py-16 md:py-24 bg-gradient-to-br from-[#333333] to-black">
+       <section className="py-16 md:py-24 bg-gradient-to-br from-[#333333] to-black overflow-hidden">
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="mb-16 text-center">
@@ -308,7 +308,7 @@ export default function HomePage() {
          </Container>
        </section>
 
-       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa]">
+       <section className="py-16 md:py-24 bg-gradient-to-br from-[#fafafa] via-white to-[#fafafa] overflow-hidden">
          <Container className="overflow-hidden">
            <ScrollRevealTitle>
              <Flex direction="col" align="center" gap={4} className="mb-16 text-center">
